@@ -1,6 +1,7 @@
-use lib "/home/negarr/Desktop/net centric/lab 4";
+use lib "/home/negarr/Desktop/Net-Centric/lab 4";
 use Field;
 use IO::Socket;
+use Time::HiRes qw(usleep);
 
 $| = 1;
 
@@ -38,22 +39,34 @@ while(1){
 			}
 			$p1_socket->send("It is your turn\n");
 			foreach ($field->view(1)){
+				usleep(100);
 				$p1_socket->send(join ', ', @$_);
+				usleep(100);
 				$p1_socket->send("\n");
 			}
+			usleep(100);
 			$p1_socket->send("You can move one of your ships by entering the ship you want to move and the destination\n");
+			usleep(100);
 			$p1_socket->send("mv");
 			$p1_socket->recv($cmd, 1024);
-			$p1_socket->send($field->move($cmd));
+			usleep(100);
+			$p1_socket->send($field->move($cur_player, $cmd));
+			usleep(100);
 			$p1_socket->send("\n");
 			foreach ($field->view(1)){
+				usleep(100);
 				$p1_socket->send(join ', ', @$_);
+				usleep(100);
 				$p1_socket->send("\n");
 			}
+			usleep(100);
 			$p1_socket->send("You can shoot using one of your ships by entering the ship you want to shoot and the target\n");
+			usleep(100);
 			$p1_socket->send("sh");
 			$p1_socket->recv($cmd, 1024);
-			$p1_socket->send($field->shoot($cmd));
+			usleep(100);
+			$p1_socket->send($field->shoot($cur_player, $cmd));
+			usleep(100);
 			$p1_socket->send("\nTurn ended, please wait for your next turn\n");
 		} else {
 			foreach ($field->viewall()){
@@ -62,24 +75,43 @@ while(1){
 			}
 			$p2_socket->send("It is your turn\n");
 			foreach ($field->view(2)){
+				usleep(100);
 				$p2_socket->send(join ', ', @$_);
+				usleep(100);
 				$p2_socket->send("\n");
 			}
+			usleep(100);
 			$p2_socket->send("You can move one of your ships by entering the ship you want to move and the destination\n");
+			usleep(100);
 			$p2_socket->send("mv");
 			$p2_socket->recv($cmd, 1024);
-			$p2_socket->send($field->move($cmd));
+			usleep(100);
+			$p2_socket->send($field->move($cur_player, $cmd));
+			usleep(100);
 			$p2_socket->send("\n");
 			foreach ($field->view(2)){
+				usleep(100);
 				$p2_socket->send(join ', ', @$_);
+				usleep(100);
 				$p2_socket->send("\n");
 			}
+			usleep(100);
 			$p2_socket->send("You can shoot using one of your ships by entering the ship you want to shoot and the target\n");
+			usleep(100);
 			$p2_socket->send("sh");
 			$p2_socket->recv($cmd, 1024);
-			$p2_socket->send($field->shoot($cmd));
+			usleep(100);
+			$p2_socket->send($field->shoot($cur_player, $cmd));
+			usleep(100);
 			$p2_socket->send("\nTurn ended, please wait for your next turn\n");
 		}
 		$cur_player = $cur_player == 1 ? 2 : 1;
+		if ($field->ended()){
+			$p1_socket->send($field->ended);
+			$p2_socket->send($field->ended);
+			close $p1_socket;
+			close $p2_socket;
+			last;
+		}
 	}
 }

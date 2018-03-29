@@ -1,0 +1,27 @@
+re.findall(r'[a-zA-Z0-9]+', open('text.txt', 'r+').read())
+
+re.findall(r'[^A-Z]+[A-Z]{3}([a-z]{1})[A-Z]{3}[^A-Z]+',open('text2.txt', 'r+').read())
+
+import urllib2
+
+s = 'http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=12345'
+
+while (1):
+	t = urllib2.urlopen(s).read()
+	print t
+	s = re.sub(r'\d+', re.findall(r'\d+', t)[0], s)
+
+s='90052.txt'
+while (1):
+	t = open(s).read()
+	print t
+	s = re.sub(r'\d+',re.findall(r'\d+',t)[0],s)
+
+comment = ''
+while 1:
+	t = open('./channel/'+s).read()
+	print t
+	comment += ZipFile('channel.zip').getinfo(s).comment
+	s = re.sub(r'\d+',re.findall(r'\d+',t)[0],s)
+print comment
+

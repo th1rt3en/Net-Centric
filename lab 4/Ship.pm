@@ -18,7 +18,6 @@ sub dmg {
 	my $self = shift;
 	my $dmg = shift;
 	$self->{hp} -= $dmg if defined $dmg;
-	$self = undef if $self->{hp} <= 0;
 	return $self->{dmg};
 }
 
@@ -28,6 +27,11 @@ sub owner {
 	$self->{owner} = $new_owner if defined $new_owner;
 	
 	return $self->{owner};
+}
+
+sub alive {
+	my $self = shift;
+	return $self->{hp} > 0 ? 1 : 0;
 }
 
 1;
