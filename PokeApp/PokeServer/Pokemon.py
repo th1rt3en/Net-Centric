@@ -1,15 +1,25 @@
 class Pokemon:
     """Pokemon Object"""
 
-    def __init__(self, id, name, hp, atk, dfs, spd, sp_atk, sp_dfs):
-        self.__id = id
-        self.__name = name
-        self.__hp = hp
-        self.__atk = atk
-        self.__dfs = dfs
-        self.__spd = spd
-        self.__sp_atk = sp_atk
-        self.__sp_dfs = sp_dfs
+    def __init__(self, info):
+        self.__id = info["id"]
+        self.__name = info["name"]
+        self.__hp = info["hp"]
+        self.__atk = info["atk"]
+        self.__dfs = info["dfs"]
+        self.__spd = info["spd"]
+        self.__sp_atk = info["sp_atk"]
+        self.__sp_dfs = info["sp_dfs"]
+
+    def serialize(self):
+        return {"id":self.__id,
+                "name":self.__name,
+                "hp":self.__hp,
+                "atk":self.__atk,
+                "dfs":self.__dfs,
+                "spd":self.__spd,
+                "sp_atk":self.__sp_atk,
+                "sp_dfs":self.__sp_dfs}
 
     @property
     def id(self):
@@ -28,6 +38,10 @@ class Pokemon:
         return self.__atk
 
     @property
+    def spd(self):
+        return self.__spd
+
+    @property
     def dfs(self):
         return self.__dfs
 
@@ -38,4 +52,36 @@ class Pokemon:
     @property
     def sp_dfs(self):
         return self.__sp_dfs
+
+    @id.setter
+    def id(self, id):
+        self.id = id
+
+    @name.setter
+    def name(self, name):
+        self.name = name
+
+    @hp.setter
+    def hp(self, hp):
+        self.hp = hp
+
+    @atk.setter
+    def atk(self, atk):
+        self.atk = atk
+
+    @dfs.setter
+    def dfs(self, dfs):
+        self.dfs = dfs
+
+    @spd.setter
+    def spd(self, spd):
+        self.spd = spd
+
+    @sp_atk.setter
+    def sp_atk(self, sp_atk):
+        self.sp_atk = sp_atk
+
+    @sp_dfs.setter
+    def sp_dfs(self, sp_dfs):
+        self.sp_dfs = sp_dfs
 
