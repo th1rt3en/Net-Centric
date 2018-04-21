@@ -1,0 +1,6492 @@
+[
+    {
+        "atk": 49,
+        "dfs": 49,
+        "hp": 45,
+        "id": 1,
+        "name": "Bulbasaur",
+        "sp_atk": 65,
+        "sp_dfs": 65,
+        "spd": 45
+    },
+    {
+        "atk": 62,
+        "dfs": 63,
+        "hp": 60,
+        "id": 2,
+        "name": "Ivysaur",
+        "sp_atk": 80,
+        "sp_dfs": 80,
+        "spd": 60
+    },
+    {
+        "atk": 82,
+        "dfs": 83,
+        "hp": 80,
+        "id": 3,
+        "name": "Venusaur",
+        "sp_atk": 100,
+        "sp_dfs": 100,
+        "spd": 80
+    },
+    {
+        "atk": 52,
+        "dfs": 43,
+        "hp": 39,
+        "id": 4,
+        "name": "Charmander",
+        "sp_atk": 60,
+        "sp_dfs": 50,
+        "spd": 65
+    },
+    {
+        "atk": 64,
+        "dfs": 58,
+        "hp": 58,
+        "id": 5,
+        "name": "Charmeleon",
+        "sp_atk": 80,
+        "sp_dfs": 65,
+        "spd": 80
+    },
+    {
+        "atk": 84,
+        "dfs": 78,
+        "hp": 78,
+        "id": 6,
+        "name": "Charizard",
+        "sp_atk": 109,
+        "sp_dfs": 85,
+        "spd": 100
+    },
+    {
+        "atk": 48,
+        "dfs": 65,
+        "hp": 44,
+        "id": 7,
+        "name": "Squirtle",
+        "sp_atk": 50,
+        "sp_dfs": 64,
+        "spd": 43
+    },
+    {
+        "atk": 63,
+        "dfs": 80,
+        "hp": 59,
+        "id": 8,
+        "name": "Wartortle",
+        "sp_atk": 65,
+        "sp_dfs": 80,
+        "spd": 58
+    },
+    {
+        "atk": 83,
+        "dfs": 100,
+        "hp": 79,
+        "id": 9,
+        "name": "Blastoise",
+        "sp_atk": 85,
+        "sp_dfs": 105,
+        "spd": 78
+    },
+    {
+        "atk": 30,
+        "dfs": 35,
+        "hp": 45,
+        "id": 10,
+        "name": "Caterpie",
+        "sp_atk": 20,
+        "sp_dfs": 20,
+        "spd": 45
+    },
+    {
+        "atk": 20,
+        "dfs": 55,
+        "hp": 50,
+        "id": 11,
+        "name": "Metapod",
+        "sp_atk": 25,
+        "sp_dfs": 25,
+        "spd": 30
+    },
+    {
+        "atk": 45,
+        "dfs": 50,
+        "hp": 60,
+        "id": 12,
+        "name": "Butterfree",
+        "sp_atk": 90,
+        "sp_dfs": 80,
+        "spd": 70
+    },
+    {
+        "atk": 35,
+        "dfs": 30,
+        "hp": 40,
+        "id": 13,
+        "name": "Weedle",
+        "sp_atk": 20,
+        "sp_dfs": 20,
+        "spd": 50
+    },
+    {
+        "atk": 25,
+        "dfs": 50,
+        "hp": 45,
+        "id": 14,
+        "name": "Kakuna",
+        "sp_atk": 25,
+        "sp_dfs": 25,
+        "spd": 35
+    },
+    {
+        "atk": 90,
+        "dfs": 40,
+        "hp": 65,
+        "id": 15,
+        "name": "Beedrill",
+        "sp_atk": 45,
+        "sp_dfs": 80,
+        "spd": 75
+    },
+    {
+        "atk": 45,
+        "dfs": 40,
+        "hp": 40,
+        "id": 16,
+        "name": "Pidgey",
+        "sp_atk": 35,
+        "sp_dfs": 35,
+        "spd": 56
+    },
+    {
+        "atk": 60,
+        "dfs": 55,
+        "hp": 63,
+        "id": 17,
+        "name": "Pidgeotto",
+        "sp_atk": 50,
+        "sp_dfs": 50,
+        "spd": 71
+    },
+    {
+        "atk": 80,
+        "dfs": 75,
+        "hp": 83,
+        "id": 18,
+        "name": "Pidgeot",
+        "sp_atk": 70,
+        "sp_dfs": 70,
+        "spd": 101
+    },
+    {
+        "atk": 56,
+        "dfs": 35,
+        "hp": 30,
+        "id": 19,
+        "name": "Rattata",
+        "sp_atk": 25,
+        "sp_dfs": 35,
+        "spd": 72
+    },
+    {
+        "atk": 81,
+        "dfs": 60,
+        "hp": 55,
+        "id": 20,
+        "name": "Raticate",
+        "sp_atk": 50,
+        "sp_dfs": 70,
+        "spd": 97
+    },
+    {
+        "atk": 60,
+        "dfs": 30,
+        "hp": 40,
+        "id": 21,
+        "name": "Spearow",
+        "sp_atk": 31,
+        "sp_dfs": 31,
+        "spd": 70
+    },
+    {
+        "atk": 90,
+        "dfs": 65,
+        "hp": 65,
+        "id": 22,
+        "name": "Fearow",
+        "sp_atk": 61,
+        "sp_dfs": 61,
+        "spd": 100
+    },
+    {
+        "atk": 60,
+        "dfs": 44,
+        "hp": 35,
+        "id": 23,
+        "name": "Ekans",
+        "sp_atk": 40,
+        "sp_dfs": 54,
+        "spd": 55
+    },
+    {
+        "atk": 85,
+        "dfs": 69,
+        "hp": 60,
+        "id": 24,
+        "name": "Arbok",
+        "sp_atk": 65,
+        "sp_dfs": 79,
+        "spd": 80
+    },
+    {
+        "atk": 55,
+        "dfs": 40,
+        "hp": 35,
+        "id": 25,
+        "name": "Pikachu",
+        "sp_atk": 50,
+        "sp_dfs": 50,
+        "spd": 90
+    },
+    {
+        "atk": 90,
+        "dfs": 55,
+        "hp": 60,
+        "id": 26,
+        "name": "Raichu",
+        "sp_atk": 90,
+        "sp_dfs": 80,
+        "spd": 110
+    },
+    {
+        "atk": 75,
+        "dfs": 85,
+        "hp": 50,
+        "id": 27,
+        "name": "Sandshrew",
+        "sp_atk": 20,
+        "sp_dfs": 30,
+        "spd": 40
+    },
+    {
+        "atk": 100,
+        "dfs": 110,
+        "hp": 75,
+        "id": 28,
+        "name": "Sandslash",
+        "sp_atk": 45,
+        "sp_dfs": 55,
+        "spd": 65
+    },
+    {
+        "atk": 47,
+        "dfs": 52,
+        "hp": 55,
+        "id": 29,
+        "name": "Nidoran \u2640",
+        "sp_atk": 40,
+        "sp_dfs": 40,
+        "spd": 41
+    },
+    {
+        "atk": 62,
+        "dfs": 67,
+        "hp": 70,
+        "id": 30,
+        "name": "Nidorina",
+        "sp_atk": 55,
+        "sp_dfs": 55,
+        "spd": 56
+    },
+    {
+        "atk": 92,
+        "dfs": 87,
+        "hp": 90,
+        "id": 31,
+        "name": "Nidoqueen",
+        "sp_atk": 75,
+        "sp_dfs": 85,
+        "spd": 76
+    },
+    {
+        "atk": 57,
+        "dfs": 40,
+        "hp": 46,
+        "id": 32,
+        "name": "Nidoran \u2642",
+        "sp_atk": 40,
+        "sp_dfs": 40,
+        "spd": 50
+    },
+    {
+        "atk": 72,
+        "dfs": 57,
+        "hp": 61,
+        "id": 33,
+        "name": "Nidorino",
+        "sp_atk": 55,
+        "sp_dfs": 55,
+        "spd": 65
+    },
+    {
+        "atk": 102,
+        "dfs": 77,
+        "hp": 81,
+        "id": 34,
+        "name": "Nidoking",
+        "sp_atk": 85,
+        "sp_dfs": 75,
+        "spd": 85
+    },
+    {
+        "atk": 45,
+        "dfs": 48,
+        "hp": 70,
+        "id": 35,
+        "name": "Clefairy",
+        "sp_atk": 60,
+        "sp_dfs": 65,
+        "spd": 35
+    },
+    {
+        "atk": 70,
+        "dfs": 73,
+        "hp": 95,
+        "id": 36,
+        "name": "Clefable",
+        "sp_atk": 95,
+        "sp_dfs": 90,
+        "spd": 60
+    },
+    {
+        "atk": 41,
+        "dfs": 40,
+        "hp": 38,
+        "id": 37,
+        "name": "Vulpix",
+        "sp_atk": 50,
+        "sp_dfs": 65,
+        "spd": 65
+    },
+    {
+        "atk": 76,
+        "dfs": 75,
+        "hp": 73,
+        "id": 38,
+        "name": "Ninetales",
+        "sp_atk": 81,
+        "sp_dfs": 100,
+        "spd": 100
+    },
+    {
+        "atk": 45,
+        "dfs": 20,
+        "hp": 115,
+        "id": 39,
+        "name": "Jigglypuff",
+        "sp_atk": 45,
+        "sp_dfs": 25,
+        "spd": 20
+    },
+    {
+        "atk": 70,
+        "dfs": 45,
+        "hp": 140,
+        "id": 40,
+        "name": "Wigglytuff",
+        "sp_atk": 85,
+        "sp_dfs": 50,
+        "spd": 45
+    },
+    {
+        "atk": 45,
+        "dfs": 35,
+        "hp": 40,
+        "id": 41,
+        "name": "Zubat",
+        "sp_atk": 30,
+        "sp_dfs": 40,
+        "spd": 55
+    },
+    {
+        "atk": 80,
+        "dfs": 70,
+        "hp": 75,
+        "id": 42,
+        "name": "Golbat",
+        "sp_atk": 65,
+        "sp_dfs": 75,
+        "spd": 90
+    },
+    {
+        "atk": 50,
+        "dfs": 55,
+        "hp": 45,
+        "id": 43,
+        "name": "Oddish",
+        "sp_atk": 75,
+        "sp_dfs": 65,
+        "spd": 30
+    },
+    {
+        "atk": 65,
+        "dfs": 70,
+        "hp": 60,
+        "id": 44,
+        "name": "Gloom",
+        "sp_atk": 85,
+        "sp_dfs": 75,
+        "spd": 40
+    },
+    {
+        "atk": 80,
+        "dfs": 85,
+        "hp": 75,
+        "id": 45,
+        "name": "Vileplume",
+        "sp_atk": 110,
+        "sp_dfs": 90,
+        "spd": 50
+    },
+    {
+        "atk": 70,
+        "dfs": 55,
+        "hp": 35,
+        "id": 46,
+        "name": "Paras",
+        "sp_atk": 45,
+        "sp_dfs": 55,
+        "spd": 25
+    },
+    {
+        "atk": 95,
+        "dfs": 80,
+        "hp": 60,
+        "id": 47,
+        "name": "Parasect",
+        "sp_atk": 60,
+        "sp_dfs": 80,
+        "spd": 30
+    },
+    {
+        "atk": 55,
+        "dfs": 50,
+        "hp": 60,
+        "id": 48,
+        "name": "Venonat",
+        "sp_atk": 40,
+        "sp_dfs": 55,
+        "spd": 45
+    },
+    {
+        "atk": 65,
+        "dfs": 60,
+        "hp": 70,
+        "id": 49,
+        "name": "Venomoth",
+        "sp_atk": 90,
+        "sp_dfs": 75,
+        "spd": 90
+    },
+    {
+        "atk": 55,
+        "dfs": 25,
+        "hp": 10,
+        "id": 50,
+        "name": "Diglett",
+        "sp_atk": 35,
+        "sp_dfs": 45,
+        "spd": 95
+    },
+    {
+        "atk": 80,
+        "dfs": 50,
+        "hp": 35,
+        "id": 51,
+        "name": "Dugtrio",
+        "sp_atk": 50,
+        "sp_dfs": 70,
+        "spd": 120
+    },
+    {
+        "atk": 45,
+        "dfs": 35,
+        "hp": 40,
+        "id": 52,
+        "name": "Meowth",
+        "sp_atk": 40,
+        "sp_dfs": 40,
+        "spd": 90
+    },
+    {
+        "atk": 70,
+        "dfs": 60,
+        "hp": 65,
+        "id": 53,
+        "name": "Persian",
+        "sp_atk": 65,
+        "sp_dfs": 65,
+        "spd": 115
+    },
+    {
+        "atk": 52,
+        "dfs": 48,
+        "hp": 50,
+        "id": 54,
+        "name": "Psyduck",
+        "sp_atk": 65,
+        "sp_dfs": 50,
+        "spd": 55
+    },
+    {
+        "atk": 82,
+        "dfs": 78,
+        "hp": 80,
+        "id": 55,
+        "name": "Golduck",
+        "sp_atk": 95,
+        "sp_dfs": 80,
+        "spd": 85
+    },
+    {
+        "atk": 80,
+        "dfs": 35,
+        "hp": 40,
+        "id": 56,
+        "name": "Mankey",
+        "sp_atk": 35,
+        "sp_dfs": 45,
+        "spd": 70
+    },
+    {
+        "atk": 105,
+        "dfs": 60,
+        "hp": 65,
+        "id": 57,
+        "name": "Primeape",
+        "sp_atk": 60,
+        "sp_dfs": 70,
+        "spd": 95
+    },
+    {
+        "atk": 70,
+        "dfs": 45,
+        "hp": 55,
+        "id": 58,
+        "name": "Growlithe",
+        "sp_atk": 70,
+        "sp_dfs": 50,
+        "spd": 60
+    },
+    {
+        "atk": 110,
+        "dfs": 80,
+        "hp": 90,
+        "id": 59,
+        "name": "Arcanine",
+        "sp_atk": 100,
+        "sp_dfs": 80,
+        "spd": 95
+    },
+    {
+        "atk": 50,
+        "dfs": 40,
+        "hp": 40,
+        "id": 60,
+        "name": "Poliwag",
+        "sp_atk": 40,
+        "sp_dfs": 40,
+        "spd": 90
+    },
+    {
+        "atk": 65,
+        "dfs": 65,
+        "hp": 65,
+        "id": 61,
+        "name": "Poliwhirl",
+        "sp_atk": 50,
+        "sp_dfs": 50,
+        "spd": 90
+    },
+    {
+        "atk": 95,
+        "dfs": 95,
+        "hp": 90,
+        "id": 62,
+        "name": "Poliwrath",
+        "sp_atk": 70,
+        "sp_dfs": 90,
+        "spd": 70
+    },
+    {
+        "atk": 20,
+        "dfs": 15,
+        "hp": 25,
+        "id": 63,
+        "name": "Abra",
+        "sp_atk": 105,
+        "sp_dfs": 55,
+        "spd": 90
+    },
+    {
+        "atk": 35,
+        "dfs": 30,
+        "hp": 40,
+        "id": 64,
+        "name": "Kadabra",
+        "sp_atk": 120,
+        "sp_dfs": 70,
+        "spd": 105
+    },
+    {
+        "atk": 50,
+        "dfs": 45,
+        "hp": 55,
+        "id": 65,
+        "name": "Alakazam",
+        "sp_atk": 135,
+        "sp_dfs": 95,
+        "spd": 120
+    },
+    {
+        "atk": 80,
+        "dfs": 50,
+        "hp": 70,
+        "id": 66,
+        "name": "Machop",
+        "sp_atk": 35,
+        "sp_dfs": 35,
+        "spd": 35
+    },
+    {
+        "atk": 100,
+        "dfs": 70,
+        "hp": 80,
+        "id": 67,
+        "name": "Machoke",
+        "sp_atk": 50,
+        "sp_dfs": 60,
+        "spd": 45
+    },
+    {
+        "atk": 130,
+        "dfs": 80,
+        "hp": 90,
+        "id": 68,
+        "name": "Machamp",
+        "sp_atk": 65,
+        "sp_dfs": 85,
+        "spd": 55
+    },
+    {
+        "atk": 75,
+        "dfs": 35,
+        "hp": 50,
+        "id": 69,
+        "name": "Bellsprout",
+        "sp_atk": 70,
+        "sp_dfs": 30,
+        "spd": 40
+    },
+    {
+        "atk": 90,
+        "dfs": 50,
+        "hp": 65,
+        "id": 70,
+        "name": "Weepinbell",
+        "sp_atk": 85,
+        "sp_dfs": 45,
+        "spd": 55
+    },
+    {
+        "atk": 105,
+        "dfs": 65,
+        "hp": 80,
+        "id": 71,
+        "name": "Victreebel",
+        "sp_atk": 100,
+        "sp_dfs": 70,
+        "spd": 70
+    },
+    {
+        "atk": 40,
+        "dfs": 35,
+        "hp": 40,
+        "id": 72,
+        "name": "Tentacool",
+        "sp_atk": 50,
+        "sp_dfs": 100,
+        "spd": 70
+    },
+    {
+        "atk": 70,
+        "dfs": 65,
+        "hp": 80,
+        "id": 73,
+        "name": "Tentacruel",
+        "sp_atk": 80,
+        "sp_dfs": 120,
+        "spd": 100
+    },
+    {
+        "atk": 80,
+        "dfs": 100,
+        "hp": 40,
+        "id": 74,
+        "name": "Geodude",
+        "sp_atk": 30,
+        "sp_dfs": 30,
+        "spd": 20
+    },
+    {
+        "atk": 95,
+        "dfs": 115,
+        "hp": 55,
+        "id": 75,
+        "name": "Graveler",
+        "sp_atk": 45,
+        "sp_dfs": 45,
+        "spd": 35
+    },
+    {
+        "atk": 120,
+        "dfs": 130,
+        "hp": 80,
+        "id": 76,
+        "name": "Golem",
+        "sp_atk": 55,
+        "sp_dfs": 65,
+        "spd": 45
+    },
+    {
+        "atk": 85,
+        "dfs": 55,
+        "hp": 50,
+        "id": 77,
+        "name": "Ponyta",
+        "sp_atk": 65,
+        "sp_dfs": 65,
+        "spd": 90
+    },
+    {
+        "atk": 100,
+        "dfs": 70,
+        "hp": 65,
+        "id": 78,
+        "name": "Rapidash",
+        "sp_atk": 80,
+        "sp_dfs": 80,
+        "spd": 105
+    },
+    {
+        "atk": 65,
+        "dfs": 65,
+        "hp": 90,
+        "id": 79,
+        "name": "Slowpoke",
+        "sp_atk": 40,
+        "sp_dfs": 40,
+        "spd": 15
+    },
+    {
+        "atk": 75,
+        "dfs": 110,
+        "hp": 95,
+        "id": 80,
+        "name": "Slowbro",
+        "sp_atk": 100,
+        "sp_dfs": 80,
+        "spd": 30
+    },
+    {
+        "atk": 35,
+        "dfs": 70,
+        "hp": 25,
+        "id": 81,
+        "name": "Magnemite",
+        "sp_atk": 95,
+        "sp_dfs": 55,
+        "spd": 45
+    },
+    {
+        "atk": 60,
+        "dfs": 95,
+        "hp": 50,
+        "id": 82,
+        "name": "Magneton",
+        "sp_atk": 120,
+        "sp_dfs": 70,
+        "spd": 70
+    },
+    {
+        "atk": 65,
+        "dfs": 55,
+        "hp": 52,
+        "id": 83,
+        "name": "Farfetch'd",
+        "sp_atk": 58,
+        "sp_dfs": 62,
+        "spd": 60
+    },
+    {
+        "atk": 85,
+        "dfs": 45,
+        "hp": 35,
+        "id": 84,
+        "name": "Doduo",
+        "sp_atk": 35,
+        "sp_dfs": 35,
+        "spd": 75
+    },
+    {
+        "atk": 110,
+        "dfs": 70,
+        "hp": 60,
+        "id": 85,
+        "name": "Dodrio",
+        "sp_atk": 60,
+        "sp_dfs": 60,
+        "spd": 100
+    },
+    {
+        "atk": 45,
+        "dfs": 55,
+        "hp": 65,
+        "id": 86,
+        "name": "Seel",
+        "sp_atk": 45,
+        "sp_dfs": 70,
+        "spd": 45
+    },
+    {
+        "atk": 70,
+        "dfs": 80,
+        "hp": 90,
+        "id": 87,
+        "name": "Dewgong",
+        "sp_atk": 70,
+        "sp_dfs": 95,
+        "spd": 70
+    },
+    {
+        "atk": 80,
+        "dfs": 50,
+        "hp": 80,
+        "id": 88,
+        "name": "Grimer",
+        "sp_atk": 40,
+        "sp_dfs": 50,
+        "spd": 25
+    },
+    {
+        "atk": 105,
+        "dfs": 75,
+        "hp": 105,
+        "id": 89,
+        "name": "Muk",
+        "sp_atk": 65,
+        "sp_dfs": 100,
+        "spd": 50
+    },
+    {
+        "atk": 65,
+        "dfs": 100,
+        "hp": 30,
+        "id": 90,
+        "name": "Shellder",
+        "sp_atk": 45,
+        "sp_dfs": 25,
+        "spd": 40
+    },
+    {
+        "atk": 95,
+        "dfs": 180,
+        "hp": 50,
+        "id": 91,
+        "name": "Cloyster",
+        "sp_atk": 85,
+        "sp_dfs": 45,
+        "spd": 70
+    },
+    {
+        "atk": 35,
+        "dfs": 30,
+        "hp": 30,
+        "id": 92,
+        "name": "Gastly",
+        "sp_atk": 100,
+        "sp_dfs": 35,
+        "spd": 80
+    },
+    {
+        "atk": 50,
+        "dfs": 45,
+        "hp": 45,
+        "id": 93,
+        "name": "Haunter",
+        "sp_atk": 115,
+        "sp_dfs": 55,
+        "spd": 95
+    },
+    {
+        "atk": 65,
+        "dfs": 60,
+        "hp": 60,
+        "id": 94,
+        "name": "Gengar",
+        "sp_atk": 130,
+        "sp_dfs": 75,
+        "spd": 110
+    },
+    {
+        "atk": 45,
+        "dfs": 160,
+        "hp": 35,
+        "id": 95,
+        "name": "Onix",
+        "sp_atk": 30,
+        "sp_dfs": 45,
+        "spd": 70
+    },
+    {
+        "atk": 48,
+        "dfs": 45,
+        "hp": 60,
+        "id": 96,
+        "name": "Drowzee",
+        "sp_atk": 43,
+        "sp_dfs": 90,
+        "spd": 42
+    },
+    {
+        "atk": 73,
+        "dfs": 70,
+        "hp": 85,
+        "id": 97,
+        "name": "Hypno",
+        "sp_atk": 73,
+        "sp_dfs": 115,
+        "spd": 67
+    },
+    {
+        "atk": 105,
+        "dfs": 90,
+        "hp": 30,
+        "id": 98,
+        "name": "Krabby",
+        "sp_atk": 25,
+        "sp_dfs": 25,
+        "spd": 50
+    },
+    {
+        "atk": 130,
+        "dfs": 115,
+        "hp": 55,
+        "id": 99,
+        "name": "Kingler",
+        "sp_atk": 50,
+        "sp_dfs": 50,
+        "spd": 75
+    },
+    {
+        "atk": 30,
+        "dfs": 50,
+        "hp": 40,
+        "id": 100,
+        "name": "Voltorb",
+        "sp_atk": 55,
+        "sp_dfs": 55,
+        "spd": 100
+    },
+    {
+        "atk": 50,
+        "dfs": 70,
+        "hp": 60,
+        "id": 101,
+        "name": "Electrode",
+        "sp_atk": 80,
+        "sp_dfs": 80,
+        "spd": 140
+    },
+    {
+        "atk": 40,
+        "dfs": 80,
+        "hp": 60,
+        "id": 102,
+        "name": "Exeggcute",
+        "sp_atk": 60,
+        "sp_dfs": 45,
+        "spd": 40
+    },
+    {
+        "atk": 95,
+        "dfs": 85,
+        "hp": 95,
+        "id": 103,
+        "name": "Exeggutor",
+        "sp_atk": 125,
+        "sp_dfs": 65,
+        "spd": 55
+    },
+    {
+        "atk": 50,
+        "dfs": 95,
+        "hp": 50,
+        "id": 104,
+        "name": "Cubone",
+        "sp_atk": 40,
+        "sp_dfs": 50,
+        "spd": 35
+    },
+    {
+        "atk": 80,
+        "dfs": 110,
+        "hp": 60,
+        "id": 105,
+        "name": "Marowak",
+        "sp_atk": 50,
+        "sp_dfs": 80,
+        "spd": 45
+    },
+    {
+        "atk": 120,
+        "dfs": 53,
+        "hp": 50,
+        "id": 106,
+        "name": "Hitmonlee",
+        "sp_atk": 35,
+        "sp_dfs": 110,
+        "spd": 87
+    },
+    {
+        "atk": 105,
+        "dfs": 79,
+        "hp": 50,
+        "id": 107,
+        "name": "Hitmonchan",
+        "sp_atk": 35,
+        "sp_dfs": 110,
+        "spd": 76
+    },
+    {
+        "atk": 55,
+        "dfs": 75,
+        "hp": 90,
+        "id": 108,
+        "name": "Lickitung",
+        "sp_atk": 60,
+        "sp_dfs": 75,
+        "spd": 30
+    },
+    {
+        "atk": 65,
+        "dfs": 95,
+        "hp": 40,
+        "id": 109,
+        "name": "Koffing",
+        "sp_atk": 60,
+        "sp_dfs": 45,
+        "spd": 35
+    },
+    {
+        "atk": 90,
+        "dfs": 120,
+        "hp": 65,
+        "id": 110,
+        "name": "Weezing",
+        "sp_atk": 85,
+        "sp_dfs": 70,
+        "spd": 60
+    },
+    {
+        "atk": 85,
+        "dfs": 95,
+        "hp": 80,
+        "id": 111,
+        "name": "Rhyhorn",
+        "sp_atk": 30,
+        "sp_dfs": 30,
+        "spd": 25
+    },
+    {
+        "atk": 130,
+        "dfs": 120,
+        "hp": 105,
+        "id": 112,
+        "name": "Rhydon",
+        "sp_atk": 45,
+        "sp_dfs": 45,
+        "spd": 40
+    },
+    {
+        "atk": 5,
+        "dfs": 5,
+        "hp": 250,
+        "id": 113,
+        "name": "Chansey",
+        "sp_atk": 35,
+        "sp_dfs": 105,
+        "spd": 50
+    },
+    {
+        "atk": 55,
+        "dfs": 115,
+        "hp": 65,
+        "id": 114,
+        "name": "Tangela",
+        "sp_atk": 100,
+        "sp_dfs": 40,
+        "spd": 60
+    },
+    {
+        "atk": 95,
+        "dfs": 80,
+        "hp": 105,
+        "id": 115,
+        "name": "Kangaskhan",
+        "sp_atk": 40,
+        "sp_dfs": 80,
+        "spd": 90
+    },
+    {
+        "atk": 40,
+        "dfs": 70,
+        "hp": 30,
+        "id": 116,
+        "name": "Horsea",
+        "sp_atk": 70,
+        "sp_dfs": 25,
+        "spd": 60
+    },
+    {
+        "atk": 65,
+        "dfs": 95,
+        "hp": 55,
+        "id": 117,
+        "name": "Seadra",
+        "sp_atk": 95,
+        "sp_dfs": 45,
+        "spd": 85
+    },
+    {
+        "atk": 67,
+        "dfs": 60,
+        "hp": 45,
+        "id": 118,
+        "name": "Goldeen",
+        "sp_atk": 35,
+        "sp_dfs": 50,
+        "spd": 63
+    },
+    {
+        "atk": 92,
+        "dfs": 65,
+        "hp": 80,
+        "id": 119,
+        "name": "Seaking",
+        "sp_atk": 65,
+        "sp_dfs": 80,
+        "spd": 68
+    },
+    {
+        "atk": 45,
+        "dfs": 55,
+        "hp": 30,
+        "id": 120,
+        "name": "Staryu",
+        "sp_atk": 70,
+        "sp_dfs": 55,
+        "spd": 85
+    },
+    {
+        "atk": 75,
+        "dfs": 85,
+        "hp": 60,
+        "id": 121,
+        "name": "Starmie",
+        "sp_atk": 100,
+        "sp_dfs": 85,
+        "spd": 115
+    },
+    {
+        "atk": 45,
+        "dfs": 65,
+        "hp": 40,
+        "id": 122,
+        "name": "Mr. Mime",
+        "sp_atk": 100,
+        "sp_dfs": 120,
+        "spd": 90
+    },
+    {
+        "atk": 110,
+        "dfs": 80,
+        "hp": 70,
+        "id": 123,
+        "name": "Scyther",
+        "sp_atk": 55,
+        "sp_dfs": 80,
+        "spd": 105
+    },
+    {
+        "atk": 50,
+        "dfs": 35,
+        "hp": 65,
+        "id": 124,
+        "name": "Jynx",
+        "sp_atk": 115,
+        "sp_dfs": 95,
+        "spd": 95
+    },
+    {
+        "atk": 83,
+        "dfs": 57,
+        "hp": 65,
+        "id": 125,
+        "name": "Electabuzz",
+        "sp_atk": 95,
+        "sp_dfs": 85,
+        "spd": 105
+    },
+    {
+        "atk": 95,
+        "dfs": 57,
+        "hp": 65,
+        "id": 126,
+        "name": "Magmar",
+        "sp_atk": 100,
+        "sp_dfs": 85,
+        "spd": 93
+    },
+    {
+        "atk": 125,
+        "dfs": 100,
+        "hp": 65,
+        "id": 127,
+        "name": "Pinsir",
+        "sp_atk": 55,
+        "sp_dfs": 70,
+        "spd": 85
+    },
+    {
+        "atk": 100,
+        "dfs": 95,
+        "hp": 75,
+        "id": 128,
+        "name": "Tauros",
+        "sp_atk": 40,
+        "sp_dfs": 70,
+        "spd": 110
+    },
+    {
+        "atk": 10,
+        "dfs": 55,
+        "hp": 20,
+        "id": 129,
+        "name": "Magikarp",
+        "sp_atk": 15,
+        "sp_dfs": 20,
+        "spd": 80
+    },
+    {
+        "atk": 125,
+        "dfs": 79,
+        "hp": 95,
+        "id": 130,
+        "name": "Gyarados",
+        "sp_atk": 60,
+        "sp_dfs": 100,
+        "spd": 81
+    },
+    {
+        "atk": 85,
+        "dfs": 80,
+        "hp": 130,
+        "id": 131,
+        "name": "Lapras",
+        "sp_atk": 85,
+        "sp_dfs": 95,
+        "spd": 60
+    },
+    {
+        "atk": 48,
+        "dfs": 48,
+        "hp": 48,
+        "id": 132,
+        "name": "Ditto",
+        "sp_atk": 48,
+        "sp_dfs": 48,
+        "spd": 48
+    },
+    {
+        "atk": 55,
+        "dfs": 50,
+        "hp": 55,
+        "id": 133,
+        "name": "Eevee",
+        "sp_atk": 45,
+        "sp_dfs": 65,
+        "spd": 55
+    },
+    {
+        "atk": 65,
+        "dfs": 60,
+        "hp": 130,
+        "id": 134,
+        "name": "Vaporeon",
+        "sp_atk": 110,
+        "sp_dfs": 95,
+        "spd": 65
+    },
+    {
+        "atk": 65,
+        "dfs": 60,
+        "hp": 65,
+        "id": 135,
+        "name": "Jolteon",
+        "sp_atk": 110,
+        "sp_dfs": 95,
+        "spd": 130
+    },
+    {
+        "atk": 130,
+        "dfs": 60,
+        "hp": 65,
+        "id": 136,
+        "name": "Flareon",
+        "sp_atk": 95,
+        "sp_dfs": 110,
+        "spd": 65
+    },
+    {
+        "atk": 60,
+        "dfs": 70,
+        "hp": 65,
+        "id": 137,
+        "name": "Porygon",
+        "sp_atk": 85,
+        "sp_dfs": 75,
+        "spd": 40
+    },
+    {
+        "atk": 40,
+        "dfs": 100,
+        "hp": 35,
+        "id": 138,
+        "name": "Omanyte",
+        "sp_atk": 90,
+        "sp_dfs": 55,
+        "spd": 35
+    },
+    {
+        "atk": 60,
+        "dfs": 125,
+        "hp": 70,
+        "id": 139,
+        "name": "Omastar",
+        "sp_atk": 115,
+        "sp_dfs": 70,
+        "spd": 55
+    },
+    {
+        "atk": 80,
+        "dfs": 90,
+        "hp": 30,
+        "id": 140,
+        "name": "Kabuto",
+        "sp_atk": 55,
+        "sp_dfs": 45,
+        "spd": 55
+    },
+    {
+        "atk": 115,
+        "dfs": 105,
+        "hp": 60,
+        "id": 141,
+        "name": "Kabutops",
+        "sp_atk": 65,
+        "sp_dfs": 70,
+        "spd": 80
+    },
+    {
+        "atk": 105,
+        "dfs": 65,
+        "hp": 80,
+        "id": 142,
+        "name": "Aerodactyl",
+        "sp_atk": 60,
+        "sp_dfs": 75,
+        "spd": 130
+    },
+    {
+        "atk": 110,
+        "dfs": 65,
+        "hp": 160,
+        "id": 143,
+        "name": "Snorlax",
+        "sp_atk": 65,
+        "sp_dfs": 110,
+        "spd": 30
+    },
+    {
+        "atk": 85,
+        "dfs": 100,
+        "hp": 90,
+        "id": 144,
+        "name": "Articuno",
+        "sp_atk": 95,
+        "sp_dfs": 125,
+        "spd": 85
+    },
+    {
+        "atk": 90,
+        "dfs": 85,
+        "hp": 90,
+        "id": 145,
+        "name": "Zapdos",
+        "sp_atk": 125,
+        "sp_dfs": 90,
+        "spd": 100
+    },
+    {
+        "atk": 100,
+        "dfs": 90,
+        "hp": 90,
+        "id": 146,
+        "name": "Moltres",
+        "sp_atk": 125,
+        "sp_dfs": 85,
+        "spd": 90
+    },
+    {
+        "atk": 64,
+        "dfs": 45,
+        "hp": 41,
+        "id": 147,
+        "name": "Dratini",
+        "sp_atk": 50,
+        "sp_dfs": 50,
+        "spd": 50
+    },
+    {
+        "atk": 84,
+        "dfs": 65,
+        "hp": 61,
+        "id": 148,
+        "name": "Dragonair",
+        "sp_atk": 70,
+        "sp_dfs": 70,
+        "spd": 70
+    },
+    {
+        "atk": 134,
+        "dfs": 95,
+        "hp": 91,
+        "id": 149,
+        "name": "Dragonite",
+        "sp_atk": 100,
+        "sp_dfs": 100,
+        "spd": 80
+    },
+    {
+        "atk": 110,
+        "dfs": 90,
+        "hp": 106,
+        "id": 150,
+        "name": "Mewtwo",
+        "sp_atk": 154,
+        "sp_dfs": 90,
+        "spd": 130
+    },
+    {
+        "atk": 100,
+        "dfs": 100,
+        "hp": 100,
+        "id": 151,
+        "name": "Mew",
+        "sp_atk": 100,
+        "sp_dfs": 100,
+        "spd": 100
+    },
+    {
+        "atk": 49,
+        "dfs": 65,
+        "hp": 45,
+        "id": 152,
+        "name": "Chikorita",
+        "sp_atk": 49,
+        "sp_dfs": 65,
+        "spd": 45
+    },
+    {
+        "atk": 62,
+        "dfs": 80,
+        "hp": 60,
+        "id": 153,
+        "name": "Bayleef",
+        "sp_atk": 63,
+        "sp_dfs": 80,
+        "spd": 60
+    },
+    {
+        "atk": 82,
+        "dfs": 100,
+        "hp": 80,
+        "id": 154,
+        "name": "Meganium",
+        "sp_atk": 83,
+        "sp_dfs": 100,
+        "spd": 80
+    },
+    {
+        "atk": 52,
+        "dfs": 43,
+        "hp": 39,
+        "id": 155,
+        "name": "Cyndaquil",
+        "sp_atk": 60,
+        "sp_dfs": 50,
+        "spd": 65
+    },
+    {
+        "atk": 64,
+        "dfs": 58,
+        "hp": 58,
+        "id": 156,
+        "name": "Quilava",
+        "sp_atk": 80,
+        "sp_dfs": 65,
+        "spd": 80
+    },
+    {
+        "atk": 84,
+        "dfs": 78,
+        "hp": 78,
+        "id": 157,
+        "name": "Typhlosion",
+        "sp_atk": 109,
+        "sp_dfs": 85,
+        "spd": 100
+    },
+    {
+        "atk": 65,
+        "dfs": 64,
+        "hp": 50,
+        "id": 158,
+        "name": "Totodile",
+        "sp_atk": 44,
+        "sp_dfs": 48,
+        "spd": 43
+    },
+    {
+        "atk": 80,
+        "dfs": 80,
+        "hp": 65,
+        "id": 159,
+        "name": "Croconaw",
+        "sp_atk": 59,
+        "sp_dfs": 63,
+        "spd": 58
+    },
+    {
+        "atk": 105,
+        "dfs": 100,
+        "hp": 85,
+        "id": 160,
+        "name": "Feraligatr",
+        "sp_atk": 79,
+        "sp_dfs": 83,
+        "spd": 78
+    },
+    {
+        "atk": 46,
+        "dfs": 34,
+        "hp": 35,
+        "id": 161,
+        "name": "Sentret",
+        "sp_atk": 35,
+        "sp_dfs": 45,
+        "spd": 20
+    },
+    {
+        "atk": 76,
+        "dfs": 64,
+        "hp": 85,
+        "id": 162,
+        "name": "Furret",
+        "sp_atk": 45,
+        "sp_dfs": 55,
+        "spd": 90
+    },
+    {
+        "atk": 30,
+        "dfs": 30,
+        "hp": 60,
+        "id": 163,
+        "name": "Hoothoot",
+        "sp_atk": 36,
+        "sp_dfs": 56,
+        "spd": 50
+    },
+    {
+        "atk": 50,
+        "dfs": 50,
+        "hp": 100,
+        "id": 164,
+        "name": "Noctowl",
+        "sp_atk": 76,
+        "sp_dfs": 96,
+        "spd": 70
+    },
+    {
+        "atk": 20,
+        "dfs": 30,
+        "hp": 40,
+        "id": 165,
+        "name": "Ledyba",
+        "sp_atk": 40,
+        "sp_dfs": 80,
+        "spd": 55
+    },
+    {
+        "atk": 35,
+        "dfs": 50,
+        "hp": 55,
+        "id": 166,
+        "name": "Ledian",
+        "sp_atk": 55,
+        "sp_dfs": 110,
+        "spd": 85
+    },
+    {
+        "atk": 60,
+        "dfs": 40,
+        "hp": 40,
+        "id": 167,
+        "name": "Spinarak",
+        "sp_atk": 40,
+        "sp_dfs": 40,
+        "spd": 30
+    },
+    {
+        "atk": 90,
+        "dfs": 70,
+        "hp": 70,
+        "id": 168,
+        "name": "Ariados",
+        "sp_atk": 60,
+        "sp_dfs": 60,
+        "spd": 40
+    },
+    {
+        "atk": 90,
+        "dfs": 80,
+        "hp": 85,
+        "id": 169,
+        "name": "Crobat",
+        "sp_atk": 70,
+        "sp_dfs": 80,
+        "spd": 130
+    },
+    {
+        "atk": 38,
+        "dfs": 38,
+        "hp": 75,
+        "id": 170,
+        "name": "Chinchou",
+        "sp_atk": 56,
+        "sp_dfs": 56,
+        "spd": 67
+    },
+    {
+        "atk": 58,
+        "dfs": 58,
+        "hp": 125,
+        "id": 171,
+        "name": "Lanturn",
+        "sp_atk": 76,
+        "sp_dfs": 76,
+        "spd": 67
+    },
+    {
+        "atk": 40,
+        "dfs": 15,
+        "hp": 20,
+        "id": 172,
+        "name": "Pichu",
+        "sp_atk": 35,
+        "sp_dfs": 35,
+        "spd": 60
+    },
+    {
+        "atk": 25,
+        "dfs": 28,
+        "hp": 50,
+        "id": 173,
+        "name": "Cleffa",
+        "sp_atk": 45,
+        "sp_dfs": 55,
+        "spd": 15
+    },
+    {
+        "atk": 30,
+        "dfs": 15,
+        "hp": 90,
+        "id": 174,
+        "name": "Igglybuff",
+        "sp_atk": 40,
+        "sp_dfs": 20,
+        "spd": 15
+    },
+    {
+        "atk": 20,
+        "dfs": 65,
+        "hp": 35,
+        "id": 175,
+        "name": "Togepi",
+        "sp_atk": 40,
+        "sp_dfs": 65,
+        "spd": 20
+    },
+    {
+        "atk": 40,
+        "dfs": 85,
+        "hp": 55,
+        "id": 176,
+        "name": "Togetic",
+        "sp_atk": 80,
+        "sp_dfs": 105,
+        "spd": 40
+    },
+    {
+        "atk": 50,
+        "dfs": 45,
+        "hp": 40,
+        "id": 177,
+        "name": "Natu",
+        "sp_atk": 70,
+        "sp_dfs": 45,
+        "spd": 70
+    },
+    {
+        "atk": 75,
+        "dfs": 70,
+        "hp": 65,
+        "id": 178,
+        "name": "Xatu",
+        "sp_atk": 95,
+        "sp_dfs": 70,
+        "spd": 95
+    },
+    {
+        "atk": 40,
+        "dfs": 40,
+        "hp": 55,
+        "id": 179,
+        "name": "Mareep",
+        "sp_atk": 65,
+        "sp_dfs": 45,
+        "spd": 35
+    },
+    {
+        "atk": 55,
+        "dfs": 55,
+        "hp": 70,
+        "id": 180,
+        "name": "Flaaffy",
+        "sp_atk": 80,
+        "sp_dfs": 60,
+        "spd": 45
+    },
+    {
+        "atk": 75,
+        "dfs": 85,
+        "hp": 90,
+        "id": 181,
+        "name": "Ampharos",
+        "sp_atk": 115,
+        "sp_dfs": 90,
+        "spd": 55
+    },
+    {
+        "atk": 80,
+        "dfs": 95,
+        "hp": 75,
+        "id": 182,
+        "name": "Bellossom",
+        "sp_atk": 90,
+        "sp_dfs": 100,
+        "spd": 50
+    },
+    {
+        "atk": 20,
+        "dfs": 50,
+        "hp": 70,
+        "id": 183,
+        "name": "Marill",
+        "sp_atk": 20,
+        "sp_dfs": 50,
+        "spd": 40
+    },
+    {
+        "atk": 50,
+        "dfs": 80,
+        "hp": 100,
+        "id": 184,
+        "name": "Azumarill",
+        "sp_atk": 60,
+        "sp_dfs": 80,
+        "spd": 50
+    },
+    {
+        "atk": 100,
+        "dfs": 115,
+        "hp": 70,
+        "id": 185,
+        "name": "Sudowoodo",
+        "sp_atk": 30,
+        "sp_dfs": 65,
+        "spd": 30
+    },
+    {
+        "atk": 75,
+        "dfs": 75,
+        "hp": 90,
+        "id": 186,
+        "name": "Politoed",
+        "sp_atk": 90,
+        "sp_dfs": 100,
+        "spd": 70
+    },
+    {
+        "atk": 35,
+        "dfs": 40,
+        "hp": 35,
+        "id": 187,
+        "name": "Hoppip",
+        "sp_atk": 35,
+        "sp_dfs": 55,
+        "spd": 50
+    },
+    {
+        "atk": 45,
+        "dfs": 50,
+        "hp": 55,
+        "id": 188,
+        "name": "Skiploom",
+        "sp_atk": 45,
+        "sp_dfs": 65,
+        "spd": 80
+    },
+    {
+        "atk": 55,
+        "dfs": 70,
+        "hp": 75,
+        "id": 189,
+        "name": "Jumpluff",
+        "sp_atk": 55,
+        "sp_dfs": 95,
+        "spd": 110
+    },
+    {
+        "atk": 70,
+        "dfs": 55,
+        "hp": 55,
+        "id": 190,
+        "name": "Aipom",
+        "sp_atk": 40,
+        "sp_dfs": 55,
+        "spd": 85
+    },
+    {
+        "atk": 30,
+        "dfs": 30,
+        "hp": 30,
+        "id": 191,
+        "name": "Sunkern",
+        "sp_atk": 30,
+        "sp_dfs": 30,
+        "spd": 30
+    },
+    {
+        "atk": 75,
+        "dfs": 55,
+        "hp": 75,
+        "id": 192,
+        "name": "Sunflora",
+        "sp_atk": 105,
+        "sp_dfs": 85,
+        "spd": 30
+    },
+    {
+        "atk": 65,
+        "dfs": 45,
+        "hp": 65,
+        "id": 193,
+        "name": "Yanma",
+        "sp_atk": 75,
+        "sp_dfs": 45,
+        "spd": 95
+    },
+    {
+        "atk": 45,
+        "dfs": 45,
+        "hp": 55,
+        "id": 194,
+        "name": "Wooper",
+        "sp_atk": 25,
+        "sp_dfs": 25,
+        "spd": 15
+    },
+    {
+        "atk": 85,
+        "dfs": 85,
+        "hp": 95,
+        "id": 195,
+        "name": "Quagsire",
+        "sp_atk": 65,
+        "sp_dfs": 65,
+        "spd": 35
+    },
+    {
+        "atk": 65,
+        "dfs": 60,
+        "hp": 65,
+        "id": 196,
+        "name": "Espeon",
+        "sp_atk": 130,
+        "sp_dfs": 95,
+        "spd": 110
+    },
+    {
+        "atk": 65,
+        "dfs": 110,
+        "hp": 95,
+        "id": 197,
+        "name": "Umbreon",
+        "sp_atk": 60,
+        "sp_dfs": 130,
+        "spd": 65
+    },
+    {
+        "atk": 85,
+        "dfs": 42,
+        "hp": 60,
+        "id": 198,
+        "name": "Murkrow",
+        "sp_atk": 85,
+        "sp_dfs": 42,
+        "spd": 91
+    },
+    {
+        "atk": 75,
+        "dfs": 80,
+        "hp": 95,
+        "id": 199,
+        "name": "Slowking",
+        "sp_atk": 100,
+        "sp_dfs": 110,
+        "spd": 30
+    },
+    {
+        "atk": 60,
+        "dfs": 60,
+        "hp": 60,
+        "id": 200,
+        "name": "Misdreavus",
+        "sp_atk": 85,
+        "sp_dfs": 85,
+        "spd": 85
+    },
+    {
+        "atk": 72,
+        "dfs": 48,
+        "hp": 48,
+        "id": 201,
+        "name": "Unown",
+        "sp_atk": 72,
+        "sp_dfs": 48,
+        "spd": 48
+    },
+    {
+        "atk": 33,
+        "dfs": 58,
+        "hp": 190,
+        "id": 202,
+        "name": "Wobbuffet",
+        "sp_atk": 33,
+        "sp_dfs": 58,
+        "spd": 33
+    },
+    {
+        "atk": 80,
+        "dfs": 65,
+        "hp": 70,
+        "id": 203,
+        "name": "Girafarig",
+        "sp_atk": 90,
+        "sp_dfs": 65,
+        "spd": 85
+    },
+    {
+        "atk": 65,
+        "dfs": 90,
+        "hp": 50,
+        "id": 204,
+        "name": "Pineco",
+        "sp_atk": 35,
+        "sp_dfs": 35,
+        "spd": 15
+    },
+    {
+        "atk": 90,
+        "dfs": 140,
+        "hp": 75,
+        "id": 205,
+        "name": "Forretress",
+        "sp_atk": 60,
+        "sp_dfs": 60,
+        "spd": 40
+    },
+    {
+        "atk": 70,
+        "dfs": 70,
+        "hp": 100,
+        "id": 206,
+        "name": "Dunsparce",
+        "sp_atk": 65,
+        "sp_dfs": 65,
+        "spd": 45
+    },
+    {
+        "atk": 75,
+        "dfs": 105,
+        "hp": 65,
+        "id": 207,
+        "name": "Gligar",
+        "sp_atk": 35,
+        "sp_dfs": 65,
+        "spd": 85
+    },
+    {
+        "atk": 85,
+        "dfs": 200,
+        "hp": 75,
+        "id": 208,
+        "name": "Steelix",
+        "sp_atk": 55,
+        "sp_dfs": 65,
+        "spd": 30
+    },
+    {
+        "atk": 80,
+        "dfs": 50,
+        "hp": 60,
+        "id": 209,
+        "name": "Snubbull",
+        "sp_atk": 40,
+        "sp_dfs": 40,
+        "spd": 30
+    },
+    {
+        "atk": 120,
+        "dfs": 75,
+        "hp": 90,
+        "id": 210,
+        "name": "Granbull",
+        "sp_atk": 60,
+        "sp_dfs": 60,
+        "spd": 45
+    },
+    {
+        "atk": 95,
+        "dfs": 75,
+        "hp": 65,
+        "id": 211,
+        "name": "Qwilfish",
+        "sp_atk": 55,
+        "sp_dfs": 55,
+        "spd": 85
+    },
+    {
+        "atk": 130,
+        "dfs": 100,
+        "hp": 70,
+        "id": 212,
+        "name": "Scizor",
+        "sp_atk": 55,
+        "sp_dfs": 80,
+        "spd": 65
+    },
+    {
+        "atk": 10,
+        "dfs": 230,
+        "hp": 20,
+        "id": 213,
+        "name": "Shuckle",
+        "sp_atk": 10,
+        "sp_dfs": 230,
+        "spd": 5
+    },
+    {
+        "atk": 125,
+        "dfs": 75,
+        "hp": 80,
+        "id": 214,
+        "name": "Heracross",
+        "sp_atk": 40,
+        "sp_dfs": 95,
+        "spd": 85
+    },
+    {
+        "atk": 95,
+        "dfs": 55,
+        "hp": 55,
+        "id": 215,
+        "name": "Sneasel",
+        "sp_atk": 35,
+        "sp_dfs": 75,
+        "spd": 115
+    },
+    {
+        "atk": 80,
+        "dfs": 50,
+        "hp": 60,
+        "id": 216,
+        "name": "Teddiursa",
+        "sp_atk": 50,
+        "sp_dfs": 50,
+        "spd": 40
+    },
+    {
+        "atk": 130,
+        "dfs": 75,
+        "hp": 90,
+        "id": 217,
+        "name": "Ursaring",
+        "sp_atk": 75,
+        "sp_dfs": 75,
+        "spd": 55
+    },
+    {
+        "atk": 40,
+        "dfs": 40,
+        "hp": 40,
+        "id": 218,
+        "name": "Slugma",
+        "sp_atk": 70,
+        "sp_dfs": 40,
+        "spd": 20
+    },
+    {
+        "atk": 50,
+        "dfs": 120,
+        "hp": 50,
+        "id": 219,
+        "name": "Magcargo",
+        "sp_atk": 80,
+        "sp_dfs": 80,
+        "spd": 30
+    },
+    {
+        "atk": 50,
+        "dfs": 40,
+        "hp": 50,
+        "id": 220,
+        "name": "Swinub",
+        "sp_atk": 30,
+        "sp_dfs": 30,
+        "spd": 50
+    },
+    {
+        "atk": 100,
+        "dfs": 80,
+        "hp": 100,
+        "id": 221,
+        "name": "Piloswine",
+        "sp_atk": 60,
+        "sp_dfs": 60,
+        "spd": 50
+    },
+    {
+        "atk": 55,
+        "dfs": 85,
+        "hp": 55,
+        "id": 222,
+        "name": "Corsola",
+        "sp_atk": 65,
+        "sp_dfs": 85,
+        "spd": 35
+    },
+    {
+        "atk": 65,
+        "dfs": 35,
+        "hp": 35,
+        "id": 223,
+        "name": "Remoraid",
+        "sp_atk": 65,
+        "sp_dfs": 35,
+        "spd": 65
+    },
+    {
+        "atk": 105,
+        "dfs": 75,
+        "hp": 75,
+        "id": 224,
+        "name": "Octillery",
+        "sp_atk": 105,
+        "sp_dfs": 75,
+        "spd": 45
+    },
+    {
+        "atk": 55,
+        "dfs": 45,
+        "hp": 45,
+        "id": 225,
+        "name": "Delibird",
+        "sp_atk": 65,
+        "sp_dfs": 45,
+        "spd": 75
+    },
+    {
+        "atk": 40,
+        "dfs": 70,
+        "hp": 65,
+        "id": 226,
+        "name": "Mantine",
+        "sp_atk": 80,
+        "sp_dfs": 140,
+        "spd": 70
+    },
+    {
+        "atk": 80,
+        "dfs": 140,
+        "hp": 65,
+        "id": 227,
+        "name": "Skarmory",
+        "sp_atk": 40,
+        "sp_dfs": 70,
+        "spd": 70
+    },
+    {
+        "atk": 60,
+        "dfs": 30,
+        "hp": 45,
+        "id": 228,
+        "name": "Houndour",
+        "sp_atk": 80,
+        "sp_dfs": 50,
+        "spd": 65
+    },
+    {
+        "atk": 90,
+        "dfs": 50,
+        "hp": 75,
+        "id": 229,
+        "name": "Houndoom",
+        "sp_atk": 110,
+        "sp_dfs": 80,
+        "spd": 95
+    },
+    {
+        "atk": 95,
+        "dfs": 95,
+        "hp": 75,
+        "id": 230,
+        "name": "Kingdra",
+        "sp_atk": 95,
+        "sp_dfs": 95,
+        "spd": 85
+    },
+    {
+        "atk": 60,
+        "dfs": 60,
+        "hp": 90,
+        "id": 231,
+        "name": "Phanpy",
+        "sp_atk": 40,
+        "sp_dfs": 40,
+        "spd": 40
+    },
+    {
+        "atk": 120,
+        "dfs": 120,
+        "hp": 90,
+        "id": 232,
+        "name": "Donphan",
+        "sp_atk": 60,
+        "sp_dfs": 60,
+        "spd": 50
+    },
+    {
+        "atk": 80,
+        "dfs": 90,
+        "hp": 85,
+        "id": 233,
+        "name": "Porygon2",
+        "sp_atk": 105,
+        "sp_dfs": 95,
+        "spd": 60
+    },
+    {
+        "atk": 95,
+        "dfs": 62,
+        "hp": 73,
+        "id": 234,
+        "name": "Stantler",
+        "sp_atk": 85,
+        "sp_dfs": 65,
+        "spd": 85
+    },
+    {
+        "atk": 20,
+        "dfs": 35,
+        "hp": 55,
+        "id": 235,
+        "name": "Smeargle",
+        "sp_atk": 20,
+        "sp_dfs": 45,
+        "spd": 75
+    },
+    {
+        "atk": 35,
+        "dfs": 35,
+        "hp": 35,
+        "id": 236,
+        "name": "Tyrogue",
+        "sp_atk": 35,
+        "sp_dfs": 35,
+        "spd": 35
+    },
+    {
+        "atk": 95,
+        "dfs": 95,
+        "hp": 50,
+        "id": 237,
+        "name": "Hitmontop",
+        "sp_atk": 35,
+        "sp_dfs": 110,
+        "spd": 70
+    },
+    {
+        "atk": 30,
+        "dfs": 15,
+        "hp": 45,
+        "id": 238,
+        "name": "Smoochum",
+        "sp_atk": 85,
+        "sp_dfs": 65,
+        "spd": 65
+    },
+    {
+        "atk": 63,
+        "dfs": 37,
+        "hp": 45,
+        "id": 239,
+        "name": "Elekid",
+        "sp_atk": 65,
+        "sp_dfs": 55,
+        "spd": 95
+    },
+    {
+        "atk": 75,
+        "dfs": 37,
+        "hp": 45,
+        "id": 240,
+        "name": "Magby",
+        "sp_atk": 70,
+        "sp_dfs": 55,
+        "spd": 83
+    },
+    {
+        "atk": 80,
+        "dfs": 105,
+        "hp": 95,
+        "id": 241,
+        "name": "Miltank",
+        "sp_atk": 40,
+        "sp_dfs": 70,
+        "spd": 100
+    },
+    {
+        "atk": 10,
+        "dfs": 10,
+        "hp": 255,
+        "id": 242,
+        "name": "Blissey",
+        "sp_atk": 75,
+        "sp_dfs": 135,
+        "spd": 55
+    },
+    {
+        "atk": 85,
+        "dfs": 75,
+        "hp": 90,
+        "id": 243,
+        "name": "Raikou",
+        "sp_atk": 115,
+        "sp_dfs": 100,
+        "spd": 115
+    },
+    {
+        "atk": 115,
+        "dfs": 85,
+        "hp": 115,
+        "id": 244,
+        "name": "Entei",
+        "sp_atk": 90,
+        "sp_dfs": 75,
+        "spd": 100
+    },
+    {
+        "atk": 75,
+        "dfs": 115,
+        "hp": 100,
+        "id": 245,
+        "name": "Suicune",
+        "sp_atk": 90,
+        "sp_dfs": 115,
+        "spd": 85
+    },
+    {
+        "atk": 64,
+        "dfs": 50,
+        "hp": 50,
+        "id": 246,
+        "name": "Larvitar",
+        "sp_atk": 45,
+        "sp_dfs": 50,
+        "spd": 41
+    },
+    {
+        "atk": 84,
+        "dfs": 70,
+        "hp": 70,
+        "id": 247,
+        "name": "Pupitar",
+        "sp_atk": 65,
+        "sp_dfs": 70,
+        "spd": 51
+    },
+    {
+        "atk": 134,
+        "dfs": 110,
+        "hp": 100,
+        "id": 248,
+        "name": "Tyranitar",
+        "sp_atk": 95,
+        "sp_dfs": 100,
+        "spd": 61
+    },
+    {
+        "atk": 90,
+        "dfs": 130,
+        "hp": 106,
+        "id": 249,
+        "name": "Lugia",
+        "sp_atk": 90,
+        "sp_dfs": 154,
+        "spd": 110
+    },
+    {
+        "atk": 130,
+        "dfs": 90,
+        "hp": 106,
+        "id": 250,
+        "name": "Ho-oh",
+        "sp_atk": 110,
+        "sp_dfs": 154,
+        "spd": 90
+    },
+    {
+        "atk": 100,
+        "dfs": 100,
+        "hp": 100,
+        "id": 251,
+        "name": "Celebi",
+        "sp_atk": 100,
+        "sp_dfs": 100,
+        "spd": 100
+    },
+    {
+        "atk": 45,
+        "dfs": 35,
+        "hp": 40,
+        "id": 252,
+        "name": "Treecko",
+        "sp_atk": 65,
+        "sp_dfs": 55,
+        "spd": 70
+    },
+    {
+        "atk": 65,
+        "dfs": 45,
+        "hp": 50,
+        "id": 253,
+        "name": "Grovyle",
+        "sp_atk": 85,
+        "sp_dfs": 65,
+        "spd": 95
+    },
+    {
+        "atk": 85,
+        "dfs": 65,
+        "hp": 70,
+        "id": 254,
+        "name": "Sceptile",
+        "sp_atk": 105,
+        "sp_dfs": 85,
+        "spd": 120
+    },
+    {
+        "atk": 60,
+        "dfs": 40,
+        "hp": 45,
+        "id": 255,
+        "name": "Torchic",
+        "sp_atk": 70,
+        "sp_dfs": 50,
+        "spd": 45
+    },
+    {
+        "atk": 85,
+        "dfs": 60,
+        "hp": 60,
+        "id": 256,
+        "name": "Combusken",
+        "sp_atk": 85,
+        "sp_dfs": 60,
+        "spd": 55
+    },
+    {
+        "atk": 120,
+        "dfs": 70,
+        "hp": 80,
+        "id": 257,
+        "name": "Blaziken",
+        "sp_atk": 110,
+        "sp_dfs": 70,
+        "spd": 80
+    },
+    {
+        "atk": 70,
+        "dfs": 50,
+        "hp": 50,
+        "id": 258,
+        "name": "Mudkip",
+        "sp_atk": 50,
+        "sp_dfs": 50,
+        "spd": 40
+    },
+    {
+        "atk": 85,
+        "dfs": 70,
+        "hp": 70,
+        "id": 259,
+        "name": "Marshtomp",
+        "sp_atk": 60,
+        "sp_dfs": 70,
+        "spd": 50
+    },
+    {
+        "atk": 110,
+        "dfs": 90,
+        "hp": 100,
+        "id": 260,
+        "name": "Swampert",
+        "sp_atk": 85,
+        "sp_dfs": 90,
+        "spd": 60
+    },
+    {
+        "atk": 55,
+        "dfs": 35,
+        "hp": 35,
+        "id": 261,
+        "name": "Poochyena",
+        "sp_atk": 30,
+        "sp_dfs": 30,
+        "spd": 35
+    },
+    {
+        "atk": 90,
+        "dfs": 70,
+        "hp": 70,
+        "id": 262,
+        "name": "Mightyena",
+        "sp_atk": 60,
+        "sp_dfs": 60,
+        "spd": 70
+    },
+    {
+        "atk": 30,
+        "dfs": 41,
+        "hp": 38,
+        "id": 263,
+        "name": "Zigzagoon",
+        "sp_atk": 30,
+        "sp_dfs": 41,
+        "spd": 60
+    },
+    {
+        "atk": 70,
+        "dfs": 61,
+        "hp": 78,
+        "id": 264,
+        "name": "Linoone",
+        "sp_atk": 50,
+        "sp_dfs": 61,
+        "spd": 100
+    },
+    {
+        "atk": 45,
+        "dfs": 35,
+        "hp": 45,
+        "id": 265,
+        "name": "Wurmple",
+        "sp_atk": 20,
+        "sp_dfs": 30,
+        "spd": 20
+    },
+    {
+        "atk": 35,
+        "dfs": 55,
+        "hp": 50,
+        "id": 266,
+        "name": "Silcoon",
+        "sp_atk": 25,
+        "sp_dfs": 25,
+        "spd": 15
+    },
+    {
+        "atk": 70,
+        "dfs": 50,
+        "hp": 60,
+        "id": 267,
+        "name": "Beautifly",
+        "sp_atk": 100,
+        "sp_dfs": 50,
+        "spd": 65
+    },
+    {
+        "atk": 35,
+        "dfs": 55,
+        "hp": 50,
+        "id": 268,
+        "name": "Cascoon",
+        "sp_atk": 25,
+        "sp_dfs": 25,
+        "spd": 15
+    },
+    {
+        "atk": 50,
+        "dfs": 70,
+        "hp": 60,
+        "id": 269,
+        "name": "Dustox",
+        "sp_atk": 50,
+        "sp_dfs": 90,
+        "spd": 65
+    },
+    {
+        "atk": 30,
+        "dfs": 30,
+        "hp": 40,
+        "id": 270,
+        "name": "Lotad",
+        "sp_atk": 40,
+        "sp_dfs": 50,
+        "spd": 30
+    },
+    {
+        "atk": 50,
+        "dfs": 50,
+        "hp": 60,
+        "id": 271,
+        "name": "Lombre",
+        "sp_atk": 60,
+        "sp_dfs": 70,
+        "spd": 50
+    },
+    {
+        "atk": 70,
+        "dfs": 70,
+        "hp": 80,
+        "id": 272,
+        "name": "Ludicolo",
+        "sp_atk": 90,
+        "sp_dfs": 100,
+        "spd": 70
+    },
+    {
+        "atk": 40,
+        "dfs": 50,
+        "hp": 40,
+        "id": 273,
+        "name": "Seedot",
+        "sp_atk": 30,
+        "sp_dfs": 30,
+        "spd": 30
+    },
+    {
+        "atk": 70,
+        "dfs": 40,
+        "hp": 70,
+        "id": 274,
+        "name": "Nuzleaf",
+        "sp_atk": 60,
+        "sp_dfs": 40,
+        "spd": 60
+    },
+    {
+        "atk": 100,
+        "dfs": 60,
+        "hp": 90,
+        "id": 275,
+        "name": "Shiftry",
+        "sp_atk": 90,
+        "sp_dfs": 60,
+        "spd": 80
+    },
+    {
+        "atk": 55,
+        "dfs": 30,
+        "hp": 40,
+        "id": 276,
+        "name": "Taillow",
+        "sp_atk": 30,
+        "sp_dfs": 30,
+        "spd": 85
+    },
+    {
+        "atk": 85,
+        "dfs": 60,
+        "hp": 60,
+        "id": 277,
+        "name": "Swellow",
+        "sp_atk": 50,
+        "sp_dfs": 50,
+        "spd": 125
+    },
+    {
+        "atk": 30,
+        "dfs": 30,
+        "hp": 40,
+        "id": 278,
+        "name": "Wingull",
+        "sp_atk": 55,
+        "sp_dfs": 30,
+        "spd": 85
+    },
+    {
+        "atk": 50,
+        "dfs": 100,
+        "hp": 60,
+        "id": 279,
+        "name": "Pelipper",
+        "sp_atk": 85,
+        "sp_dfs": 70,
+        "spd": 65
+    },
+    {
+        "atk": 25,
+        "dfs": 25,
+        "hp": 28,
+        "id": 280,
+        "name": "Ralts",
+        "sp_atk": 45,
+        "sp_dfs": 35,
+        "spd": 40
+    },
+    {
+        "atk": 35,
+        "dfs": 35,
+        "hp": 38,
+        "id": 281,
+        "name": "Kirlia",
+        "sp_atk": 65,
+        "sp_dfs": 55,
+        "spd": 50
+    },
+    {
+        "atk": 65,
+        "dfs": 65,
+        "hp": 68,
+        "id": 282,
+        "name": "Gardevoir",
+        "sp_atk": 125,
+        "sp_dfs": 115,
+        "spd": 80
+    },
+    {
+        "atk": 30,
+        "dfs": 32,
+        "hp": 40,
+        "id": 283,
+        "name": "Surskit",
+        "sp_atk": 50,
+        "sp_dfs": 52,
+        "spd": 65
+    },
+    {
+        "atk": 60,
+        "dfs": 62,
+        "hp": 70,
+        "id": 284,
+        "name": "Masquerain",
+        "sp_atk": 80,
+        "sp_dfs": 82,
+        "spd": 60
+    },
+    {
+        "atk": 40,
+        "dfs": 60,
+        "hp": 60,
+        "id": 285,
+        "name": "Shroomish",
+        "sp_atk": 40,
+        "sp_dfs": 60,
+        "spd": 35
+    },
+    {
+        "atk": 130,
+        "dfs": 80,
+        "hp": 60,
+        "id": 286,
+        "name": "Breloom",
+        "sp_atk": 60,
+        "sp_dfs": 60,
+        "spd": 70
+    },
+    {
+        "atk": 60,
+        "dfs": 60,
+        "hp": 60,
+        "id": 287,
+        "name": "Slakoth",
+        "sp_atk": 35,
+        "sp_dfs": 35,
+        "spd": 30
+    },
+    {
+        "atk": 80,
+        "dfs": 80,
+        "hp": 80,
+        "id": 288,
+        "name": "Vigoroth",
+        "sp_atk": 55,
+        "sp_dfs": 55,
+        "spd": 90
+    },
+    {
+        "atk": 160,
+        "dfs": 100,
+        "hp": 150,
+        "id": 289,
+        "name": "Slaking",
+        "sp_atk": 95,
+        "sp_dfs": 65,
+        "spd": 100
+    },
+    {
+        "atk": 45,
+        "dfs": 90,
+        "hp": 31,
+        "id": 290,
+        "name": "Nincada",
+        "sp_atk": 30,
+        "sp_dfs": 30,
+        "spd": 40
+    },
+    {
+        "atk": 90,
+        "dfs": 45,
+        "hp": 61,
+        "id": 291,
+        "name": "Ninjask",
+        "sp_atk": 50,
+        "sp_dfs": 50,
+        "spd": 160
+    },
+    {
+        "atk": 90,
+        "dfs": 45,
+        "hp": 1,
+        "id": 292,
+        "name": "Shedinja",
+        "sp_atk": 30,
+        "sp_dfs": 30,
+        "spd": 40
+    },
+    {
+        "atk": 51,
+        "dfs": 23,
+        "hp": 64,
+        "id": 293,
+        "name": "Whismur",
+        "sp_atk": 51,
+        "sp_dfs": 23,
+        "spd": 28
+    },
+    {
+        "atk": 71,
+        "dfs": 43,
+        "hp": 84,
+        "id": 294,
+        "name": "Loudred",
+        "sp_atk": 71,
+        "sp_dfs": 43,
+        "spd": 48
+    },
+    {
+        "atk": 91,
+        "dfs": 63,
+        "hp": 104,
+        "id": 295,
+        "name": "Exploud",
+        "sp_atk": 91,
+        "sp_dfs": 73,
+        "spd": 68
+    },
+    {
+        "atk": 60,
+        "dfs": 30,
+        "hp": 72,
+        "id": 296,
+        "name": "Makuhita",
+        "sp_atk": 20,
+        "sp_dfs": 30,
+        "spd": 25
+    },
+    {
+        "atk": 120,
+        "dfs": 60,
+        "hp": 144,
+        "id": 297,
+        "name": "Hariyama",
+        "sp_atk": 40,
+        "sp_dfs": 60,
+        "spd": 50
+    },
+    {
+        "atk": 20,
+        "dfs": 40,
+        "hp": 50,
+        "id": 298,
+        "name": "Azurill",
+        "sp_atk": 20,
+        "sp_dfs": 40,
+        "spd": 20
+    },
+    {
+        "atk": 45,
+        "dfs": 135,
+        "hp": 30,
+        "id": 299,
+        "name": "Nosepass",
+        "sp_atk": 45,
+        "sp_dfs": 90,
+        "spd": 30
+    },
+    {
+        "atk": 45,
+        "dfs": 45,
+        "hp": 50,
+        "id": 300,
+        "name": "Skitty",
+        "sp_atk": 35,
+        "sp_dfs": 35,
+        "spd": 50
+    },
+    {
+        "atk": 65,
+        "dfs": 65,
+        "hp": 70,
+        "id": 301,
+        "name": "Delcatty",
+        "sp_atk": 55,
+        "sp_dfs": 55,
+        "spd": 70
+    },
+    {
+        "atk": 75,
+        "dfs": 75,
+        "hp": 50,
+        "id": 302,
+        "name": "Sableye",
+        "sp_atk": 65,
+        "sp_dfs": 65,
+        "spd": 50
+    },
+    {
+        "atk": 85,
+        "dfs": 85,
+        "hp": 50,
+        "id": 303,
+        "name": "Mawile",
+        "sp_atk": 55,
+        "sp_dfs": 55,
+        "spd": 50
+    },
+    {
+        "atk": 70,
+        "dfs": 100,
+        "hp": 50,
+        "id": 304,
+        "name": "Aron",
+        "sp_atk": 40,
+        "sp_dfs": 40,
+        "spd": 30
+    },
+    {
+        "atk": 90,
+        "dfs": 140,
+        "hp": 60,
+        "id": 305,
+        "name": "Lairon",
+        "sp_atk": 50,
+        "sp_dfs": 50,
+        "spd": 40
+    },
+    {
+        "atk": 110,
+        "dfs": 180,
+        "hp": 70,
+        "id": 306,
+        "name": "Aggron",
+        "sp_atk": 60,
+        "sp_dfs": 60,
+        "spd": 50
+    },
+    {
+        "atk": 40,
+        "dfs": 55,
+        "hp": 30,
+        "id": 307,
+        "name": "Meditite",
+        "sp_atk": 40,
+        "sp_dfs": 55,
+        "spd": 60
+    },
+    {
+        "atk": 60,
+        "dfs": 75,
+        "hp": 60,
+        "id": 308,
+        "name": "Medicham",
+        "sp_atk": 60,
+        "sp_dfs": 75,
+        "spd": 80
+    },
+    {
+        "atk": 45,
+        "dfs": 40,
+        "hp": 40,
+        "id": 309,
+        "name": "Electrike",
+        "sp_atk": 65,
+        "sp_dfs": 40,
+        "spd": 65
+    },
+    {
+        "atk": 75,
+        "dfs": 60,
+        "hp": 70,
+        "id": 310,
+        "name": "Manectric",
+        "sp_atk": 105,
+        "sp_dfs": 60,
+        "spd": 105
+    },
+    {
+        "atk": 50,
+        "dfs": 40,
+        "hp": 60,
+        "id": 311,
+        "name": "Plusle",
+        "sp_atk": 85,
+        "sp_dfs": 75,
+        "spd": 95
+    },
+    {
+        "atk": 40,
+        "dfs": 50,
+        "hp": 60,
+        "id": 312,
+        "name": "Minun",
+        "sp_atk": 75,
+        "sp_dfs": 85,
+        "spd": 95
+    },
+    {
+        "atk": 73,
+        "dfs": 55,
+        "hp": 65,
+        "id": 313,
+        "name": "Volbeat",
+        "sp_atk": 47,
+        "sp_dfs": 75,
+        "spd": 85
+    },
+    {
+        "atk": 47,
+        "dfs": 55,
+        "hp": 65,
+        "id": 314,
+        "name": "Illumise",
+        "sp_atk": 73,
+        "sp_dfs": 75,
+        "spd": 85
+    },
+    {
+        "atk": 60,
+        "dfs": 45,
+        "hp": 50,
+        "id": 315,
+        "name": "Roselia",
+        "sp_atk": 100,
+        "sp_dfs": 80,
+        "spd": 65
+    },
+    {
+        "atk": 43,
+        "dfs": 53,
+        "hp": 70,
+        "id": 316,
+        "name": "Gulpin",
+        "sp_atk": 43,
+        "sp_dfs": 53,
+        "spd": 40
+    },
+    {
+        "atk": 73,
+        "dfs": 83,
+        "hp": 100,
+        "id": 317,
+        "name": "Swalot",
+        "sp_atk": 73,
+        "sp_dfs": 83,
+        "spd": 55
+    },
+    {
+        "atk": 90,
+        "dfs": 20,
+        "hp": 45,
+        "id": 318,
+        "name": "Carvanha",
+        "sp_atk": 65,
+        "sp_dfs": 20,
+        "spd": 65
+    },
+    {
+        "atk": 120,
+        "dfs": 40,
+        "hp": 70,
+        "id": 319,
+        "name": "Sharpedo",
+        "sp_atk": 95,
+        "sp_dfs": 40,
+        "spd": 95
+    },
+    {
+        "atk": 70,
+        "dfs": 35,
+        "hp": 130,
+        "id": 320,
+        "name": "Wailmer",
+        "sp_atk": 70,
+        "sp_dfs": 35,
+        "spd": 60
+    },
+    {
+        "atk": 90,
+        "dfs": 45,
+        "hp": 170,
+        "id": 321,
+        "name": "Wailord",
+        "sp_atk": 90,
+        "sp_dfs": 45,
+        "spd": 60
+    },
+    {
+        "atk": 60,
+        "dfs": 40,
+        "hp": 60,
+        "id": 322,
+        "name": "Numel",
+        "sp_atk": 65,
+        "sp_dfs": 45,
+        "spd": 35
+    },
+    {
+        "atk": 100,
+        "dfs": 70,
+        "hp": 70,
+        "id": 323,
+        "name": "Camerupt",
+        "sp_atk": 105,
+        "sp_dfs": 75,
+        "spd": 40
+    },
+    {
+        "atk": 85,
+        "dfs": 140,
+        "hp": 70,
+        "id": 324,
+        "name": "Torkoal",
+        "sp_atk": 85,
+        "sp_dfs": 70,
+        "spd": 20
+    },
+    {
+        "atk": 25,
+        "dfs": 35,
+        "hp": 60,
+        "id": 325,
+        "name": "Spoink",
+        "sp_atk": 70,
+        "sp_dfs": 80,
+        "spd": 60
+    },
+    {
+        "atk": 45,
+        "dfs": 65,
+        "hp": 80,
+        "id": 326,
+        "name": "Grumpig",
+        "sp_atk": 90,
+        "sp_dfs": 110,
+        "spd": 80
+    },
+    {
+        "atk": 60,
+        "dfs": 60,
+        "hp": 60,
+        "id": 327,
+        "name": "Spinda",
+        "sp_atk": 60,
+        "sp_dfs": 60,
+        "spd": 60
+    },
+    {
+        "atk": 100,
+        "dfs": 45,
+        "hp": 45,
+        "id": 328,
+        "name": "Trapinch",
+        "sp_atk": 45,
+        "sp_dfs": 45,
+        "spd": 10
+    },
+    {
+        "atk": 70,
+        "dfs": 50,
+        "hp": 50,
+        "id": 329,
+        "name": "Vibrava",
+        "sp_atk": 50,
+        "sp_dfs": 50,
+        "spd": 70
+    },
+    {
+        "atk": 100,
+        "dfs": 80,
+        "hp": 80,
+        "id": 330,
+        "name": "Flygon",
+        "sp_atk": 80,
+        "sp_dfs": 80,
+        "spd": 100
+    },
+    {
+        "atk": 85,
+        "dfs": 40,
+        "hp": 50,
+        "id": 331,
+        "name": "Cacnea",
+        "sp_atk": 85,
+        "sp_dfs": 40,
+        "spd": 35
+    },
+    {
+        "atk": 115,
+        "dfs": 60,
+        "hp": 70,
+        "id": 332,
+        "name": "Cacturne",
+        "sp_atk": 115,
+        "sp_dfs": 60,
+        "spd": 55
+    },
+    {
+        "atk": 40,
+        "dfs": 60,
+        "hp": 45,
+        "id": 333,
+        "name": "Swablu",
+        "sp_atk": 40,
+        "sp_dfs": 75,
+        "spd": 50
+    },
+    {
+        "atk": 70,
+        "dfs": 90,
+        "hp": 75,
+        "id": 334,
+        "name": "Altaria",
+        "sp_atk": 70,
+        "sp_dfs": 105,
+        "spd": 80
+    },
+    {
+        "atk": 115,
+        "dfs": 60,
+        "hp": 73,
+        "id": 335,
+        "name": "Zangoose",
+        "sp_atk": 60,
+        "sp_dfs": 60,
+        "spd": 90
+    },
+    {
+        "atk": 100,
+        "dfs": 60,
+        "hp": 73,
+        "id": 336,
+        "name": "Seviper",
+        "sp_atk": 100,
+        "sp_dfs": 60,
+        "spd": 65
+    },
+    {
+        "atk": 55,
+        "dfs": 65,
+        "hp": 70,
+        "id": 337,
+        "name": "Lunatone",
+        "sp_atk": 95,
+        "sp_dfs": 85,
+        "spd": 70
+    },
+    {
+        "atk": 95,
+        "dfs": 85,
+        "hp": 70,
+        "id": 338,
+        "name": "Solrock",
+        "sp_atk": 55,
+        "sp_dfs": 65,
+        "spd": 70
+    },
+    {
+        "atk": 48,
+        "dfs": 43,
+        "hp": 50,
+        "id": 339,
+        "name": "Barboach",
+        "sp_atk": 46,
+        "sp_dfs": 41,
+        "spd": 60
+    },
+    {
+        "atk": 78,
+        "dfs": 73,
+        "hp": 110,
+        "id": 340,
+        "name": "Whiscash",
+        "sp_atk": 76,
+        "sp_dfs": 71,
+        "spd": 60
+    },
+    {
+        "atk": 80,
+        "dfs": 65,
+        "hp": 43,
+        "id": 341,
+        "name": "Corphish",
+        "sp_atk": 50,
+        "sp_dfs": 35,
+        "spd": 35
+    },
+    {
+        "atk": 120,
+        "dfs": 85,
+        "hp": 63,
+        "id": 342,
+        "name": "Crawdaunt",
+        "sp_atk": 90,
+        "sp_dfs": 55,
+        "spd": 55
+    },
+    {
+        "atk": 40,
+        "dfs": 55,
+        "hp": 40,
+        "id": 343,
+        "name": "Baltoy",
+        "sp_atk": 40,
+        "sp_dfs": 70,
+        "spd": 55
+    },
+    {
+        "atk": 70,
+        "dfs": 105,
+        "hp": 60,
+        "id": 344,
+        "name": "Claydol",
+        "sp_atk": 70,
+        "sp_dfs": 120,
+        "spd": 75
+    },
+    {
+        "atk": 41,
+        "dfs": 77,
+        "hp": 66,
+        "id": 345,
+        "name": "Lileep",
+        "sp_atk": 61,
+        "sp_dfs": 87,
+        "spd": 23
+    },
+    {
+        "atk": 81,
+        "dfs": 97,
+        "hp": 86,
+        "id": 346,
+        "name": "Cradily",
+        "sp_atk": 81,
+        "sp_dfs": 107,
+        "spd": 43
+    },
+    {
+        "atk": 95,
+        "dfs": 50,
+        "hp": 45,
+        "id": 347,
+        "name": "Anorith",
+        "sp_atk": 40,
+        "sp_dfs": 50,
+        "spd": 75
+    },
+    {
+        "atk": 125,
+        "dfs": 100,
+        "hp": 75,
+        "id": 348,
+        "name": "Armaldo",
+        "sp_atk": 70,
+        "sp_dfs": 80,
+        "spd": 45
+    },
+    {
+        "atk": 15,
+        "dfs": 20,
+        "hp": 20,
+        "id": 349,
+        "name": "Feebas",
+        "sp_atk": 10,
+        "sp_dfs": 55,
+        "spd": 80
+    },
+    {
+        "atk": 60,
+        "dfs": 79,
+        "hp": 95,
+        "id": 350,
+        "name": "Milotic",
+        "sp_atk": 100,
+        "sp_dfs": 125,
+        "spd": 81
+    },
+    {
+        "atk": 70,
+        "dfs": 70,
+        "hp": 70,
+        "id": 351,
+        "name": "Castform",
+        "sp_atk": 70,
+        "sp_dfs": 70,
+        "spd": 70
+    },
+    {
+        "atk": 90,
+        "dfs": 70,
+        "hp": 60,
+        "id": 352,
+        "name": "Kecleon",
+        "sp_atk": 60,
+        "sp_dfs": 120,
+        "spd": 40
+    },
+    {
+        "atk": 75,
+        "dfs": 35,
+        "hp": 44,
+        "id": 353,
+        "name": "Shuppet",
+        "sp_atk": 63,
+        "sp_dfs": 33,
+        "spd": 45
+    },
+    {
+        "atk": 115,
+        "dfs": 65,
+        "hp": 64,
+        "id": 354,
+        "name": "Banette",
+        "sp_atk": 83,
+        "sp_dfs": 63,
+        "spd": 65
+    },
+    {
+        "atk": 40,
+        "dfs": 90,
+        "hp": 20,
+        "id": 355,
+        "name": "Duskull",
+        "sp_atk": 30,
+        "sp_dfs": 90,
+        "spd": 25
+    },
+    {
+        "atk": 70,
+        "dfs": 130,
+        "hp": 40,
+        "id": 356,
+        "name": "Dusclops",
+        "sp_atk": 60,
+        "sp_dfs": 130,
+        "spd": 25
+    },
+    {
+        "atk": 68,
+        "dfs": 83,
+        "hp": 99,
+        "id": 357,
+        "name": "Tropius",
+        "sp_atk": 72,
+        "sp_dfs": 87,
+        "spd": 51
+    },
+    {
+        "atk": 50,
+        "dfs": 70,
+        "hp": 65,
+        "id": 358,
+        "name": "Chimecho",
+        "sp_atk": 95,
+        "sp_dfs": 80,
+        "spd": 65
+    },
+    {
+        "atk": 130,
+        "dfs": 60,
+        "hp": 65,
+        "id": 359,
+        "name": "Absol",
+        "sp_atk": 75,
+        "sp_dfs": 60,
+        "spd": 75
+    },
+    {
+        "atk": 23,
+        "dfs": 48,
+        "hp": 95,
+        "id": 360,
+        "name": "Wynaut",
+        "sp_atk": 23,
+        "sp_dfs": 48,
+        "spd": 23
+    },
+    {
+        "atk": 50,
+        "dfs": 50,
+        "hp": 50,
+        "id": 361,
+        "name": "Snorunt",
+        "sp_atk": 50,
+        "sp_dfs": 50,
+        "spd": 50
+    },
+    {
+        "atk": 80,
+        "dfs": 80,
+        "hp": 80,
+        "id": 362,
+        "name": "Glalie",
+        "sp_atk": 80,
+        "sp_dfs": 80,
+        "spd": 80
+    },
+    {
+        "atk": 40,
+        "dfs": 50,
+        "hp": 70,
+        "id": 363,
+        "name": "Spheal",
+        "sp_atk": 55,
+        "sp_dfs": 50,
+        "spd": 25
+    },
+    {
+        "atk": 60,
+        "dfs": 70,
+        "hp": 90,
+        "id": 364,
+        "name": "Sealeo",
+        "sp_atk": 75,
+        "sp_dfs": 70,
+        "spd": 45
+    },
+    {
+        "atk": 80,
+        "dfs": 90,
+        "hp": 110,
+        "id": 365,
+        "name": "Walrein",
+        "sp_atk": 95,
+        "sp_dfs": 90,
+        "spd": 65
+    },
+    {
+        "atk": 64,
+        "dfs": 85,
+        "hp": 35,
+        "id": 366,
+        "name": "Clamperl",
+        "sp_atk": 74,
+        "sp_dfs": 55,
+        "spd": 32
+    },
+    {
+        "atk": 104,
+        "dfs": 105,
+        "hp": 55,
+        "id": 367,
+        "name": "Huntail",
+        "sp_atk": 94,
+        "sp_dfs": 75,
+        "spd": 52
+    },
+    {
+        "atk": 84,
+        "dfs": 105,
+        "hp": 55,
+        "id": 368,
+        "name": "Gorebyss",
+        "sp_atk": 114,
+        "sp_dfs": 75,
+        "spd": 52
+    },
+    {
+        "atk": 90,
+        "dfs": 130,
+        "hp": 100,
+        "id": 369,
+        "name": "Relicanth",
+        "sp_atk": 45,
+        "sp_dfs": 65,
+        "spd": 55
+    },
+    {
+        "atk": 30,
+        "dfs": 55,
+        "hp": 43,
+        "id": 370,
+        "name": "Luvdisc",
+        "sp_atk": 40,
+        "sp_dfs": 65,
+        "spd": 97
+    },
+    {
+        "atk": 75,
+        "dfs": 60,
+        "hp": 45,
+        "id": 371,
+        "name": "Bagon",
+        "sp_atk": 40,
+        "sp_dfs": 30,
+        "spd": 50
+    },
+    {
+        "atk": 95,
+        "dfs": 100,
+        "hp": 65,
+        "id": 372,
+        "name": "Shelgon",
+        "sp_atk": 60,
+        "sp_dfs": 50,
+        "spd": 50
+    },
+    {
+        "atk": 135,
+        "dfs": 80,
+        "hp": 95,
+        "id": 373,
+        "name": "Salamence",
+        "sp_atk": 110,
+        "sp_dfs": 80,
+        "spd": 100
+    },
+    {
+        "atk": 55,
+        "dfs": 80,
+        "hp": 40,
+        "id": 374,
+        "name": "Beldum",
+        "sp_atk": 35,
+        "sp_dfs": 60,
+        "spd": 30
+    },
+    {
+        "atk": 75,
+        "dfs": 100,
+        "hp": 60,
+        "id": 375,
+        "name": "Metang",
+        "sp_atk": 55,
+        "sp_dfs": 80,
+        "spd": 50
+    },
+    {
+        "atk": 135,
+        "dfs": 130,
+        "hp": 80,
+        "id": 376,
+        "name": "Metagross",
+        "sp_atk": 95,
+        "sp_dfs": 90,
+        "spd": 70
+    },
+    {
+        "atk": 100,
+        "dfs": 200,
+        "hp": 80,
+        "id": 377,
+        "name": "Regirock",
+        "sp_atk": 50,
+        "sp_dfs": 100,
+        "spd": 50
+    },
+    {
+        "atk": 50,
+        "dfs": 100,
+        "hp": 80,
+        "id": 378,
+        "name": "Regice",
+        "sp_atk": 100,
+        "sp_dfs": 200,
+        "spd": 50
+    },
+    {
+        "atk": 75,
+        "dfs": 150,
+        "hp": 80,
+        "id": 379,
+        "name": "Registeel",
+        "sp_atk": 75,
+        "sp_dfs": 150,
+        "spd": 50
+    },
+    {
+        "atk": 80,
+        "dfs": 90,
+        "hp": 80,
+        "id": 380,
+        "name": "Latias",
+        "sp_atk": 110,
+        "sp_dfs": 130,
+        "spd": 110
+    },
+    {
+        "atk": 90,
+        "dfs": 80,
+        "hp": 80,
+        "id": 381,
+        "name": "Latios",
+        "sp_atk": 130,
+        "sp_dfs": 110,
+        "spd": 110
+    },
+    {
+        "atk": 100,
+        "dfs": 90,
+        "hp": 100,
+        "id": 382,
+        "name": "Kyogre",
+        "sp_atk": 150,
+        "sp_dfs": 140,
+        "spd": 90
+    },
+    {
+        "atk": 150,
+        "dfs": 140,
+        "hp": 100,
+        "id": 383,
+        "name": "Groudon",
+        "sp_atk": 100,
+        "sp_dfs": 90,
+        "spd": 90
+    },
+    {
+        "atk": 150,
+        "dfs": 90,
+        "hp": 105,
+        "id": 384,
+        "name": "Rayquaza",
+        "sp_atk": 150,
+        "sp_dfs": 90,
+        "spd": 95
+    },
+    {
+        "atk": 100,
+        "dfs": 100,
+        "hp": 100,
+        "id": 385,
+        "name": "Jirachi",
+        "sp_atk": 100,
+        "sp_dfs": 100,
+        "spd": 100
+    },
+    {
+        "atk": 150,
+        "dfs": 50,
+        "hp": 50,
+        "id": 386,
+        "name": "Deoxys",
+        "sp_atk": 150,
+        "sp_dfs": 50,
+        "spd": 150
+    },
+    {
+        "atk": 68,
+        "dfs": 64,
+        "hp": 55,
+        "id": 387,
+        "name": "Turtwig",
+        "sp_atk": 45,
+        "sp_dfs": 55,
+        "spd": 31
+    },
+    {
+        "atk": 89,
+        "dfs": 85,
+        "hp": 75,
+        "id": 388,
+        "name": "Grotle",
+        "sp_atk": 55,
+        "sp_dfs": 65,
+        "spd": 36
+    },
+    {
+        "atk": 109,
+        "dfs": 105,
+        "hp": 95,
+        "id": 389,
+        "name": "Torterra",
+        "sp_atk": 75,
+        "sp_dfs": 85,
+        "spd": 56
+    },
+    {
+        "atk": 58,
+        "dfs": 44,
+        "hp": 44,
+        "id": 390,
+        "name": "Chimchar",
+        "sp_atk": 58,
+        "sp_dfs": 44,
+        "spd": 61
+    },
+    {
+        "atk": 78,
+        "dfs": 52,
+        "hp": 64,
+        "id": 391,
+        "name": "Monferno",
+        "sp_atk": 78,
+        "sp_dfs": 52,
+        "spd": 81
+    },
+    {
+        "atk": 104,
+        "dfs": 71,
+        "hp": 76,
+        "id": 392,
+        "name": "Infernape",
+        "sp_atk": 104,
+        "sp_dfs": 71,
+        "spd": 108
+    },
+    {
+        "atk": 51,
+        "dfs": 53,
+        "hp": 53,
+        "id": 393,
+        "name": "Piplup",
+        "sp_atk": 61,
+        "sp_dfs": 56,
+        "spd": 40
+    },
+    {
+        "atk": 66,
+        "dfs": 68,
+        "hp": 64,
+        "id": 394,
+        "name": "Prinplup",
+        "sp_atk": 81,
+        "sp_dfs": 76,
+        "spd": 50
+    },
+    {
+        "atk": 86,
+        "dfs": 88,
+        "hp": 84,
+        "id": 395,
+        "name": "Empoleon",
+        "sp_atk": 111,
+        "sp_dfs": 101,
+        "spd": 60
+    },
+    {
+        "atk": 55,
+        "dfs": 30,
+        "hp": 40,
+        "id": 396,
+        "name": "Starly",
+        "sp_atk": 30,
+        "sp_dfs": 30,
+        "spd": 60
+    },
+    {
+        "atk": 75,
+        "dfs": 50,
+        "hp": 55,
+        "id": 397,
+        "name": "Staravia",
+        "sp_atk": 40,
+        "sp_dfs": 40,
+        "spd": 80
+    },
+    {
+        "atk": 120,
+        "dfs": 70,
+        "hp": 85,
+        "id": 398,
+        "name": "Staraptor",
+        "sp_atk": 50,
+        "sp_dfs": 60,
+        "spd": 100
+    },
+    {
+        "atk": 45,
+        "dfs": 40,
+        "hp": 59,
+        "id": 399,
+        "name": "Bidoof",
+        "sp_atk": 35,
+        "sp_dfs": 40,
+        "spd": 31
+    },
+    {
+        "atk": 85,
+        "dfs": 60,
+        "hp": 79,
+        "id": 400,
+        "name": "Bibarel",
+        "sp_atk": 55,
+        "sp_dfs": 60,
+        "spd": 71
+    },
+    {
+        "atk": 25,
+        "dfs": 41,
+        "hp": 37,
+        "id": 401,
+        "name": "Kricketot",
+        "sp_atk": 25,
+        "sp_dfs": 41,
+        "spd": 25
+    },
+    {
+        "atk": 85,
+        "dfs": 51,
+        "hp": 77,
+        "id": 402,
+        "name": "Kricketune",
+        "sp_atk": 55,
+        "sp_dfs": 51,
+        "spd": 65
+    },
+    {
+        "atk": 65,
+        "dfs": 34,
+        "hp": 45,
+        "id": 403,
+        "name": "Shinx",
+        "sp_atk": 40,
+        "sp_dfs": 34,
+        "spd": 45
+    },
+    {
+        "atk": 85,
+        "dfs": 49,
+        "hp": 60,
+        "id": 404,
+        "name": "Luxio",
+        "sp_atk": 60,
+        "sp_dfs": 49,
+        "spd": 60
+    },
+    {
+        "atk": 120,
+        "dfs": 79,
+        "hp": 80,
+        "id": 405,
+        "name": "Luxray",
+        "sp_atk": 95,
+        "sp_dfs": 79,
+        "spd": 70
+    },
+    {
+        "atk": 30,
+        "dfs": 35,
+        "hp": 40,
+        "id": 406,
+        "name": "Budew",
+        "sp_atk": 50,
+        "sp_dfs": 70,
+        "spd": 55
+    },
+    {
+        "atk": 70,
+        "dfs": 65,
+        "hp": 60,
+        "id": 407,
+        "name": "Roserade",
+        "sp_atk": 125,
+        "sp_dfs": 105,
+        "spd": 90
+    },
+    {
+        "atk": 125,
+        "dfs": 40,
+        "hp": 67,
+        "id": 408,
+        "name": "Cranidos",
+        "sp_atk": 30,
+        "sp_dfs": 30,
+        "spd": 58
+    },
+    {
+        "atk": 165,
+        "dfs": 60,
+        "hp": 97,
+        "id": 409,
+        "name": "Rampardos",
+        "sp_atk": 65,
+        "sp_dfs": 50,
+        "spd": 58
+    },
+    {
+        "atk": 42,
+        "dfs": 118,
+        "hp": 30,
+        "id": 410,
+        "name": "Shieldon",
+        "sp_atk": 42,
+        "sp_dfs": 88,
+        "spd": 30
+    },
+    {
+        "atk": 52,
+        "dfs": 168,
+        "hp": 60,
+        "id": 411,
+        "name": "Bastiodon",
+        "sp_atk": 47,
+        "sp_dfs": 138,
+        "spd": 30
+    },
+    {
+        "atk": 29,
+        "dfs": 45,
+        "hp": 40,
+        "id": 412,
+        "name": "Burmy",
+        "sp_atk": 29,
+        "sp_dfs": 45,
+        "spd": 36
+    },
+    {
+        "atk": 59,
+        "dfs": 85,
+        "hp": 60,
+        "id": 413,
+        "name": "Wormadam",
+        "sp_atk": 79,
+        "sp_dfs": 105,
+        "spd": 36
+    },
+    {
+        "atk": 94,
+        "dfs": 50,
+        "hp": 70,
+        "id": 414,
+        "name": "Mothim",
+        "sp_atk": 94,
+        "sp_dfs": 50,
+        "spd": 66
+    },
+    {
+        "atk": 30,
+        "dfs": 42,
+        "hp": 30,
+        "id": 415,
+        "name": "Combee",
+        "sp_atk": 30,
+        "sp_dfs": 42,
+        "spd": 70
+    },
+    {
+        "atk": 80,
+        "dfs": 102,
+        "hp": 70,
+        "id": 416,
+        "name": "Vespiquen",
+        "sp_atk": 80,
+        "sp_dfs": 102,
+        "spd": 40
+    },
+    {
+        "atk": 45,
+        "dfs": 70,
+        "hp": 60,
+        "id": 417,
+        "name": "Pachirisu",
+        "sp_atk": 45,
+        "sp_dfs": 90,
+        "spd": 95
+    },
+    {
+        "atk": 65,
+        "dfs": 35,
+        "hp": 55,
+        "id": 418,
+        "name": "Buizel",
+        "sp_atk": 60,
+        "sp_dfs": 30,
+        "spd": 85
+    },
+    {
+        "atk": 105,
+        "dfs": 55,
+        "hp": 85,
+        "id": 419,
+        "name": "Floatzel",
+        "sp_atk": 85,
+        "sp_dfs": 50,
+        "spd": 115
+    },
+    {
+        "atk": 35,
+        "dfs": 45,
+        "hp": 45,
+        "id": 420,
+        "name": "Cherubi",
+        "sp_atk": 62,
+        "sp_dfs": 53,
+        "spd": 35
+    },
+    {
+        "atk": 60,
+        "dfs": 70,
+        "hp": 70,
+        "id": 421,
+        "name": "Cherrim",
+        "sp_atk": 87,
+        "sp_dfs": 78,
+        "spd": 85
+    },
+    {
+        "atk": 48,
+        "dfs": 48,
+        "hp": 76,
+        "id": 422,
+        "name": "Shellos",
+        "sp_atk": 57,
+        "sp_dfs": 62,
+        "spd": 34
+    },
+    {
+        "atk": 83,
+        "dfs": 68,
+        "hp": 111,
+        "id": 423,
+        "name": "Gastrodon",
+        "sp_atk": 92,
+        "sp_dfs": 82,
+        "spd": 39
+    },
+    {
+        "atk": 100,
+        "dfs": 66,
+        "hp": 75,
+        "id": 424,
+        "name": "Ambipom",
+        "sp_atk": 60,
+        "sp_dfs": 66,
+        "spd": 115
+    },
+    {
+        "atk": 50,
+        "dfs": 34,
+        "hp": 90,
+        "id": 425,
+        "name": "Drifloon",
+        "sp_atk": 60,
+        "sp_dfs": 44,
+        "spd": 70
+    },
+    {
+        "atk": 80,
+        "dfs": 44,
+        "hp": 150,
+        "id": 426,
+        "name": "Drifblim",
+        "sp_atk": 90,
+        "sp_dfs": 54,
+        "spd": 80
+    },
+    {
+        "atk": 66,
+        "dfs": 44,
+        "hp": 55,
+        "id": 427,
+        "name": "Buneary",
+        "sp_atk": 44,
+        "sp_dfs": 56,
+        "spd": 85
+    },
+    {
+        "atk": 76,
+        "dfs": 84,
+        "hp": 65,
+        "id": 428,
+        "name": "Lopunny",
+        "sp_atk": 54,
+        "sp_dfs": 96,
+        "spd": 105
+    },
+    {
+        "atk": 60,
+        "dfs": 60,
+        "hp": 60,
+        "id": 429,
+        "name": "Mismagius",
+        "sp_atk": 105,
+        "sp_dfs": 105,
+        "spd": 105
+    },
+    {
+        "atk": 125,
+        "dfs": 52,
+        "hp": 100,
+        "id": 430,
+        "name": "Honchkrow",
+        "sp_atk": 105,
+        "sp_dfs": 52,
+        "spd": 71
+    },
+    {
+        "atk": 55,
+        "dfs": 42,
+        "hp": 49,
+        "id": 431,
+        "name": "Glameow",
+        "sp_atk": 42,
+        "sp_dfs": 37,
+        "spd": 85
+    },
+    {
+        "atk": 82,
+        "dfs": 64,
+        "hp": 71,
+        "id": 432,
+        "name": "Purugly",
+        "sp_atk": 64,
+        "sp_dfs": 59,
+        "spd": 112
+    },
+    {
+        "atk": 30,
+        "dfs": 50,
+        "hp": 45,
+        "id": 433,
+        "name": "Chingling",
+        "sp_atk": 65,
+        "sp_dfs": 50,
+        "spd": 45
+    },
+    {
+        "atk": 63,
+        "dfs": 47,
+        "hp": 63,
+        "id": 434,
+        "name": "Stunky",
+        "sp_atk": 41,
+        "sp_dfs": 41,
+        "spd": 74
+    },
+    {
+        "atk": 93,
+        "dfs": 67,
+        "hp": 103,
+        "id": 435,
+        "name": "Skuntank",
+        "sp_atk": 71,
+        "sp_dfs": 61,
+        "spd": 84
+    },
+    {
+        "atk": 24,
+        "dfs": 86,
+        "hp": 57,
+        "id": 436,
+        "name": "Bronzor",
+        "sp_atk": 24,
+        "sp_dfs": 86,
+        "spd": 23
+    },
+    {
+        "atk": 89,
+        "dfs": 116,
+        "hp": 67,
+        "id": 437,
+        "name": "Bronzong",
+        "sp_atk": 79,
+        "sp_dfs": 116,
+        "spd": 33
+    },
+    {
+        "atk": 80,
+        "dfs": 95,
+        "hp": 50,
+        "id": 438,
+        "name": "Bonsly",
+        "sp_atk": 10,
+        "sp_dfs": 45,
+        "spd": 10
+    },
+    {
+        "atk": 25,
+        "dfs": 45,
+        "hp": 20,
+        "id": 439,
+        "name": "Mime Jr.",
+        "sp_atk": 70,
+        "sp_dfs": 90,
+        "spd": 60
+    },
+    {
+        "atk": 5,
+        "dfs": 5,
+        "hp": 100,
+        "id": 440,
+        "name": "Happiny",
+        "sp_atk": 15,
+        "sp_dfs": 65,
+        "spd": 30
+    },
+    {
+        "atk": 65,
+        "dfs": 45,
+        "hp": 76,
+        "id": 441,
+        "name": "Chatot",
+        "sp_atk": 92,
+        "sp_dfs": 42,
+        "spd": 91
+    },
+    {
+        "atk": 92,
+        "dfs": 108,
+        "hp": 50,
+        "id": 442,
+        "name": "Spiritomb",
+        "sp_atk": 92,
+        "sp_dfs": 108,
+        "spd": 35
+    },
+    {
+        "atk": 70,
+        "dfs": 45,
+        "hp": 58,
+        "id": 443,
+        "name": "Gible",
+        "sp_atk": 40,
+        "sp_dfs": 45,
+        "spd": 42
+    },
+    {
+        "atk": 90,
+        "dfs": 65,
+        "hp": 68,
+        "id": 444,
+        "name": "Gabite",
+        "sp_atk": 50,
+        "sp_dfs": 55,
+        "spd": 82
+    },
+    {
+        "atk": 130,
+        "dfs": 95,
+        "hp": 108,
+        "id": 445,
+        "name": "Garchomp",
+        "sp_atk": 80,
+        "sp_dfs": 85,
+        "spd": 102
+    },
+    {
+        "atk": 85,
+        "dfs": 40,
+        "hp": 135,
+        "id": 446,
+        "name": "Munchlax",
+        "sp_atk": 40,
+        "sp_dfs": 85,
+        "spd": 5
+    },
+    {
+        "atk": 70,
+        "dfs": 40,
+        "hp": 40,
+        "id": 447,
+        "name": "Riolu",
+        "sp_atk": 35,
+        "sp_dfs": 40,
+        "spd": 60
+    },
+    {
+        "atk": 110,
+        "dfs": 70,
+        "hp": 70,
+        "id": 448,
+        "name": "Lucario",
+        "sp_atk": 115,
+        "sp_dfs": 70,
+        "spd": 90
+    },
+    {
+        "atk": 72,
+        "dfs": 78,
+        "hp": 68,
+        "id": 449,
+        "name": "Hippopotas",
+        "sp_atk": 38,
+        "sp_dfs": 42,
+        "spd": 32
+    },
+    {
+        "atk": 112,
+        "dfs": 118,
+        "hp": 108,
+        "id": 450,
+        "name": "Hippowdon",
+        "sp_atk": 68,
+        "sp_dfs": 72,
+        "spd": 47
+    },
+    {
+        "atk": 50,
+        "dfs": 90,
+        "hp": 40,
+        "id": 451,
+        "name": "Skorupi",
+        "sp_atk": 30,
+        "sp_dfs": 55,
+        "spd": 65
+    },
+    {
+        "atk": 90,
+        "dfs": 110,
+        "hp": 70,
+        "id": 452,
+        "name": "Drapion",
+        "sp_atk": 60,
+        "sp_dfs": 75,
+        "spd": 95
+    },
+    {
+        "atk": 61,
+        "dfs": 40,
+        "hp": 48,
+        "id": 453,
+        "name": "Croagunk",
+        "sp_atk": 61,
+        "sp_dfs": 40,
+        "spd": 50
+    },
+    {
+        "atk": 106,
+        "dfs": 65,
+        "hp": 83,
+        "id": 454,
+        "name": "Toxicroak",
+        "sp_atk": 86,
+        "sp_dfs": 65,
+        "spd": 85
+    },
+    {
+        "atk": 100,
+        "dfs": 72,
+        "hp": 74,
+        "id": 455,
+        "name": "Carnivine",
+        "sp_atk": 90,
+        "sp_dfs": 72,
+        "spd": 46
+    },
+    {
+        "atk": 49,
+        "dfs": 56,
+        "hp": 49,
+        "id": 456,
+        "name": "Finneon",
+        "sp_atk": 49,
+        "sp_dfs": 61,
+        "spd": 66
+    },
+    {
+        "atk": 69,
+        "dfs": 76,
+        "hp": 69,
+        "id": 457,
+        "name": "Lumineon",
+        "sp_atk": 69,
+        "sp_dfs": 86,
+        "spd": 91
+    },
+    {
+        "atk": 20,
+        "dfs": 50,
+        "hp": 45,
+        "id": 458,
+        "name": "Mantyke",
+        "sp_atk": 60,
+        "sp_dfs": 120,
+        "spd": 50
+    },
+    {
+        "atk": 62,
+        "dfs": 50,
+        "hp": 60,
+        "id": 459,
+        "name": "Snover",
+        "sp_atk": 62,
+        "sp_dfs": 60,
+        "spd": 40
+    },
+    {
+        "atk": 92,
+        "dfs": 75,
+        "hp": 90,
+        "id": 460,
+        "name": "Abomasnow",
+        "sp_atk": 92,
+        "sp_dfs": 85,
+        "spd": 60
+    },
+    {
+        "atk": 120,
+        "dfs": 65,
+        "hp": 70,
+        "id": 461,
+        "name": "Weavile",
+        "sp_atk": 45,
+        "sp_dfs": 85,
+        "spd": 125
+    },
+    {
+        "atk": 70,
+        "dfs": 115,
+        "hp": 70,
+        "id": 462,
+        "name": "Magnezone",
+        "sp_atk": 130,
+        "sp_dfs": 90,
+        "spd": 60
+    },
+    {
+        "atk": 85,
+        "dfs": 95,
+        "hp": 110,
+        "id": 463,
+        "name": "Lickilicky",
+        "sp_atk": 80,
+        "sp_dfs": 95,
+        "spd": 50
+    },
+    {
+        "atk": 140,
+        "dfs": 130,
+        "hp": 115,
+        "id": 464,
+        "name": "Rhyperior",
+        "sp_atk": 55,
+        "sp_dfs": 55,
+        "spd": 40
+    },
+    {
+        "atk": 100,
+        "dfs": 125,
+        "hp": 100,
+        "id": 465,
+        "name": "Tangrowth",
+        "sp_atk": 110,
+        "sp_dfs": 50,
+        "spd": 50
+    },
+    {
+        "atk": 123,
+        "dfs": 67,
+        "hp": 75,
+        "id": 466,
+        "name": "Electivire",
+        "sp_atk": 95,
+        "sp_dfs": 85,
+        "spd": 95
+    },
+    {
+        "atk": 95,
+        "dfs": 67,
+        "hp": 75,
+        "id": 467,
+        "name": "Magmortar",
+        "sp_atk": 125,
+        "sp_dfs": 95,
+        "spd": 83
+    },
+    {
+        "atk": 50,
+        "dfs": 95,
+        "hp": 85,
+        "id": 468,
+        "name": "Togekiss",
+        "sp_atk": 120,
+        "sp_dfs": 115,
+        "spd": 80
+    },
+    {
+        "atk": 76,
+        "dfs": 86,
+        "hp": 86,
+        "id": 469,
+        "name": "Yanmega",
+        "sp_atk": 116,
+        "sp_dfs": 56,
+        "spd": 95
+    },
+    {
+        "atk": 110,
+        "dfs": 130,
+        "hp": 65,
+        "id": 470,
+        "name": "Leafeon",
+        "sp_atk": 60,
+        "sp_dfs": 65,
+        "spd": 95
+    },
+    {
+        "atk": 60,
+        "dfs": 110,
+        "hp": 65,
+        "id": 471,
+        "name": "Glaceon",
+        "sp_atk": 130,
+        "sp_dfs": 95,
+        "spd": 65
+    },
+    {
+        "atk": 95,
+        "dfs": 125,
+        "hp": 75,
+        "id": 472,
+        "name": "Gliscor",
+        "sp_atk": 45,
+        "sp_dfs": 75,
+        "spd": 95
+    },
+    {
+        "atk": 130,
+        "dfs": 80,
+        "hp": 110,
+        "id": 473,
+        "name": "Mamoswine",
+        "sp_atk": 70,
+        "sp_dfs": 60,
+        "spd": 80
+    },
+    {
+        "atk": 80,
+        "dfs": 70,
+        "hp": 85,
+        "id": 474,
+        "name": "Porygon-z",
+        "sp_atk": 135,
+        "sp_dfs": 75,
+        "spd": 90
+    },
+    {
+        "atk": 125,
+        "dfs": 65,
+        "hp": 68,
+        "id": 475,
+        "name": "Gallade",
+        "sp_atk": 65,
+        "sp_dfs": 115,
+        "spd": 80
+    },
+    {
+        "atk": 55,
+        "dfs": 145,
+        "hp": 60,
+        "id": 476,
+        "name": "Probopass",
+        "sp_atk": 75,
+        "sp_dfs": 150,
+        "spd": 40
+    },
+    {
+        "atk": 100,
+        "dfs": 135,
+        "hp": 45,
+        "id": 477,
+        "name": "Dusknoir",
+        "sp_atk": 65,
+        "sp_dfs": 135,
+        "spd": 45
+    },
+    {
+        "atk": 80,
+        "dfs": 70,
+        "hp": 70,
+        "id": 478,
+        "name": "Froslass",
+        "sp_atk": 80,
+        "sp_dfs": 70,
+        "spd": 110
+    },
+    {
+        "atk": 50,
+        "dfs": 77,
+        "hp": 50,
+        "id": 479,
+        "name": "Rotom",
+        "sp_atk": 95,
+        "sp_dfs": 77,
+        "spd": 91
+    },
+    {
+        "atk": 75,
+        "dfs": 130,
+        "hp": 75,
+        "id": 480,
+        "name": "Uxie",
+        "sp_atk": 75,
+        "sp_dfs": 130,
+        "spd": 95
+    },
+    {
+        "atk": 105,
+        "dfs": 105,
+        "hp": 80,
+        "id": 481,
+        "name": "Mesprit",
+        "sp_atk": 105,
+        "sp_dfs": 105,
+        "spd": 80
+    },
+    {
+        "atk": 125,
+        "dfs": 70,
+        "hp": 75,
+        "id": 482,
+        "name": "Azelf",
+        "sp_atk": 125,
+        "sp_dfs": 70,
+        "spd": 115
+    },
+    {
+        "atk": 120,
+        "dfs": 120,
+        "hp": 100,
+        "id": 483,
+        "name": "Dialga",
+        "sp_atk": 150,
+        "sp_dfs": 100,
+        "spd": 90
+    },
+    {
+        "atk": 120,
+        "dfs": 100,
+        "hp": 90,
+        "id": 484,
+        "name": "Palkia",
+        "sp_atk": 150,
+        "sp_dfs": 120,
+        "spd": 100
+    },
+    {
+        "atk": 90,
+        "dfs": 106,
+        "hp": 91,
+        "id": 485,
+        "name": "Heatran",
+        "sp_atk": 130,
+        "sp_dfs": 106,
+        "spd": 77
+    },
+    {
+        "atk": 160,
+        "dfs": 110,
+        "hp": 110,
+        "id": 486,
+        "name": "Regigigas",
+        "sp_atk": 80,
+        "sp_dfs": 110,
+        "spd": 100
+    },
+    {
+        "atk": 100,
+        "dfs": 120,
+        "hp": 150,
+        "id": 487,
+        "name": "Giratina",
+        "sp_atk": 100,
+        "sp_dfs": 120,
+        "spd": 90
+    },
+    {
+        "atk": 70,
+        "dfs": 120,
+        "hp": 120,
+        "id": 488,
+        "name": "Cresselia",
+        "sp_atk": 75,
+        "sp_dfs": 130,
+        "spd": 85
+    },
+    {
+        "atk": 80,
+        "dfs": 80,
+        "hp": 80,
+        "id": 489,
+        "name": "Phione",
+        "sp_atk": 80,
+        "sp_dfs": 80,
+        "spd": 80
+    },
+    {
+        "atk": 100,
+        "dfs": 100,
+        "hp": 100,
+        "id": 490,
+        "name": "Manaphy",
+        "sp_atk": 100,
+        "sp_dfs": 100,
+        "spd": 100
+    },
+    {
+        "atk": 90,
+        "dfs": 90,
+        "hp": 70,
+        "id": 491,
+        "name": "Darkrai",
+        "sp_atk": 135,
+        "sp_dfs": 90,
+        "spd": 125
+    },
+    {
+        "atk": 100,
+        "dfs": 100,
+        "hp": 100,
+        "id": 492,
+        "name": "Shaymin",
+        "sp_atk": 100,
+        "sp_dfs": 100,
+        "spd": 100
+    },
+    {
+        "atk": 120,
+        "dfs": 120,
+        "hp": 120,
+        "id": 493,
+        "name": "Arceus",
+        "sp_atk": 120,
+        "sp_dfs": 120,
+        "spd": 120
+    },
+    {
+        "atk": 100,
+        "dfs": 100,
+        "hp": 100,
+        "id": 494,
+        "name": "Victini",
+        "sp_atk": 100,
+        "sp_dfs": 100,
+        "spd": 100
+    },
+    {
+        "atk": 45,
+        "dfs": 55,
+        "hp": 45,
+        "id": 495,
+        "name": "Snivy",
+        "sp_atk": 45,
+        "sp_dfs": 55,
+        "spd": 63
+    },
+    {
+        "atk": 60,
+        "dfs": 75,
+        "hp": 60,
+        "id": 496,
+        "name": "Servine",
+        "sp_atk": 60,
+        "sp_dfs": 75,
+        "spd": 83
+    },
+    {
+        "atk": 75,
+        "dfs": 95,
+        "hp": 75,
+        "id": 497,
+        "name": "Serperior",
+        "sp_atk": 75,
+        "sp_dfs": 95,
+        "spd": 113
+    },
+    {
+        "atk": 63,
+        "dfs": 45,
+        "hp": 65,
+        "id": 498,
+        "name": "Tepig",
+        "sp_atk": 45,
+        "sp_dfs": 45,
+        "spd": 45
+    },
+    {
+        "atk": 93,
+        "dfs": 55,
+        "hp": 90,
+        "id": 499,
+        "name": "Pignite",
+        "sp_atk": 70,
+        "sp_dfs": 55,
+        "spd": 55
+    },
+    {
+        "atk": 123,
+        "dfs": 65,
+        "hp": 110,
+        "id": 500,
+        "name": "Emboar",
+        "sp_atk": 100,
+        "sp_dfs": 65,
+        "spd": 65
+    },
+    {
+        "atk": 55,
+        "dfs": 45,
+        "hp": 55,
+        "id": 501,
+        "name": "Oshawott",
+        "sp_atk": 63,
+        "sp_dfs": 45,
+        "spd": 45
+    },
+    {
+        "atk": 75,
+        "dfs": 60,
+        "hp": 75,
+        "id": 502,
+        "name": "Dewott",
+        "sp_atk": 83,
+        "sp_dfs": 60,
+        "spd": 60
+    },
+    {
+        "atk": 100,
+        "dfs": 85,
+        "hp": 95,
+        "id": 503,
+        "name": "Samurott",
+        "sp_atk": 108,
+        "sp_dfs": 70,
+        "spd": 70
+    },
+    {
+        "atk": 55,
+        "dfs": 39,
+        "hp": 45,
+        "id": 504,
+        "name": "Patrat",
+        "sp_atk": 35,
+        "sp_dfs": 39,
+        "spd": 42
+    },
+    {
+        "atk": 85,
+        "dfs": 69,
+        "hp": 60,
+        "id": 505,
+        "name": "Watchog",
+        "sp_atk": 60,
+        "sp_dfs": 69,
+        "spd": 77
+    },
+    {
+        "atk": 60,
+        "dfs": 45,
+        "hp": 45,
+        "id": 506,
+        "name": "Lillipup",
+        "sp_atk": 25,
+        "sp_dfs": 45,
+        "spd": 55
+    },
+    {
+        "atk": 80,
+        "dfs": 65,
+        "hp": 65,
+        "id": 507,
+        "name": "Herdier",
+        "sp_atk": 35,
+        "sp_dfs": 65,
+        "spd": 60
+    },
+    {
+        "atk": 110,
+        "dfs": 90,
+        "hp": 85,
+        "id": 508,
+        "name": "Stoutland",
+        "sp_atk": 45,
+        "sp_dfs": 90,
+        "spd": 80
+    },
+    {
+        "atk": 50,
+        "dfs": 37,
+        "hp": 41,
+        "id": 509,
+        "name": "Purrloin",
+        "sp_atk": 50,
+        "sp_dfs": 37,
+        "spd": 66
+    },
+    {
+        "atk": 88,
+        "dfs": 50,
+        "hp": 64,
+        "id": 510,
+        "name": "Liepard",
+        "sp_atk": 88,
+        "sp_dfs": 50,
+        "spd": 106
+    },
+    {
+        "atk": 53,
+        "dfs": 48,
+        "hp": 50,
+        "id": 511,
+        "name": "Pansage",
+        "sp_atk": 53,
+        "sp_dfs": 48,
+        "spd": 64
+    },
+    {
+        "atk": 98,
+        "dfs": 63,
+        "hp": 75,
+        "id": 512,
+        "name": "Simisage",
+        "sp_atk": 98,
+        "sp_dfs": 63,
+        "spd": 101
+    },
+    {
+        "atk": 53,
+        "dfs": 48,
+        "hp": 50,
+        "id": 513,
+        "name": "Pansear",
+        "sp_atk": 53,
+        "sp_dfs": 48,
+        "spd": 64
+    },
+    {
+        "atk": 98,
+        "dfs": 63,
+        "hp": 75,
+        "id": 514,
+        "name": "Simisear",
+        "sp_atk": 98,
+        "sp_dfs": 63,
+        "spd": 101
+    },
+    {
+        "atk": 53,
+        "dfs": 48,
+        "hp": 50,
+        "id": 515,
+        "name": "Panpour",
+        "sp_atk": 53,
+        "sp_dfs": 48,
+        "spd": 64
+    },
+    {
+        "atk": 98,
+        "dfs": 63,
+        "hp": 75,
+        "id": 516,
+        "name": "Simipour",
+        "sp_atk": 98,
+        "sp_dfs": 63,
+        "spd": 101
+    },
+    {
+        "atk": 25,
+        "dfs": 45,
+        "hp": 76,
+        "id": 517,
+        "name": "Munna",
+        "sp_atk": 67,
+        "sp_dfs": 55,
+        "spd": 24
+    },
+    {
+        "atk": 55,
+        "dfs": 85,
+        "hp": 116,
+        "id": 518,
+        "name": "Musharna",
+        "sp_atk": 107,
+        "sp_dfs": 95,
+        "spd": 29
+    },
+    {
+        "atk": 55,
+        "dfs": 50,
+        "hp": 50,
+        "id": 519,
+        "name": "Pidove",
+        "sp_atk": 36,
+        "sp_dfs": 30,
+        "spd": 43
+    },
+    {
+        "atk": 77,
+        "dfs": 62,
+        "hp": 62,
+        "id": 520,
+        "name": "Tranquill",
+        "sp_atk": 50,
+        "sp_dfs": 42,
+        "spd": 65
+    },
+    {
+        "atk": 115,
+        "dfs": 80,
+        "hp": 80,
+        "id": 521,
+        "name": "Unfezant",
+        "sp_atk": 65,
+        "sp_dfs": 55,
+        "spd": 93
+    },
+    {
+        "atk": 60,
+        "dfs": 32,
+        "hp": 45,
+        "id": 522,
+        "name": "Blitzle",
+        "sp_atk": 50,
+        "sp_dfs": 32,
+        "spd": 76
+    },
+    {
+        "atk": 100,
+        "dfs": 63,
+        "hp": 75,
+        "id": 523,
+        "name": "Zebstrika",
+        "sp_atk": 80,
+        "sp_dfs": 63,
+        "spd": 116
+    },
+    {
+        "atk": 75,
+        "dfs": 85,
+        "hp": 55,
+        "id": 524,
+        "name": "Roggenrola",
+        "sp_atk": 25,
+        "sp_dfs": 25,
+        "spd": 15
+    },
+    {
+        "atk": 105,
+        "dfs": 105,
+        "hp": 70,
+        "id": 525,
+        "name": "Boldore",
+        "sp_atk": 50,
+        "sp_dfs": 40,
+        "spd": 20
+    },
+    {
+        "atk": 135,
+        "dfs": 130,
+        "hp": 85,
+        "id": 526,
+        "name": "Gigalith",
+        "sp_atk": 60,
+        "sp_dfs": 80,
+        "spd": 25
+    },
+    {
+        "atk": 45,
+        "dfs": 43,
+        "hp": 55,
+        "id": 527,
+        "name": "Woobat",
+        "sp_atk": 55,
+        "sp_dfs": 43,
+        "spd": 72
+    },
+    {
+        "atk": 57,
+        "dfs": 55,
+        "hp": 67,
+        "id": 528,
+        "name": "Swoobat",
+        "sp_atk": 77,
+        "sp_dfs": 55,
+        "spd": 114
+    },
+    {
+        "atk": 85,
+        "dfs": 40,
+        "hp": 60,
+        "id": 529,
+        "name": "Drilbur",
+        "sp_atk": 30,
+        "sp_dfs": 45,
+        "spd": 68
+    },
+    {
+        "atk": 135,
+        "dfs": 60,
+        "hp": 110,
+        "id": 530,
+        "name": "Excadrill",
+        "sp_atk": 50,
+        "sp_dfs": 65,
+        "spd": 88
+    },
+    {
+        "atk": 60,
+        "dfs": 86,
+        "hp": 103,
+        "id": 531,
+        "name": "Audino",
+        "sp_atk": 60,
+        "sp_dfs": 86,
+        "spd": 50
+    },
+    {
+        "atk": 80,
+        "dfs": 55,
+        "hp": 75,
+        "id": 532,
+        "name": "Timburr",
+        "sp_atk": 25,
+        "sp_dfs": 35,
+        "spd": 35
+    },
+    {
+        "atk": 105,
+        "dfs": 85,
+        "hp": 85,
+        "id": 533,
+        "name": "Gurdurr",
+        "sp_atk": 40,
+        "sp_dfs": 50,
+        "spd": 40
+    },
+    {
+        "atk": 140,
+        "dfs": 95,
+        "hp": 105,
+        "id": 534,
+        "name": "Conkeldurr",
+        "sp_atk": 55,
+        "sp_dfs": 65,
+        "spd": 45
+    },
+    {
+        "atk": 50,
+        "dfs": 40,
+        "hp": 50,
+        "id": 535,
+        "name": "Tympole",
+        "sp_atk": 50,
+        "sp_dfs": 40,
+        "spd": 64
+    },
+    {
+        "atk": 65,
+        "dfs": 55,
+        "hp": 75,
+        "id": 536,
+        "name": "Palpitoad",
+        "sp_atk": 65,
+        "sp_dfs": 55,
+        "spd": 69
+    },
+    {
+        "atk": 95,
+        "dfs": 75,
+        "hp": 105,
+        "id": 537,
+        "name": "Seismitoad",
+        "sp_atk": 85,
+        "sp_dfs": 75,
+        "spd": 74
+    },
+    {
+        "atk": 100,
+        "dfs": 85,
+        "hp": 120,
+        "id": 538,
+        "name": "Throh",
+        "sp_atk": 30,
+        "sp_dfs": 85,
+        "spd": 45
+    },
+    {
+        "atk": 125,
+        "dfs": 75,
+        "hp": 75,
+        "id": 539,
+        "name": "Sawk",
+        "sp_atk": 30,
+        "sp_dfs": 75,
+        "spd": 85
+    },
+    {
+        "atk": 53,
+        "dfs": 70,
+        "hp": 45,
+        "id": 540,
+        "name": "Sewaddle",
+        "sp_atk": 40,
+        "sp_dfs": 60,
+        "spd": 42
+    },
+    {
+        "atk": 63,
+        "dfs": 90,
+        "hp": 55,
+        "id": 541,
+        "name": "Swadloon",
+        "sp_atk": 50,
+        "sp_dfs": 80,
+        "spd": 42
+    },
+    {
+        "atk": 103,
+        "dfs": 80,
+        "hp": 75,
+        "id": 542,
+        "name": "Leavanny",
+        "sp_atk": 70,
+        "sp_dfs": 80,
+        "spd": 92
+    },
+    {
+        "atk": 45,
+        "dfs": 59,
+        "hp": 30,
+        "id": 543,
+        "name": "Venipede",
+        "sp_atk": 30,
+        "sp_dfs": 39,
+        "spd": 57
+    },
+    {
+        "atk": 55,
+        "dfs": 99,
+        "hp": 40,
+        "id": 544,
+        "name": "Whirlipede",
+        "sp_atk": 40,
+        "sp_dfs": 79,
+        "spd": 47
+    },
+    {
+        "atk": 100,
+        "dfs": 89,
+        "hp": 60,
+        "id": 545,
+        "name": "Scolipede",
+        "sp_atk": 55,
+        "sp_dfs": 69,
+        "spd": 112
+    },
+    {
+        "atk": 27,
+        "dfs": 60,
+        "hp": 40,
+        "id": 546,
+        "name": "Cottonee",
+        "sp_atk": 37,
+        "sp_dfs": 50,
+        "spd": 66
+    },
+    {
+        "atk": 67,
+        "dfs": 85,
+        "hp": 60,
+        "id": 547,
+        "name": "Whimsicott",
+        "sp_atk": 77,
+        "sp_dfs": 75,
+        "spd": 116
+    },
+    {
+        "atk": 35,
+        "dfs": 50,
+        "hp": 45,
+        "id": 548,
+        "name": "Petilil",
+        "sp_atk": 70,
+        "sp_dfs": 50,
+        "spd": 30
+    },
+    {
+        "atk": 60,
+        "dfs": 75,
+        "hp": 70,
+        "id": 549,
+        "name": "Lilligant",
+        "sp_atk": 110,
+        "sp_dfs": 75,
+        "spd": 90
+    },
+    {
+        "atk": 92,
+        "dfs": 65,
+        "hp": 70,
+        "id": 550,
+        "name": "Basculin",
+        "sp_atk": 80,
+        "sp_dfs": 55,
+        "spd": 98
+    },
+    {
+        "atk": 72,
+        "dfs": 35,
+        "hp": 50,
+        "id": 551,
+        "name": "Sandile",
+        "sp_atk": 35,
+        "sp_dfs": 35,
+        "spd": 65
+    },
+    {
+        "atk": 82,
+        "dfs": 45,
+        "hp": 60,
+        "id": 552,
+        "name": "Krokorok",
+        "sp_atk": 45,
+        "sp_dfs": 45,
+        "spd": 74
+    },
+    {
+        "atk": 117,
+        "dfs": 80,
+        "hp": 95,
+        "id": 553,
+        "name": "Krookodile",
+        "sp_atk": 65,
+        "sp_dfs": 70,
+        "spd": 92
+    },
+    {
+        "atk": 90,
+        "dfs": 45,
+        "hp": 70,
+        "id": 554,
+        "name": "Darumaka",
+        "sp_atk": 15,
+        "sp_dfs": 45,
+        "spd": 50
+    },
+    {
+        "atk": 140,
+        "dfs": 55,
+        "hp": 105,
+        "id": 555,
+        "name": "Darmanitan-standard",
+        "sp_atk": 30,
+        "sp_dfs": 55,
+        "spd": 95
+    },
+    {
+        "atk": 86,
+        "dfs": 67,
+        "hp": 75,
+        "id": 556,
+        "name": "Maractus",
+        "sp_atk": 106,
+        "sp_dfs": 67,
+        "spd": 60
+    },
+    {
+        "atk": 65,
+        "dfs": 85,
+        "hp": 50,
+        "id": 557,
+        "name": "Dwebble",
+        "sp_atk": 35,
+        "sp_dfs": 35,
+        "spd": 55
+    },
+    {
+        "atk": 95,
+        "dfs": 125,
+        "hp": 70,
+        "id": 558,
+        "name": "Crustle",
+        "sp_atk": 65,
+        "sp_dfs": 75,
+        "spd": 45
+    },
+    {
+        "atk": 75,
+        "dfs": 70,
+        "hp": 50,
+        "id": 559,
+        "name": "Scraggy",
+        "sp_atk": 35,
+        "sp_dfs": 70,
+        "spd": 48
+    },
+    {
+        "atk": 90,
+        "dfs": 115,
+        "hp": 65,
+        "id": 560,
+        "name": "Scrafty",
+        "sp_atk": 45,
+        "sp_dfs": 115,
+        "spd": 58
+    },
+    {
+        "atk": 58,
+        "dfs": 80,
+        "hp": 72,
+        "id": 561,
+        "name": "Sigilyph",
+        "sp_atk": 103,
+        "sp_dfs": 80,
+        "spd": 97
+    },
+    {
+        "atk": 30,
+        "dfs": 85,
+        "hp": 38,
+        "id": 562,
+        "name": "Yamask",
+        "sp_atk": 55,
+        "sp_dfs": 65,
+        "spd": 30
+    },
+    {
+        "atk": 50,
+        "dfs": 145,
+        "hp": 58,
+        "id": 563,
+        "name": "Cofagrigus",
+        "sp_atk": 95,
+        "sp_dfs": 105,
+        "spd": 30
+    },
+    {
+        "atk": 78,
+        "dfs": 103,
+        "hp": 54,
+        "id": 564,
+        "name": "Tirtouga",
+        "sp_atk": 53,
+        "sp_dfs": 45,
+        "spd": 22
+    },
+    {
+        "atk": 108,
+        "dfs": 133,
+        "hp": 74,
+        "id": 565,
+        "name": "Carracosta",
+        "sp_atk": 83,
+        "sp_dfs": 65,
+        "spd": 32
+    },
+    {
+        "atk": 112,
+        "dfs": 45,
+        "hp": 55,
+        "id": 566,
+        "name": "Archen",
+        "sp_atk": 74,
+        "sp_dfs": 45,
+        "spd": 70
+    },
+    {
+        "atk": 140,
+        "dfs": 65,
+        "hp": 75,
+        "id": 567,
+        "name": "Archeops",
+        "sp_atk": 112,
+        "sp_dfs": 65,
+        "spd": 110
+    },
+    {
+        "atk": 50,
+        "dfs": 62,
+        "hp": 50,
+        "id": 568,
+        "name": "Trubbish",
+        "sp_atk": 40,
+        "sp_dfs": 62,
+        "spd": 65
+    },
+    {
+        "atk": 95,
+        "dfs": 82,
+        "hp": 80,
+        "id": 569,
+        "name": "Garbodor",
+        "sp_atk": 60,
+        "sp_dfs": 82,
+        "spd": 75
+    },
+    {
+        "atk": 65,
+        "dfs": 40,
+        "hp": 40,
+        "id": 570,
+        "name": "Zorua",
+        "sp_atk": 80,
+        "sp_dfs": 40,
+        "spd": 65
+    },
+    {
+        "atk": 105,
+        "dfs": 60,
+        "hp": 60,
+        "id": 571,
+        "name": "Zoroark",
+        "sp_atk": 120,
+        "sp_dfs": 60,
+        "spd": 105
+    },
+    {
+        "atk": 50,
+        "dfs": 40,
+        "hp": 55,
+        "id": 572,
+        "name": "Minccino",
+        "sp_atk": 40,
+        "sp_dfs": 40,
+        "spd": 75
+    },
+    {
+        "atk": 95,
+        "dfs": 60,
+        "hp": 75,
+        "id": 573,
+        "name": "Cinccino",
+        "sp_atk": 65,
+        "sp_dfs": 60,
+        "spd": 115
+    },
+    {
+        "atk": 30,
+        "dfs": 50,
+        "hp": 45,
+        "id": 574,
+        "name": "Gothita",
+        "sp_atk": 55,
+        "sp_dfs": 65,
+        "spd": 45
+    },
+    {
+        "atk": 45,
+        "dfs": 70,
+        "hp": 60,
+        "id": 575,
+        "name": "Gothorita",
+        "sp_atk": 75,
+        "sp_dfs": 85,
+        "spd": 55
+    },
+    {
+        "atk": 55,
+        "dfs": 95,
+        "hp": 70,
+        "id": 576,
+        "name": "Gothitelle",
+        "sp_atk": 95,
+        "sp_dfs": 110,
+        "spd": 65
+    },
+    {
+        "atk": 30,
+        "dfs": 40,
+        "hp": 45,
+        "id": 577,
+        "name": "Solosis",
+        "sp_atk": 105,
+        "sp_dfs": 50,
+        "spd": 20
+    },
+    {
+        "atk": 40,
+        "dfs": 50,
+        "hp": 65,
+        "id": 578,
+        "name": "Duosion",
+        "sp_atk": 125,
+        "sp_dfs": 60,
+        "spd": 30
+    },
+    {
+        "atk": 65,
+        "dfs": 75,
+        "hp": 110,
+        "id": 579,
+        "name": "Reuniclus",
+        "sp_atk": 125,
+        "sp_dfs": 85,
+        "spd": 30
+    },
+    {
+        "atk": 44,
+        "dfs": 50,
+        "hp": 62,
+        "id": 580,
+        "name": "Ducklett",
+        "sp_atk": 44,
+        "sp_dfs": 50,
+        "spd": 55
+    },
+    {
+        "atk": 87,
+        "dfs": 63,
+        "hp": 75,
+        "id": 581,
+        "name": "Swanna",
+        "sp_atk": 87,
+        "sp_dfs": 63,
+        "spd": 98
+    },
+    {
+        "atk": 50,
+        "dfs": 50,
+        "hp": 36,
+        "id": 582,
+        "name": "Vanillite",
+        "sp_atk": 65,
+        "sp_dfs": 60,
+        "spd": 44
+    },
+    {
+        "atk": 65,
+        "dfs": 65,
+        "hp": 51,
+        "id": 583,
+        "name": "Vanillish",
+        "sp_atk": 80,
+        "sp_dfs": 75,
+        "spd": 59
+    },
+    {
+        "atk": 95,
+        "dfs": 85,
+        "hp": 71,
+        "id": 584,
+        "name": "Vanilluxe",
+        "sp_atk": 110,
+        "sp_dfs": 95,
+        "spd": 79
+    },
+    {
+        "atk": 60,
+        "dfs": 50,
+        "hp": 60,
+        "id": 585,
+        "name": "Deerling",
+        "sp_atk": 40,
+        "sp_dfs": 50,
+        "spd": 75
+    },
+    {
+        "atk": 100,
+        "dfs": 70,
+        "hp": 80,
+        "id": 586,
+        "name": "Sawsbuck",
+        "sp_atk": 60,
+        "sp_dfs": 70,
+        "spd": 95
+    },
+    {
+        "atk": 75,
+        "dfs": 60,
+        "hp": 55,
+        "id": 587,
+        "name": "Emolga",
+        "sp_atk": 75,
+        "sp_dfs": 60,
+        "spd": 103
+    },
+    {
+        "atk": 75,
+        "dfs": 45,
+        "hp": 50,
+        "id": 588,
+        "name": "Karrablast",
+        "sp_atk": 40,
+        "sp_dfs": 45,
+        "spd": 60
+    },
+    {
+        "atk": 135,
+        "dfs": 105,
+        "hp": 70,
+        "id": 589,
+        "name": "Escavalier",
+        "sp_atk": 60,
+        "sp_dfs": 105,
+        "spd": 20
+    },
+    {
+        "atk": 55,
+        "dfs": 45,
+        "hp": 69,
+        "id": 590,
+        "name": "Foongus",
+        "sp_atk": 55,
+        "sp_dfs": 55,
+        "spd": 15
+    },
+    {
+        "atk": 85,
+        "dfs": 70,
+        "hp": 114,
+        "id": 591,
+        "name": "Amoonguss",
+        "sp_atk": 85,
+        "sp_dfs": 80,
+        "spd": 30
+    },
+    {
+        "atk": 40,
+        "dfs": 50,
+        "hp": 55,
+        "id": 592,
+        "name": "Frillish",
+        "sp_atk": 65,
+        "sp_dfs": 85,
+        "spd": 40
+    },
+    {
+        "atk": 60,
+        "dfs": 70,
+        "hp": 100,
+        "id": 593,
+        "name": "Jellicent",
+        "sp_atk": 85,
+        "sp_dfs": 105,
+        "spd": 60
+    },
+    {
+        "atk": 75,
+        "dfs": 80,
+        "hp": 165,
+        "id": 594,
+        "name": "Alomomola",
+        "sp_atk": 40,
+        "sp_dfs": 45,
+        "spd": 65
+    },
+    {
+        "atk": 47,
+        "dfs": 50,
+        "hp": 50,
+        "id": 595,
+        "name": "Joltik",
+        "sp_atk": 57,
+        "sp_dfs": 50,
+        "spd": 65
+    },
+    {
+        "atk": 77,
+        "dfs": 60,
+        "hp": 70,
+        "id": 596,
+        "name": "Galvantula",
+        "sp_atk": 97,
+        "sp_dfs": 60,
+        "spd": 108
+    },
+    {
+        "atk": 50,
+        "dfs": 91,
+        "hp": 44,
+        "id": 597,
+        "name": "Ferroseed",
+        "sp_atk": 24,
+        "sp_dfs": 86,
+        "spd": 10
+    },
+    {
+        "atk": 94,
+        "dfs": 131,
+        "hp": 74,
+        "id": 598,
+        "name": "Ferrothorn",
+        "sp_atk": 54,
+        "sp_dfs": 116,
+        "spd": 20
+    },
+    {
+        "atk": 55,
+        "dfs": 70,
+        "hp": 40,
+        "id": 599,
+        "name": "Klink",
+        "sp_atk": 45,
+        "sp_dfs": 60,
+        "spd": 30
+    },
+    {
+        "atk": 80,
+        "dfs": 95,
+        "hp": 60,
+        "id": 600,
+        "name": "Klang",
+        "sp_atk": 70,
+        "sp_dfs": 85,
+        "spd": 50
+    },
+    {
+        "atk": 100,
+        "dfs": 115,
+        "hp": 60,
+        "id": 601,
+        "name": "Klinklang",
+        "sp_atk": 70,
+        "sp_dfs": 85,
+        "spd": 90
+    },
+    {
+        "atk": 55,
+        "dfs": 40,
+        "hp": 35,
+        "id": 602,
+        "name": "Tynamo",
+        "sp_atk": 45,
+        "sp_dfs": 40,
+        "spd": 60
+    },
+    {
+        "atk": 85,
+        "dfs": 70,
+        "hp": 65,
+        "id": 603,
+        "name": "Eelektrik",
+        "sp_atk": 75,
+        "sp_dfs": 70,
+        "spd": 40
+    },
+    {
+        "atk": 115,
+        "dfs": 80,
+        "hp": 85,
+        "id": 604,
+        "name": "Eelektross",
+        "sp_atk": 105,
+        "sp_dfs": 80,
+        "spd": 50
+    },
+    {
+        "atk": 55,
+        "dfs": 55,
+        "hp": 55,
+        "id": 605,
+        "name": "Elgyem",
+        "sp_atk": 85,
+        "sp_dfs": 55,
+        "spd": 30
+    },
+    {
+        "atk": 75,
+        "dfs": 75,
+        "hp": 75,
+        "id": 606,
+        "name": "Beheeyem",
+        "sp_atk": 125,
+        "sp_dfs": 95,
+        "spd": 40
+    },
+    {
+        "atk": 30,
+        "dfs": 55,
+        "hp": 50,
+        "id": 607,
+        "name": "Litwick",
+        "sp_atk": 65,
+        "sp_dfs": 55,
+        "spd": 20
+    },
+    {
+        "atk": 40,
+        "dfs": 60,
+        "hp": 60,
+        "id": 608,
+        "name": "Lampent",
+        "sp_atk": 95,
+        "sp_dfs": 60,
+        "spd": 55
+    },
+    {
+        "atk": 55,
+        "dfs": 90,
+        "hp": 60,
+        "id": 609,
+        "name": "Chandelure",
+        "sp_atk": 145,
+        "sp_dfs": 90,
+        "spd": 80
+    },
+    {
+        "atk": 87,
+        "dfs": 60,
+        "hp": 46,
+        "id": 610,
+        "name": "Axew",
+        "sp_atk": 30,
+        "sp_dfs": 40,
+        "spd": 57
+    },
+    {
+        "atk": 117,
+        "dfs": 70,
+        "hp": 66,
+        "id": 611,
+        "name": "Fraxure",
+        "sp_atk": 40,
+        "sp_dfs": 50,
+        "spd": 67
+    },
+    {
+        "atk": 147,
+        "dfs": 90,
+        "hp": 76,
+        "id": 612,
+        "name": "Haxorus",
+        "sp_atk": 60,
+        "sp_dfs": 70,
+        "spd": 97
+    },
+    {
+        "atk": 70,
+        "dfs": 40,
+        "hp": 55,
+        "id": 613,
+        "name": "Cubchoo",
+        "sp_atk": 60,
+        "sp_dfs": 40,
+        "spd": 40
+    },
+    {
+        "atk": 110,
+        "dfs": 80,
+        "hp": 95,
+        "id": 614,
+        "name": "Beartic",
+        "sp_atk": 70,
+        "sp_dfs": 80,
+        "spd": 50
+    },
+    {
+        "atk": 50,
+        "dfs": 30,
+        "hp": 70,
+        "id": 615,
+        "name": "Cryogonal",
+        "sp_atk": 95,
+        "sp_dfs": 135,
+        "spd": 105
+    },
+    {
+        "atk": 40,
+        "dfs": 85,
+        "hp": 50,
+        "id": 616,
+        "name": "Shelmet",
+        "sp_atk": 40,
+        "sp_dfs": 65,
+        "spd": 25
+    },
+    {
+        "atk": 70,
+        "dfs": 40,
+        "hp": 80,
+        "id": 617,
+        "name": "Accelgor",
+        "sp_atk": 100,
+        "sp_dfs": 60,
+        "spd": 145
+    },
+    {
+        "atk": 66,
+        "dfs": 84,
+        "hp": 109,
+        "id": 618,
+        "name": "Stunfisk",
+        "sp_atk": 81,
+        "sp_dfs": 99,
+        "spd": 32
+    },
+    {
+        "atk": 85,
+        "dfs": 50,
+        "hp": 45,
+        "id": 619,
+        "name": "Mienfoo",
+        "sp_atk": 55,
+        "sp_dfs": 50,
+        "spd": 65
+    },
+    {
+        "atk": 125,
+        "dfs": 60,
+        "hp": 65,
+        "id": 620,
+        "name": "Mienshao",
+        "sp_atk": 95,
+        "sp_dfs": 60,
+        "spd": 105
+    },
+    {
+        "atk": 120,
+        "dfs": 90,
+        "hp": 77,
+        "id": 621,
+        "name": "Druddigon",
+        "sp_atk": 60,
+        "sp_dfs": 90,
+        "spd": 48
+    },
+    {
+        "atk": 74,
+        "dfs": 50,
+        "hp": 59,
+        "id": 622,
+        "name": "Golett",
+        "sp_atk": 35,
+        "sp_dfs": 50,
+        "spd": 35
+    },
+    {
+        "atk": 124,
+        "dfs": 80,
+        "hp": 89,
+        "id": 623,
+        "name": "Golurk",
+        "sp_atk": 55,
+        "sp_dfs": 80,
+        "spd": 55
+    },
+    {
+        "atk": 85,
+        "dfs": 70,
+        "hp": 45,
+        "id": 624,
+        "name": "Pawniard",
+        "sp_atk": 40,
+        "sp_dfs": 40,
+        "spd": 60
+    },
+    {
+        "atk": 125,
+        "dfs": 100,
+        "hp": 65,
+        "id": 625,
+        "name": "Bisharp",
+        "sp_atk": 60,
+        "sp_dfs": 70,
+        "spd": 70
+    },
+    {
+        "atk": 110,
+        "dfs": 95,
+        "hp": 95,
+        "id": 626,
+        "name": "Bouffalant",
+        "sp_atk": 40,
+        "sp_dfs": 95,
+        "spd": 55
+    },
+    {
+        "atk": 83,
+        "dfs": 50,
+        "hp": 70,
+        "id": 627,
+        "name": "Rufflet",
+        "sp_atk": 37,
+        "sp_dfs": 50,
+        "spd": 60
+    },
+    {
+        "atk": 123,
+        "dfs": 75,
+        "hp": 100,
+        "id": 628,
+        "name": "Braviary",
+        "sp_atk": 57,
+        "sp_dfs": 75,
+        "spd": 80
+    },
+    {
+        "atk": 55,
+        "dfs": 75,
+        "hp": 70,
+        "id": 629,
+        "name": "Vullaby",
+        "sp_atk": 45,
+        "sp_dfs": 65,
+        "spd": 60
+    },
+    {
+        "atk": 65,
+        "dfs": 105,
+        "hp": 110,
+        "id": 630,
+        "name": "Mandibuzz",
+        "sp_atk": 55,
+        "sp_dfs": 95,
+        "spd": 80
+    },
+    {
+        "atk": 97,
+        "dfs": 66,
+        "hp": 85,
+        "id": 631,
+        "name": "Heatmor",
+        "sp_atk": 105,
+        "sp_dfs": 66,
+        "spd": 65
+    },
+    {
+        "atk": 109,
+        "dfs": 112,
+        "hp": 58,
+        "id": 632,
+        "name": "Durant",
+        "sp_atk": 48,
+        "sp_dfs": 48,
+        "spd": 109
+    },
+    {
+        "atk": 65,
+        "dfs": 50,
+        "hp": 52,
+        "id": 633,
+        "name": "Deino",
+        "sp_atk": 45,
+        "sp_dfs": 50,
+        "spd": 38
+    },
+    {
+        "atk": 85,
+        "dfs": 70,
+        "hp": 72,
+        "id": 634,
+        "name": "Zweilous",
+        "sp_atk": 65,
+        "sp_dfs": 70,
+        "spd": 58
+    },
+    {
+        "atk": 105,
+        "dfs": 90,
+        "hp": 92,
+        "id": 635,
+        "name": "Hydreigon",
+        "sp_atk": 125,
+        "sp_dfs": 90,
+        "spd": 98
+    },
+    {
+        "atk": 85,
+        "dfs": 55,
+        "hp": 55,
+        "id": 636,
+        "name": "Larvesta",
+        "sp_atk": 50,
+        "sp_dfs": 55,
+        "spd": 60
+    },
+    {
+        "atk": 60,
+        "dfs": 65,
+        "hp": 85,
+        "id": 637,
+        "name": "Volcarona",
+        "sp_atk": 135,
+        "sp_dfs": 105,
+        "spd": 100
+    },
+    {
+        "atk": 90,
+        "dfs": 129,
+        "hp": 91,
+        "id": 638,
+        "name": "Cobalion",
+        "sp_atk": 90,
+        "sp_dfs": 72,
+        "spd": 108
+    },
+    {
+        "atk": 129,
+        "dfs": 90,
+        "hp": 91,
+        "id": 639,
+        "name": "Terrakion",
+        "sp_atk": 72,
+        "sp_dfs": 90,
+        "spd": 108
+    },
+    {
+        "atk": 90,
+        "dfs": 72,
+        "hp": 91,
+        "id": 640,
+        "name": "Virizion",
+        "sp_atk": 90,
+        "sp_dfs": 129,
+        "spd": 108
+    },
+    {
+        "atk": 115,
+        "dfs": 70,
+        "hp": 79,
+        "id": 641,
+        "name": "Tornadus",
+        "sp_atk": 125,
+        "sp_dfs": 80,
+        "spd": 111
+    },
+    {
+        "atk": 115,
+        "dfs": 70,
+        "hp": 79,
+        "id": 642,
+        "name": "Thundurus",
+        "sp_atk": 125,
+        "sp_dfs": 80,
+        "spd": 111
+    },
+    {
+        "atk": 120,
+        "dfs": 100,
+        "hp": 100,
+        "id": 643,
+        "name": "Reshiram",
+        "sp_atk": 150,
+        "sp_dfs": 120,
+        "spd": 90
+    },
+    {
+        "atk": 150,
+        "dfs": 120,
+        "hp": 100,
+        "id": 644,
+        "name": "Zekrom",
+        "sp_atk": 120,
+        "sp_dfs": 100,
+        "spd": 90
+    },
+    {
+        "atk": 125,
+        "dfs": 90,
+        "hp": 89,
+        "id": 645,
+        "name": "Landorus",
+        "sp_atk": 115,
+        "sp_dfs": 80,
+        "spd": 101
+    },
+    {
+        "atk": 130,
+        "dfs": 90,
+        "hp": 125,
+        "id": 646,
+        "name": "Kyurem",
+        "sp_atk": 130,
+        "sp_dfs": 90,
+        "spd": 95
+    },
+    {
+        "atk": 72,
+        "dfs": 90,
+        "hp": 91,
+        "id": 647,
+        "name": "Keldeo",
+        "sp_atk": 129,
+        "sp_dfs": 90,
+        "spd": 108
+    },
+    {
+        "atk": 77,
+        "dfs": 77,
+        "hp": 100,
+        "id": 648,
+        "name": "Meloetta",
+        "sp_atk": 128,
+        "sp_dfs": 128,
+        "spd": 90
+    },
+    {
+        "atk": 120,
+        "dfs": 95,
+        "hp": 71,
+        "id": 649,
+        "name": "Genesect",
+        "sp_atk": 120,
+        "sp_dfs": 95,
+        "spd": 99
+    }
+]

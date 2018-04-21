@@ -12,14 +12,14 @@ class Pokemon:
         self.__sp_dfs = info["sp_dfs"]
 
     def serialize(self):
-        return {"id":self.__id,
-                "name":self.__name,
-                "hp":self.__hp,
-                "atk":self.__atk,
-                "dfs":self.__dfs,
-                "spd":self.__spd,
-                "sp_atk":self.__sp_atk,
-                "sp_dfs":self.__sp_dfs}
+        return {"id": self.__id,
+                "name": self.__name,
+                "hp": self.__hp,
+                "atk": self.__atk,
+                "dfs": self.__dfs,
+                "spd": self.__spd,
+                "sp_atk": self.__sp_atk,
+                "sp_dfs": self.__sp_dfs}
 
     @property
     def id(self):
