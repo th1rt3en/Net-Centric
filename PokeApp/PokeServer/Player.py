@@ -2,25 +2,19 @@ class Player:
     """Player Object"""
 
     def __init__(self, info):
-        self.__username = info["username"]
-        self.__password = info["password"]
+        self.username = info["username"]
+        self.password = info["password"]
+        self.pokemons = []
+
+    def catch(self, pokemon):
+        if len(self.pokemons) < 200:
+            self.pokemons.append(pokemon)
+
+    def serialize_with_pokemon(self):
+        return {"username": self.username,
+                "password": self.password,
+                "pokemons": [pokemon.serialize() for pokemon in self.pokemons]}
 
     def serialize(self):
-        return {"username": self.__username,
-                "password": self.__password}
-
-    @property
-    def username(self):
-        return self.__username
-
-    @property
-    def password(self):
-        return self.__password
-
-    @username.setter
-    def username(self, username):
-        self.__username = username
-
-    @password.setter
-    def password(self, password):
-        self.__password = password
+        return {"username": self.username,
+                "password": self.password}
