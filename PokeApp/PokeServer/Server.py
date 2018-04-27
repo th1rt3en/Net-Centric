@@ -2,17 +2,12 @@ import os
 import re
 import sys
 import json
-import time
 import socket
-import urllib2
-import threading
 
 from Queue import Queue
 from time import sleep
-from threading import Thread
+from threading import Thread, Lock
 from random import randint
-from SocketServer import ThreadingMixIn
-from bs4 import BeautifulSoup
 from Pokemon import Pokemon
 from Player import Player
 from contextlib import closing
@@ -27,6 +22,7 @@ class ClientThread(Thread):
         self.conn = conn
         self.ip = ip
         self.port = port
+        self.player = None
         print "Started thread for %s:%d" % (ip, port)
 
     def run(self):
@@ -38,7 +34,6 @@ class ClientThread(Thread):
                 print "Client disconnected"
                 sys.exit()
             try:
-                print data
                 msg = json.loads(data)
                 if msg["msg"].startswith("/login"):
                     """User login"""
@@ -46,30 +41,98 @@ class ClientThread(Thread):
                     if not os.path.exists("Info.json"):
                         open("Info.json", "w").close()
                     with open("Info.json", "r") as f:
-                        players = [Player(player) for player in json.load(f)]
-                        if any(player.username == cur_player.username and player.password == cur_player.password for player in players):
+                        try:
+                            players = [Player(player) for player in json.load(f)]
+                        except ValueError:
+                            players = []
+                        players = filter(lambda p: p.username == cur_player.username, players)
+                        if len(players) and players[0].password == cur_player.password:
+                            self.player = players[0]
                             self.conn.send(self.format_msg(msg="Welcome to PokeServer"))
-                        elif any(player.username == cur_player.username for player in players):
+                            self.conn.send(self.format_msg(cmd="/choose_game_mode"))
+                        elif len(players):
                             self.conn.send(self.format_msg(msg="Wrong password"))
                             self.conn.send(self.format_msg(cmd="/login"))
                         else:
                             self.conn.send(self.format_msg(msg="Username not in use."))
                             self.conn.send(self.format_msg(cmd="/register"))
 
+                elif msg["msg"].startswith("/pokebat"):
+                    """PokeBat game mode"""
+                    self.conn.send(self.format_msg(msg="Not Available"))
+                    self.conn.send(self.format_msg(cmd="/choose_game_mode"))
+
+                elif msg["msg"].startswith("/pokecat"):
+                    """PokeCat game mode"""
+                    global world
+                    with lock:
+                        self.conn.send(self.format_msg(msg=self.map_producer(self.player.pos, world)))
+                    self.conn.send(self.format_msg(cmd="/move"))
+
+                elif msg["msg"].startswith("/move"):
+                    """PokeCat movement"""
+                    global world
+                    direction = msg["msg"][5]
+                    row, col = self.player.pos
+                    new_row, new_col = row, col
+                    with lock:
+                        if direction == "W":
+                            new_row = max(0, row-1)
+                        elif direction == "S":
+                            new_row = min(WORLD_SIZE-1, row+1)
+                        elif direction == "A":
+                            new_col = max(0, col-1)
+                        elif direction == "D":
+                            new_col = min(WORLD_SIZE-1, col+1)
+                        self.conn.send(self.format_msg(msg=self.player.catch(world[new_row][new_col])))
+                        world[new_row][new_col] = 0
+                        self.player.pos = (new_row, new_col)
+                        with open("Info.json", "r+") as f:
+                            players = filter(lambda p: p.username != self.player.username, [Player(p) for p in json.load(f)])
+                            players.append(self.player)
+                            f.seek(0)
+                            json.dump([player.serialize() for player in players], f, indent=4,
+                                      separators=(",", ": "))
+                            f.truncate()
+                        self.conn.send(self.format_msg(msg=self.map_producer(self.player.pos, world)))
+                    self.conn.send(self.format_msg(cmd="/move"))
+
                 elif msg["msg"].startswith("/register"):
                     """User register"""
-                    cur_player = Player({"username": msg["username"], "password": msg["password"]})
+                    cur_player = Player({"username": msg["username"],
+                                         "password": msg["password"],
+                                         "pos": (randint(0, WORLD_SIZE-1), randint(0, WORLD_SIZE-1))})
                     self.register(cur_player)
-                    self.conn.send(self.format_msg(msg="Successfully registered"))
-                    self.conn.send(self.format_msg(msg="Welcome to PokeServer"))
+                    self.player = cur_player
+                    self.conn.send(self.format_msg(msg="Successfully registered\nWelcome to PokeServer"))
+                    self.conn.send(self.format_msg(cmd="/choose_game_mode"))
+
+                elif msg["msg"].startswith("/exit"):
+                    """User exit"""
+                    print "Client %s:%d exited" % (self.ip, self.port)
+                    self.conn.close()
+                    sys.exit()
 
             except ValueError:
                 print "Indecipherable JSON"
 
     @staticmethod
+    def map_producer((row, col), world):
+        padded_world = [[0] * (WORLD_SIZE+6) for _ in range(3)] + \
+                       map(lambda x: [0, 0, 0] + x + [0, 0, 0], world) + \
+                       [[0] * (WORLD_SIZE+6) for _ in range(3)]
+        padded_world[row+3][col+3] = 1
+        m = [r[col:col + 7] for r in padded_world[row:row + 7]]
+        return "You are at (%d:%d)\n" % (row, col) + "\n".join(
+            ["".join(map(lambda x: "O " if x == 1 else "X " if x else "_ ", r)) for r in m])
+
+    @staticmethod
     def register(player):
         with open("Info.json", "r+") as f:
-            players = [Player(p) for p in json.load(f)]
+            try:
+                players = [Player(p) for p in json.load(f)]
+            except ValueError:
+                players = []
             players.append(player)
             f.seek(0)
             json.dump([player.serialize() for player in players], f, indent=4,
@@ -79,21 +142,27 @@ class ClientThread(Thread):
     @staticmethod
     def format_msg(cmd="", msg=""):
         return json.dumps({"cmd": cmd,
-                           "data": msg})
+                           "msg": msg})
 
 
 #   End of ClientThread
 
+
+"""Global constants"""
 TCP_IP = "127.0.0.1"
 TCP_PORT = 9997
 BUFFER_SIZE = 1024
 WORLD_SIZE = 1000
 NUMBER_OF_POKEMONS_PER_SPAWN = 50
 TIME_BETWEEN_SPAWNS = 60
+TIME_BETWEEN_AUTOSAVE = 60
 TIME_UNTIL_DESPAWN = 300
+MAP_SIZE = 7
 
 print "Starting server"
 
+
+"""Global variables"""
 tcp_server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 tcp_server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 tcp_server.bind((TCP_IP, TCP_PORT))
@@ -101,6 +170,7 @@ threads = []
 pokedex = []
 world = []
 despawn_q = []
+lock = Lock()
 
 
 def random_points(number_of_points):
@@ -126,8 +196,9 @@ def spawn_pokemons(number, delay):
         sleep(delay)
         points = random_points(number)
         despawn_q.append(points)
-        for (x, y) in points:
-            world[x][y] = Pokemon(pokedex[randint(0, len(pokedex)-1)].serialize())
+        with lock:
+            for (x, y) in points:
+                world[x][y] = Pokemon(pokedex[randint(0, len(pokedex)-1)].serialize())
         with open("World.json", "w") as f:
             json.dump(world, f, indent=4, default=lambda p: p.serialize())
         with open("Despawn.json", "w") as f:
@@ -137,20 +208,31 @@ def spawn_pokemons(number, delay):
 
 def despawn_pokemons(second):
     sleep(0.2)
-    print "Despawning pokemons every %.2f minutes" % (second / 60.0)
+    print "Despawning pokemons every %.2f minutes" % (second/60.0)
     global despawn_q
     global world
     while True:
         if despawn_q:
             sleep(second)
             points = despawn_q.pop(0)
-            for (x, y) in points:
-                world[x][y] = 0
+            with lock:
+                for (x, y) in points:
+                    world[x][y] = 0
             with open("World.json", "w") as f:
                 json.dump(world, f, indent=4, default=lambda p: p.serialize())
             with open("Despawn.json", "w") as f:
                 json.dump(despawn_q, f, indent=4)
             print "Despawned"
+
+
+def auto_save(second):
+    sleep(0.3)
+    print "Auto-saving every %.2f minutes" % (second/60.0)
+    while True:
+        sleep(second)
+        with lock:
+            with open("World.json", "w") as f:
+                json.dump(world, f, indent=4, default=lambda p: p.serialize())
 
 
 print "Looking for Pokedex"
@@ -250,6 +332,9 @@ if os.path.exists("Despawn.json"):
         despawn_q = json.load(f)
 Thread(target=despawn_pokemons, args=(TIME_UNTIL_DESPAWN,)).start()
 print "Started Pokemon-despawning module"
+
+Thread(target=auto_save, args=(TIME_BETWEEN_AUTOSAVE,)).start()
+print "Started auto-saving module"
 
 print "Server is up"
 while True:
