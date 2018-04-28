@@ -69,6 +69,7 @@ class ClientThread(Thread):
                     self.conn.send(self.format_msg(msg="Welcome to PokeCat"))
                     with lock:
                         self.conn.send(self.format_msg(msg=self.map_producer(self.player.pos, world)))
+                    sleep(0.25)
                     self.conn.send(self.format_msg(cmd="/move"))
 
                 elif msg["msg"].startswith("/move"):
@@ -155,11 +156,11 @@ TCP_IP = "127.0.0.1"
 TCP_PORT = 9997
 BUFFER_SIZE = 1024
 WORLD_SIZE = 1000
-NUMBER_OF_POKEMONS_PER_SPAWN = 50
-TIME_BETWEEN_SPAWNS = 60
+NUMBER_OF_POKEMONS_PER_SPAWN = 200
+TIME_BETWEEN_SPAWNS = 10
 TIME_BETWEEN_AUTOSAVE = 600
 TIME_UNTIL_DESPAWN = 300
-MAP_SIZE = 9
+MAP_SIZE = 15
 
 print "Starting server"
 
@@ -189,7 +190,7 @@ def random_points(number_of_points):
 
 def spawn_pokemons(number, delay):
     sleep(0.1)
-    print "Spawning %d Pokemons every %.2f minutes" % (number, delay)
+    print "Spawning %d Pokemons every %.2f minutes" % (number, delay/60.0)
     global world
     global pokedex
     global despawn_q
@@ -306,8 +307,8 @@ if not os.path.exists("Pokedex.json"):
             id = int(id)
             if id > len(pokedex):
                 break
-            pokedex[id - 1].base_experience = browser.execute_script(
-                "return document.getElementsByTagName('tbody')[0].children[%d].children[3].innerHTML" % i).strip()
+            pokedex[id - 1].base_experience = int(browser.execute_script(
+                "return document.getElementsByTagName('tbody')[0].children[%d].children[3].innerHTML" % i).strip())
     with open("Pokedex.json", "w") as f:
         json.dump([pokemon.serialize() for pokemon in pokedex], f, indent=4, separators=(",", ": "))
     print "Finished downloading"

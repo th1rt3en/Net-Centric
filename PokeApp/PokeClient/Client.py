@@ -3,7 +3,7 @@ import socket
 import sys
 from threading import Thread
 
-TCP_IP = "127.0.0.1"
+TCP_IP = "192.168.43.134"
 TCP_PORT = 9997
 
 username = None
@@ -22,6 +22,7 @@ def recv_msg():
     while True:
         try:
             data = sock.recv(1024)
+            print data
         except socket.error:
             print "Server disconnected"
             sys.exit()
@@ -50,51 +51,67 @@ def exit():
 
 
 def move():
-    direction = raw_input("Choose a direction [W/A/S/D] to move\n"
-                          "Enter 'list' to see your current pokemons\n"
-                          "Enter 'q' or 'quit' to exit\n").upper()
-    if direction in ("W", "A", "S", "D"):
-        sock.send(format_msg(msg="/move" + direction))
-    elif direction in ("Q", "QUIT"):
-        choose_game_mode()
-    else:
-        print "Invalid"
-        move()
+    try:
+        direction = raw_input("Choose a direction [W/A/S/D] to move\n"
+                              "Enter 'list' to see your current pokemons\n"
+                              "Enter 'q' or 'quit' to exit\n").upper()
+        if direction in ("W", "A", "S", "D"):
+            sock.send(format_msg(msg="/move" + direction))
+        elif direction in ("Q", "QUIT"):
+            choose_game_mode()
+        else:
+            print "Invalid"
+            move()
+    except socket.error:
+        print "Server disconnected"
+        exit()
 
 
 def choose_game_mode():
-    choice = raw_input("Select a game mode\n"
-                       "1. PokeCat\n"
-                       "2. PokeBat\n"
-                       "3. Exit\n").upper()
-    if choice == "1":
-        sock.send(format_msg(msg="/pokecat"))
-    elif choice == "2":
-        sock.send(format_msg(msg="/pokebat"))
-    elif choice in ("3", "Q", "QUIT"):
-        sock.send(format_msg(msg="/exit"))
+    try:
+        choice = raw_input("Select a game mode\n"
+                           "1. PokeCat\n"
+                           "2. PokeBat\n"
+                           "3. Exit\n").upper()
+        if choice == "1":
+            sock.send(format_msg(msg="/pokecat"))
+        elif choice == "2":
+            sock.send(format_msg(msg="/pokebat"))
+        elif choice in ("3", "Q", "QUIT"):
+            sock.send(format_msg(msg="/exit"))
+            exit()
+        else:
+            print "Invalid"
+            choose_game_mode()
+    except socket.error:
+        print "Server disconnected"
         exit()
-    else:
-        print "Invalid"
-        choose_game_mode()
 
 
 def register():
-    if raw_input("Would you like to register an account with this username ? [Y/N]").upper() in ("Y", "YES"):
-        sock.send(format_msg(msg="/register"))
-    else:
-        sock.send(format_msg(msg="/exit"))
-        print "Failed to login"
-        print "Exiting"
-        sys.exit()
+    try:
+        if raw_input("Would you like to register an account with this username ? [Y/N]").upper() in ("Y", "YES"):
+            sock.send(format_msg(msg="/register"))
+        else:
+            sock.send(format_msg(msg="/exit"))
+            print "Failed to login"
+            print "Exiting"
+            sys.exit()
+    except socket.error:
+        print "Server disconnected"
+        exit()
 
 
 def login():
-    global username
-    global password
-    username = raw_input("Enter your username: ")
-    password = raw_input("Enter your password: ")
-    sock.send(format_msg(msg="/login"))
+    try:
+        global username
+        global password
+        username = raw_input("Enter your username: ")
+        password = raw_input("Enter your password: ")
+        sock.send(format_msg(msg="/login"))
+    except socket.error:
+        print "Server disconnected"
+        exit()
 
 
 def format_msg(msg=""):
