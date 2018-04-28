@@ -69,7 +69,7 @@ class ClientThread(Thread):
                     self.conn.send(self.format_msg(msg="Welcome to PokeCat"))
                     with lock:
                         self.conn.send(self.format_msg(msg=self.map_producer(self.player.pos, world)))
-                    sleep(0.25)
+                    sleep(0.1)
                     self.conn.send(self.format_msg(cmd="/move"))
 
                 elif msg["msg"].startswith("/move"):
@@ -98,6 +98,7 @@ class ClientThread(Thread):
                                       separators=(",", ": "))
                             f.truncate()
                         self.conn.send(self.format_msg(msg=self.map_producer(self.player.pos, world)))
+                    sleep(0.1)
                     self.conn.send(self.format_msg(cmd="/move"))
 
                 elif msg["msg"].startswith("/register"):
@@ -152,7 +153,7 @@ class ClientThread(Thread):
 
 
 """Global constants"""
-TCP_IP = "127.0.0.1"
+TCP_IP = ""
 TCP_PORT = 9997
 BUFFER_SIZE = 1024
 WORLD_SIZE = 1000

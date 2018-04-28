@@ -22,7 +22,6 @@ def recv_msg():
     while True:
         try:
             data = sock.recv(1024)
-            print data
         except socket.error:
             print "Server disconnected"
             sys.exit()
