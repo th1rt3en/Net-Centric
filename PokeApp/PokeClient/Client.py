@@ -1,9 +1,6 @@
-import socket
 import json
-import time
+import socket
 import sys
-import os
-
 from threading import Thread
 
 TCP_IP = "127.0.0.1"
@@ -32,8 +29,7 @@ def recv_msg():
             msg = json.loads(data)
             if msg["cmd"].startswith("/exit"):
                 print msg["msg"]
-                print "Exiting"
-                sys.exit()
+                exit()
             elif msg["cmd"].startswith("/login"):
                 login()
             elif msg["cmd"].startswith("/register"):
@@ -48,22 +44,36 @@ def recv_msg():
             print "Indecipherable JSON"
 
 
+def exit():
+    print "Exiting"
+    sys.exit()
+
+
 def move():
-    direction = raw_input("Choose a direction (WASD) and enter to move: ").upper()
+    direction = raw_input("Choose a direction [W/A/S/D] to move\n"
+                          "Enter 'list' to see your current pokemons\n"
+                          "Enter 'q' or 'quit' to exit\n").upper()
     if direction in ("W", "A", "S", "D"):
         sock.send(format_msg(msg="/move" + direction))
+    elif direction in ("Q", "QUIT"):
+        choose_game_mode()
     else:
         print "Invalid"
         move()
 
 
 def choose_game_mode():
-    print "Select a game mode\n1. PokeCat\n2. PokeBat"
-    choice = raw_input()
+    choice = raw_input("Select a game mode\n"
+                       "1. PokeCat\n"
+                       "2. PokeBat\n"
+                       "3. Exit\n").upper()
     if choice == "1":
         sock.send(format_msg(msg="/pokecat"))
     elif choice == "2":
         sock.send(format_msg(msg="/pokebat"))
+    elif choice in ("3", "Q", "QUIT"):
+        sock.send(format_msg(msg="/exit"))
+        exit()
     else:
         print "Invalid"
         choose_game_mode()

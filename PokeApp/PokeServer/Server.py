@@ -1,18 +1,19 @@
+import json
 import os
 import re
-import sys
-import json
 import socket
-
-from Queue import Queue
-from time import sleep
-from threading import Thread, Lock
-from random import randint
-from Pokemon import Pokemon
-from Player import Player
+import sys
 from contextlib import closing
+from random import randint
+from threading import Thread, Lock
+from time import sleep
+from shutil import move
+
 from selenium.webdriver import ChromeOptions, Chrome
 from selenium.webdriver.support.ui import WebDriverWait
+
+from Player import Player
+from Pokemon import Pokemon
 
 
 class ClientThread(Thread):
@@ -31,7 +32,7 @@ class ClientThread(Thread):
             try:
                 data = self.conn.recv(1024)
             except socket.error:
-                print "Client disconnected"
+                print "Client %s:%d disconnected" % (self.ip, self.port)
                 sys.exit()
             try:
                 msg = json.loads(data)
@@ -65,6 +66,7 @@ class ClientThread(Thread):
                 elif msg["msg"].startswith("/pokecat"):
                     """PokeCat game mode"""
                     global world
+                    self.conn.send(self.format_msg(msg="Welcome to PokeCat"))
                     with lock:
                         self.conn.send(self.format_msg(msg=self.map_producer(self.player.pos, world)))
                     self.conn.send(self.format_msg(cmd="/move"))
@@ -109,7 +111,7 @@ class ClientThread(Thread):
 
                 elif msg["msg"].startswith("/exit"):
                     """User exit"""
-                    print "Client %s:%d exited" % (self.ip, self.port)
+                    print "Client %s:%d disconnected" % (self.ip, self.port)
                     self.conn.close()
                     sys.exit()
 
@@ -118,11 +120,11 @@ class ClientThread(Thread):
 
     @staticmethod
     def map_producer((row, col), world):
-        padded_world = [[0] * (WORLD_SIZE+6) for _ in range(3)] + \
-                       map(lambda x: [0, 0, 0] + x + [0, 0, 0], world) + \
-                       [[0] * (WORLD_SIZE+6) for _ in range(3)]
-        padded_world[row+3][col+3] = 1
-        m = [r[col:col + 7] for r in padded_world[row:row + 7]]
+        padded_world = [[0] * (WORLD_SIZE+MAP_SIZE-1) for _ in range(MAP_SIZE/2)] + \
+                       map(lambda x: [0]*(MAP_SIZE/2) + x + [0]*(MAP_SIZE/2), world) + \
+                       [[0] * (WORLD_SIZE+MAP_SIZE-1) for _ in range(MAP_SIZE/2)]
+        padded_world[row+MAP_SIZE/2][col+MAP_SIZE/2] = 1
+        m = [r[col:col + MAP_SIZE] for r in padded_world[row:row + MAP_SIZE]]
         return "You are at (%d:%d)\n" % (row, col) + "\n".join(
             ["".join(map(lambda x: "O " if x == 1 else "X " if x else "_ ", r)) for r in m])
 
@@ -155,12 +157,11 @@ BUFFER_SIZE = 1024
 WORLD_SIZE = 1000
 NUMBER_OF_POKEMONS_PER_SPAWN = 50
 TIME_BETWEEN_SPAWNS = 60
-TIME_BETWEEN_AUTOSAVE = 60
+TIME_BETWEEN_AUTOSAVE = 600
 TIME_UNTIL_DESPAWN = 300
-MAP_SIZE = 7
+MAP_SIZE = 9
 
 print "Starting server"
-
 
 """Global variables"""
 tcp_server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -188,7 +189,7 @@ def random_points(number_of_points):
 
 def spawn_pokemons(number, delay):
     sleep(0.1)
-    print "Spawning %d Pokemons a minute" % number
+    print "Spawning %d Pokemons every %.2f minutes" % (number, delay)
     global world
     global pokedex
     global despawn_q
@@ -208,7 +209,7 @@ def spawn_pokemons(number, delay):
 
 def despawn_pokemons(second):
     sleep(0.2)
-    print "Despawning pokemons every %.2f minutes" % (second/60.0)
+    print "Despawning Pokemons every %.2f minutes" % (second/60.0)
     global despawn_q
     global world
     while True:
@@ -231,8 +232,10 @@ def auto_save(second):
     while True:
         sleep(second)
         with lock:
-            with open("World.json", "w") as f:
-                json.dump(world, f, indent=4, default=lambda p: p.serialize())
+            world_copy = world[:]
+        move("World.json", "World_backup.json")
+        with open("World.json", "w") as f:
+            json.dump(world_copy, f, indent=4, default=lambda p: p.serialize())
 
 
 print "Looking for Pokedex"
@@ -320,8 +323,19 @@ if not os.path.exists("World.json"):
     with open("World.json", "w") as f:
         json.dump(world, f, indent=4)
 else:
-    with open("World.json", "r") as f:
-        world = [[Pokemon(item) if item else item for item in line] for line in json.load(f)]
+    try:
+        with open("World.json", "r") as f:
+            world = [[Pokemon(item) if item else item for item in line] for line in json.load(f)]
+    except ValueError:
+        print "World.json is corrupted. Loading from backup."
+        try:
+            with open("World_backup.json") as f:
+                world = [[Pokemon(item) if item else item for item in line] for line in json.load(f)]
+        except IOError:
+            print "No backup found. Creating new PokeWorld"
+            world = [[0] * WORLD_SIZE for _ in range(WORLD_SIZE)]
+            with open("World.json", "w") as f:
+                json.dump(world, f, indent=4)
 print "Done loading PokeWorld"
 
 Thread(target=spawn_pokemons, args=(NUMBER_OF_POKEMONS_PER_SPAWN, TIME_BETWEEN_SPAWNS)).start()
