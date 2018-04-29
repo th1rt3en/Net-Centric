@@ -8,6 +8,7 @@ from random import randint
 from threading import Thread, Lock
 from time import sleep
 from shutil import move
+from multiprocessing.connection import Listener
 
 from selenium.webdriver import ChromeOptions, Chrome
 from selenium.webdriver.support.ui import WebDriverWait
@@ -18,26 +19,22 @@ from Pokemon import Pokemon
 
 class ClientThread(Thread):
 
-    def __init__(self, conn, ip, port):
+    def __init__(self, conn, addr):
         Thread.__init__(self)
         self.conn = conn
-        self.ip = ip
-        self.port = port
+        self.addr = addr
         self.player = None
-        print "Started thread for %s:%d" % (ip, port)
+        print "Started thread for %s:%d" % addr
 
     def run(self):
-        self.conn.send(self.format_msg(cmd="/login"))
+        self.send_cmd("/login")
         while True:
-            try:
-                data = self.conn.recv(1024)
-            except socket.error:
-                print "Client %s:%d disconnected" % (self.ip, self.port)
-                sys.exit()
+            data = self.recv_msg()
             try:
                 msg = json.loads(data)
+
+#               User login
                 if msg["msg"].startswith("/login"):
-                    """User login"""
                     cur_player = Player({"username": msg["username"], "password": msg["password"]})
                     if not os.path.exists("Info.json"):
                         open("Info.json", "w").close()
@@ -49,31 +46,32 @@ class ClientThread(Thread):
                         players = filter(lambda p: p.username == cur_player.username, players)
                         if len(players) and players[0].password == cur_player.password:
                             self.player = players[0]
-                            self.conn.send(self.format_msg(msg="Welcome to PokeServer"))
-                            self.conn.send(self.format_msg(cmd="/choose_game_mode"))
+                            self.send_msg("Welcome to PokeServer")
+                            self.send_cmd("/choose_game_mode")
                         elif len(players):
-                            self.conn.send(self.format_msg(msg="Wrong password"))
-                            self.conn.send(self.format_msg(cmd="/login"))
+                            self.send_msg("Wrong password")
+                            self.send_cmd("/login")
                         else:
-                            self.conn.send(self.format_msg(msg="Username not in use."))
-                            self.conn.send(self.format_msg(cmd="/register"))
+                            self.send_msg("Username not in use.")
+                            self.send_cmd("/register")
 
+#               PokeBat game mode
                 elif msg["msg"].startswith("/pokebat"):
-                    """PokeBat game mode"""
                     self.conn.send(self.format_msg(msg="Not Available"))
                     self.conn.send(self.format_msg(cmd="/choose_game_mode"))
 
+#               PokeCat game mode
                 elif msg["msg"].startswith("/pokecat"):
                     """PokeCat game mode"""
                     global world
                     self.conn.send(self.format_msg(msg="Welcome to PokeCat"))
                     with lock:
                         self.conn.send(self.format_msg(msg=self.map_producer(self.player.pos, world)))
-                    sleep(0.1)
+                    sleep(0.25)
                     self.conn.send(self.format_msg(cmd="/move"))
 
+#               PokeCat movement
                 elif msg["msg"].startswith("/move"):
-                    """PokeCat movement"""
                     global world
                     direction = msg["msg"][5]
                     row, col = self.player.pos
@@ -87,7 +85,7 @@ class ClientThread(Thread):
                             new_col = max(0, col-1)
                         elif direction == "D":
                             new_col = min(WORLD_SIZE-1, col+1)
-                        self.conn.send(self.format_msg(msg=self.player.catch(world[new_row][new_col])))
+                        self.send_msg(self.player.catch(world[new_row][new_col]))
                         world[new_row][new_col] = 0
                         self.player.pos = (new_row, new_col)
                         with open("Info.json", "r+") as f:
@@ -97,28 +95,66 @@ class ClientThread(Thread):
                             json.dump([player.serialize() for player in players], f, indent=4,
                                       separators=(",", ": "))
                             f.truncate()
-                        self.conn.send(self.format_msg(msg=self.map_producer(self.player.pos, world)))
-                    sleep(0.1)
-                    self.conn.send(self.format_msg(cmd="/move"))
+                        self.send_msg(self.map_producer(self.player.pos, world))
+                    self.send_cmd("/move")
 
+#               List of Pokemons
+                elif msg["msg"].startswith("/list"):
+                    self.send_msg(self.pokemon_list(self.player.pokemons))
+                    self.send_cmd("/move")
+
+#               User register
                 elif msg["msg"].startswith("/register"):
-                    """User register"""
                     cur_player = Player({"username": msg["username"],
                                          "password": msg["password"],
                                          "pos": (randint(0, WORLD_SIZE-1), randint(0, WORLD_SIZE-1))})
                     self.register(cur_player)
                     self.player = cur_player
-                    self.conn.send(self.format_msg(msg="Successfully registered\nWelcome to PokeServer"))
-                    self.conn.send(self.format_msg(cmd="/choose_game_mode"))
+                    self.send_msg("Successfully registered\nWelcome to PokeServer")
+                    self.send_cmd("/choose_game_mode")
 
+#               User exit
                 elif msg["msg"].startswith("/exit"):
-                    """User exit"""
-                    print "Client %s:%d disconnected" % (self.ip, self.port)
-                    self.conn.close()
+                    print "Client %s:%d disconnected" % self.addr
                     sys.exit()
 
             except ValueError:
                 print "Indecipherable JSON"
+
+    def send_msg(self, msg):
+        try:
+            self.conn.send(self.format_msg(msg=msg))
+        except socket.error:
+            print "Client %s:%d disconnected" % self.addr
+            sys.exit()
+
+    def send_cmd(self, cmd):
+        try:
+            self.conn.send(self.format_msg(cmd=cmd))
+        except socket.error:
+            print "Client %s:%d disconnected" % self.addr
+            sys.exit()
+
+    def recv_msg(self):
+        try:
+            return self.conn.recv()
+        except (IOError, EOFError):
+            print "Client %s:%d disconnected" % self.addr
+            sys.exit()
+
+    @staticmethod
+    def pokemon_list(pokemons):
+        li = "Your current pokemons:"
+        for i in range(len(pokemons)/3):
+            li += "\n{0}. {1:<15} {2}. {3:<15} {4}. {5:<15}".format(i*3, pokemons[i*3].name + " Lv" + str(pokemons[i*3].level),
+                                                         i*3+1, pokemons[i*3+1].name + " Lv" + str(pokemons[i*3+1].level),
+                                                         i*3+2,  pokemons[i*3+2].name + " Lv" + str(pokemons[i*3+2].level))
+        if len(pokemons) % 3 == 2:
+            li += "\n{0}. {1:<15} {2}. {3:<15}".format(len(pokemons)-1, pokemons[-2].name + " Lv" + str(pokemons[-2].level),
+                                                     len(pokemons), pokemons[-1].name + " Lv" + str(pokemons[-1].level))
+        elif len(pokemons) % 3 == 1:
+            li += "\n{0}. {1:<15}".format(len(pokemons), pokemons[-1].name + " Lv" + str(pokemons[-1].level))
+        return li
 
     @staticmethod
     def map_producer((row, col), world):
@@ -153,8 +189,7 @@ class ClientThread(Thread):
 
 
 """Global constants"""
-TCP_IP = ""
-TCP_PORT = 9997
+ADDRESS = ("", 9999)
 BUFFER_SIZE = 1024
 WORLD_SIZE = 1000
 NUMBER_OF_POKEMONS_PER_SPAWN = 200
@@ -166,10 +201,7 @@ MAP_SIZE = 15
 print "Starting server"
 
 """Global variables"""
-tcp_server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-tcp_server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-tcp_server.bind((TCP_IP, TCP_PORT))
-threads = []
+tcp_server = Listener(ADDRESS)
 pokedex = []
 world = []
 despawn_q = []
@@ -355,11 +387,9 @@ print "Started auto-saving module"
 print "Server is up"
 while True:
     try:
-        tcp_server.listen(1)
-        conn, (ip, port) = tcp_server.accept()
-        new_thread = ClientThread(conn, ip, port)
-        new_thread.start()
-        threads.append(new_thread)
+        conn = tcp_server.accept()
+        addr = tcp_server.last_accepted
+        ClientThread(conn, addr).start()
     except KeyboardInterrupt:
         print "Shutting down server"
         sys.exit()

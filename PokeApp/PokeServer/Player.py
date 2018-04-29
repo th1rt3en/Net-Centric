@@ -14,10 +14,14 @@ class Player:
             self.pokemons = []
 
     def catch(self, pokemon):
-        if isinstance(pokemon, Pokemon) and len(self.pokemons) < 200:
-            self.pokemons.append(pokemon)
-            return "You just caught a %s" % pokemon.name
-        return "There's nothing here"
+        if isinstance(pokemon, Pokemon):
+            if len(self.pokemons) < 200:
+                self.pokemons.append(pokemon)
+                return "You just caught a %s" % pokemon.name
+            else:
+                return "Failed to catch %s. Maximum capacity reached" % pokemon.name
+        else:
+            return "There's nothing here"
 
     def serialize(self):
         return {"username": self.username,
