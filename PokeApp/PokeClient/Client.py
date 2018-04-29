@@ -1,6 +1,7 @@
 import json
 import socket
 import sys
+import re
 from threading import Thread
 from multiprocessing.connection import Client
 
@@ -20,7 +21,7 @@ def recv_msg():
     while True:
         try:
             data = conn.recv()
-        except socket.error:
+        except (socket.error, IOError):
             print "Disconnected from server"
             sys.exit()
         try:
@@ -36,6 +37,10 @@ def recv_msg():
                 choose_game_mode()
             elif msg["cmd"].startswith("/move"):
                 move()
+            elif msg["cmd"].startswith("/action"):
+                action()
+            elif msg["cmd"].startswith("/pick"):
+                pick()
             else:
                 print msg["msg"]
         except ValueError:
@@ -44,10 +49,41 @@ def recv_msg():
             exit()
 
 
+def pick():
+    choice = raw_input()
+    r = re.findall(r"\D*(\d+)\D+(\d+)\D+(\d+)", choice)
+    while not r:
+        print "Invalid"
+        choice = raw_input()
+        r = re.findall(r"\D*(\d+)\D+(\d+)\D+(\d+)", choice)
+    choice = [int(i) for i in r[0]]
+    if len(list(set(choice))) == 3:
+        send(choice)
+    else:
+        print "Invalid"
+        pick()
+
+
+def action():
+    choice = int(raw_input())
+    if choice == 1:
+        send("/attack")
+    elif choice == 2:
+        num = raw_input("Choose the pokemon you want to switch to [1/2/3]")
+        while num not in ("1", "2", "3"):
+            print "Invalid"
+        send("/switch" + num)
+    elif choice == 3:
+        send("/surrender")
+    else:
+        print "Invalid"
+        action()
+
+
 def send(msg):
     try:
         conn.send(format_msg(msg))
-    except socket.error:
+    except (socket.error, IOError):
         print "Disconnected from server"
         exit()
 
@@ -58,9 +94,7 @@ def exit():
 
 
 def move():
-    direction = raw_input("Choose a direction [W/A/S/D] to move\n"
-                          "Enter 'list' to see your current pokemons\n"
-                          "Enter 'q' or 'quit' to exit\n").upper()
+    direction = raw_input().upper()
     if direction in ("W", "A", "S", "D"):
         send("/move" + direction)
     elif direction in ("Q", "QUIT"):
