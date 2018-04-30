@@ -63,19 +63,31 @@ class ClientThread(Thread):
                         self.send_msg(self.pokemon_list(self.player.pokemons))
                         self.send_cmd("/pick")
                         msg = json.loads(self.recv_msg())
-                        while any(i < 1 or i > len(self.player.pokemons) for i in msg["msg"]):
-                            self.send_msg("Invalid")
-                            self.send_cmd("/pick")
-                            msg = json.loads(self.recv_msg())
-                        with lock:
-                            if pokebat_q:
-                                t = pokebat_q.pop(0)
-                                t.connect(self.conn, [self.player.pokemons[i - 1] for i in msg["msg"]])
-                            else:
-                                t = PokeCat(self.conn, [self.player.pokemons[i - 1] for i in msg["msg"]])
-                                pokebat_q.append(t)
-                                t.start()
-                        t.join()
+                        if msg["msg"].startswith("/back"):
+                            pass
+                        else:
+                            while any(i < 1 or i > len(self.player.pokemons) for i in msg["msg"]):
+                                self.send_msg("Invalid")
+                                self.send_cmd("/pick")
+                                msg = json.loads(self.recv_msg())
+                            with lock:
+                                if pokebat_q:
+                                    t = pokebat_q.pop(0)
+                                    t.connect(self.conn, [self.player.pokemons[i - 1] for i in msg["msg"]])
+                                else:
+                                    t = PokeCat(self.conn, [self.player.pokemons[i - 1] for i in msg["msg"]])
+                                    pokebat_q.append(t)
+                                    t.start()
+                            t.join()
+                            with lock:
+                                with open("Info.json", "r+") as f:
+                                    players = filter(lambda p: p.username != self.player.username,
+                                                     [Player(p) for p in json.load(f)])
+                                    players.append(self.player)
+                                    f.seek(0)
+                                    json.dump([player.serialize() for player in players], f, indent=4,
+                                              separators=(",", ": "))
+                                    f.truncate()
                     else:
                         self.send_msg("You don't have enough pokemons to play. Catch some more")
                     self.send_cmd("/choose_game_mode")
@@ -243,9 +255,12 @@ class PokeCat(Thread):
 
     def p1_turn(self):
         self.send_msg_p1("It is your turn\n"
+                         "Your current Pokemon: %s (%d/%d HP)\n"
+                         "The opponent's current Pokemon: %s (%d/%d HP)\n"
                          "1. Attack\n"
                          "2. Switch Pokemon\n"
-                         "3. Surrender")
+                         "3. Surrender" % (self.p1_cur_pokemon.name, self.p1_cur_pokemon.cur_hp, self.p1_cur_pokemon.max_hp,
+                                           self.p2_cur_pokemon.name, self.p2_cur_pokemon.cur_hp, self.p2_cur_pokemon.max_hp))
         self.send_msg_p2("It is the other player's turn")
         self.send_cmd_p1("/action")
         while True:
@@ -267,16 +282,31 @@ class PokeCat(Thread):
                         self.send_msg_p1("Your %s hit the opponent's %s for %d damage" % (self.p1_cur_pokemon.name,
                                                                                           self.p2_cur_pokemon.name,
                                                                                           dmg))
-                    if not self.check_winner():
-                        self.p2_turn()
-                        break
+                        self.send_msg_p2(
+                            "Your %s got hit by the opponent's %s for %d damage" % (self.p2_cur_pokemon.name,
+                                                                                    self.p1_cur_pokemon.name,
+                                                                                    dmg))
+                        if not self.check_winner():
+                            self.p2_turn()
+                            break
 
                 # Switch
                 elif msg["msg"].startswith("/switch"):
-                    self.p1_cur_pokemon = self.p1_pokemons[int(msg["msg"][7]) - 1]
-                    if not self.check_winner():
-                        self.p2_turn()
-                        break
+                    if self.p1_pokemons[int(msg["msg"][-1]) - 1].is_alive():
+                        self.p1_cur_pokemon = self.p1_pokemons[int(msg["msg"][-1]) - 1]
+                        self.send_msg_p1("Your current pokemon is %s (%d/%d HP)" % (self.p1_cur_pokemon.name,
+                                                                                    self.p1_cur_pokemon.cur_hp,
+                                                                                    self.p1_cur_pokemon.max_hp))
+                        self.send_msg_p2("The opponent switched Pokemon\n"
+                                         "Their current Pokemon is %s (%d/%d HP)" % (self.p1_cur_pokemon.name,
+                                                                                     self.p1_cur_pokemon.cur_hp,
+                                                                                     self.p1_cur_pokemon.max_hp))
+                        if not self.check_winner():
+                            self.p2_turn()
+                            break
+                    else:
+                        self.send_msg_p1("That Pokemon is dead. Please choose another Pokemon")
+                        self.send_cmd_p1("/action")
 
                 # Surrender
                 elif msg["msg"].startswith("/surrender"):
@@ -288,9 +318,12 @@ class PokeCat(Thread):
 
     def p2_turn(self):
         self.send_msg_p2("It is your turn\n"
+                         "Your current Pokemon: %s (%d/%d HP)\n"
+                         "The opponent's current Pokemon: %s (%d/%d HP)\n"
                          "1. Attack\n"
                          "2. Switch Pokemon\n"
-                         "3. Surrender")
+                         "3. Surrender" % (self.p2_cur_pokemon.name, self.p2_cur_pokemon.cur_hp, self.p2_cur_pokemon.max_hp,
+                                           self.p1_cur_pokemon.name, self.p1_cur_pokemon.cur_hp, self.p1_cur_pokemon.max_hp))
         self.send_msg_p1("It is the other player's turn")
         self.send_cmd_p2("/action")
         while True:
@@ -312,16 +345,31 @@ class PokeCat(Thread):
                         self.send_msg_p2("Your %s hit the opponent's %s for %d damage" % (self.p2_cur_pokemon.name,
                                                                                           self.p1_cur_pokemon.name,
                                                                                           dmg))
-                    if not self.check_winner():
-                        self.p1_turn()
-                        break
+                        self.send_msg_p1(
+                            "Your %s got hit by the opponent's %s for %d damage" % (self.p1_cur_pokemon.name,
+                                                                                    self.p2_cur_pokemon.name,
+                                                                                    dmg))
+                        if not self.check_winner():
+                            self.p1_turn()
+                            break
 
                 # Switch
                 elif msg["msg"].startswith("/switch"):
-                    self.p2_cur_pokemon = self.p2_pokemons[int(msg["msg"][7]) - 1]
-                    if not self.check_winner():
-                        self.p1_turn()
-                        break
+                    if self.p2_pokemons[int(msg["msg"][-1]) - 1].is_alive():
+                        self.p2_cur_pokemon = self.p2_pokemons[int(msg["msg"][-1]) - 1]
+                        self.send_msg_p2("Your current Pokemon is %s (%d/%d HP)" % (self.p2_cur_pokemon.name,
+                                                                                    self.p2_cur_pokemon.cur_hp,
+                                                                                    self.p2_cur_pokemon.max_hp))
+                        self.send_msg_p1("The opponent switched Pokemon\n"
+                                         "Their current Pokemon is %s (%d/%d HP)" % (self.p2_cur_pokemon.name,
+                                                                                     self.p2_cur_pokemon.cur_hp,
+                                                                                     self.p2_cur_pokemon.max_hp))
+                        if not self.check_winner():
+                            self.p1_turn()
+                            break
+                    else:
+                        self.send_msg_p2("That Pokemon is dead. Please choose another Pokemon")
+                        self.send_cmd_p2("/action")
 
                 # Surrender
                 elif msg["msg"].startswith("/surrender"):
@@ -332,10 +380,10 @@ class PokeCat(Thread):
                 print "Indecipherable Json"
 
     def check_winner(self):
-        if not len([pokemon.is_alive() for pokemon in self.p1_pokemons]):
+        if all(pokemon.is_alive() is False for pokemon in self.p1_pokemons):
             self.announce_winner(2)
             return True
-        elif not len([pokemon.is_alive() for pokemon in self.p2_pokemons]):
+        elif all(pokemon.is_alive() is False for pokemon in self.p2_pokemons):
             self.announce_winner(1)
             return True
         else:
@@ -356,6 +404,7 @@ class PokeCat(Thread):
             for pokemon in self.p2_pokemons:
                 pokemon.gain_xp(xp)
                 self.send_msg_p2("Your %s gained %d xp" % (pokemon.name, xp))
+
         sys.exit()
 
     def connect(self, p2_conn, p2_pokemons):

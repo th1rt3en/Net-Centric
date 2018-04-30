@@ -30,7 +30,7 @@ class Pokemon:
         self.level = info.get("level") or 1
         self.required_xp = info.get("required_xp") or self.base_experience
 
-        if self.required_xp:
+        if self.required_xp and self.level == 1:
             for _ in range(randint(0, 9)):
                 self.gain_xp(self.required_xp)
 
@@ -53,15 +53,15 @@ class Pokemon:
         self.special_def = int(round(self.special_def*(1+self.ev)))
 
     def take_dmg(self, dmg):
-        self.cur_hp -= dmg - self.defense
-        return dmg - self.defense
+        self.cur_hp -= max(dmg - self.defense, 0)
+        return max(dmg - self.defense, 0)
 
     def take_special_dmg(self, dmg, types):
         mul = 1.0
         for t in types:
             mul = max([x["multiply"] for x in self.dmg_when_atked if x["type"] == t] + [mul])
-        self.cur_hp -= int(round(dmg*mul)) - self.special_def
-        return int(round(dmg*mul)) - self.special_def
+        self.cur_hp -= max(int(round(dmg*mul)) - self.special_def, 0)
+        return max(int(round(dmg*mul)) - self.special_def, 0)
 
     def gain_xp(self, xp):
         self.accumulated_xp += xp

@@ -5,7 +5,7 @@ import re
 from threading import Thread
 from multiprocessing.connection import Client
 
-ADDRESS = ("127.0.0.1", 9997)
+ADDRESS = ("127.0.0.1", 9995)
 
 username = None
 password = None
@@ -51,17 +51,20 @@ def recv_msg():
 
 def pick():
     choice = raw_input()
-    r = re.findall(r"\D*(\d+)\D+(\d+)\D+(\d+)", choice)
-    while not r:
-        print "Invalid"
-        choice = raw_input()
-        r = re.findall(r"\D*(\d+)\D+(\d+)\D+(\d+)", choice)
-    choice = [int(i) for i in r[0]]
-    if len(list(set(choice))) == 3:
-        send(choice)
+    if choice.upper() in ("Q", "QUIT"):\
+        send("/back")
     else:
-        print "Invalid"
-        pick()
+        r = re.findall(r"\D*(\d+)\D+(\d+)\D+(\d+)", choice)
+        while not r:
+            print "Invalid"
+            choice = raw_input()
+            r = re.findall(r"\D*(\d+)\D+(\d+)\D+(\d+)", choice)
+        choice = [int(i) for i in r[0]]
+        if len(list(set(choice))) == 3:
+            send(choice)
+        else:
+            print "Invalid"
+            pick()
 
 
 def action():
@@ -72,6 +75,7 @@ def action():
         num = raw_input("Choose the pokemon you want to switch to [1/2/3]")
         while num not in ("1", "2", "3"):
             print "Invalid"
+            num = raw_input()
         send("/switch" + num)
     elif choice == 3:
         send("/surrender")
