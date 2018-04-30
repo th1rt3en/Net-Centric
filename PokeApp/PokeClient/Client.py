@@ -41,12 +41,26 @@ def recv_msg():
                 action()
             elif msg["cmd"].startswith("/pick"):
                 pick()
+            elif msg["cmd"].startswith("/pokemons"):
+                pokemons()
             else:
                 print msg["msg"]
         except ValueError:
             print "Indecipherable JSON"
             print data
             exit()
+
+
+def pokemons():
+    choice = raw_input().upper()
+    result = re.findall(r"MERGE (\d+) (\d+)", choice)
+    if len(result):
+        send("/merge %s %s" % result[0])
+    elif choice in ("Q", "QUIT"):
+        send("/pokecat")
+    else:
+        print "Invalid"
+        pokemons()
 
 
 def pick():

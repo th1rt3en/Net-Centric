@@ -1,0 +1,12 @@
+{
+    "map": 11, 
+    "despawn_time": 300, 
+    "addr": [
+        "", 
+        9995
+    ], 
+    "spawn_time": 15,
+    "spawn_num": 50,
+    "world": 1000, 
+    "autosave_time": 600
+}

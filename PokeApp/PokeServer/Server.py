@@ -63,7 +63,7 @@ class ClientThread(Thread):
                         self.send_msg(self.pokemon_list(self.player.pokemons))
                         self.send_cmd("/pick")
                         msg = json.loads(self.recv_msg())
-                        if msg["msg"].startswith("/back"):
+                        if not isinstance(msg["msg"], list) and msg["msg"].startswith("/back"):
                             pass
                         else:
                             while any(i < 1 or i > len(self.player.pokemons) for i in msg["msg"]):
@@ -135,7 +135,24 @@ class ClientThread(Thread):
                 # List of Pokemons
                 elif msg["msg"].startswith("/list"):
                     self.send_msg(self.pokemon_list(self.player.pokemons))
-                    self.send_cmd("/move")
+                    self.send_msg("You can merge 2 Pokemons with the same name using the command 'merge [id] [id]'\n"
+                                  "Type 'q' or 'quit' to exit")
+                    self.send_cmd("/pokemons")
+
+                # Merge Pokemons
+                elif msg["msg"].startswith("/merge"):
+                    x, y = map(int, re.findall(r"(\d+) (\d+)", msg["msg"])[0])
+                    l = len(self.player.pokemons)
+                    if x > l or y > l:
+                        self.send_msg("Invalid")
+                    elif self.player.pokemons[x-1].name != self.player.pokemons[y-1].name:
+                        self.send_msg("Invalid. Incompatible Pokemons")
+                    else:
+                        self.player.pokemons[x-1].gain_xp(self.player.pokemons[y-1].total_xp())
+                        self.player.pokemons.pop(y-1)
+                        self.send_msg("Merge successful")
+                        self.send_msg(self.pokemon_list(self.player.pokemons))
+                    self.send_cmd("/pokemons")
 
                 # User register
                 elif msg["msg"].startswith("/register"):
@@ -180,19 +197,19 @@ class ClientThread(Thread):
     def pokemon_list(pokemons):
         li = "Your current pokemons:"
         for i in range(len(pokemons) / 3):
-            li += "\n{0}. {1:<15} {2}. {3:<15} {4}. {5:<15}".format(i * 3 + 1, pokemons[i * 3].name + " Lv" + str(
+            li += "\n{0}. {1:<20} {2}. {3:<20} {4}. {5:<20}".format(i * 3 + 1, pokemons[i * 3].name + " Lv" + str(
                 pokemons[i * 3].level),
                                                                     i * 3 + 2, pokemons[i * 3 + 1].name + " Lv" + str(
                     pokemons[i * 3 + 1].level),
                                                                     i * 3 + 3, pokemons[i * 3 + 2].name + " Lv" + str(
                     pokemons[i * 3 + 2].level))
         if len(pokemons) % 3 == 2:
-            li += "\n{0}. {1:<15} {2}. {3:<15}".format(len(pokemons) - 1,
+            li += "\n{0}. {1:<20} {2}. {3:<20}".format(len(pokemons) - 1,
                                                        pokemons[-2].name + " Lv" + str(pokemons[-2].level),
                                                        len(pokemons),
                                                        pokemons[-1].name + " Lv" + str(pokemons[-1].level))
         elif len(pokemons) % 3 == 1:
-            li += "\n{0}. {1:<15}".format(len(pokemons), pokemons[-1].name + " Lv" + str(pokemons[-1].level))
+            li += "\n{0}. {1:<20}".format(len(pokemons), pokemons[-1].name + " Lv" + str(pokemons[-1].level))
         return li
 
     @staticmethod
@@ -390,6 +407,8 @@ class PokeCat(Thread):
             return False
 
     def announce_winner(self, p):
+        for p in (self.p2_pokemons + self.p1_pokemons):
+            p.cur_hp = p.max_hp
         if p < 2:
             self.send_msg_p1("Congratulation!!! You won the battle")
             self.send_msg_p2("You lost")
@@ -553,7 +572,12 @@ def auto_save(second):
         sleep(second)
         with lock:
             world_copy = world[:]
-        move("World.json", "World_backup.json")
+        while True:
+            try:
+                move("World.json", "World_backup.json")
+                break
+            except WindowsError:
+                sleep(0.5)
         with open("World.json", "w") as f:
             json.dump(world_copy, f, indent=4, default=lambda p: p.serialize())
 
@@ -576,7 +600,7 @@ if not os.path.exists("Pokedex.json"):
                 "return document.getElementsByClassName('detail-national-id')[0].children[0].innerHTML")[1:] == str(id))
             info = {"id": id}
             info["name"] = browser.execute_script(
-                "return document.getElementsByClassName('detail-panel-header')[0].innerHTML")
+                "return document.getElementsByClassName('detail-panel-header')[0].innerHTML").encode("ascii", "ignore")
             number_of_types = browser.execute_script(
                 "return document.getElementsByClassName('detail-types')[0].children.length")
             info["type"] = [browser.execute_script(

@@ -1,0 +1,3169 @@
+[
+    {
+        "username": "thong",
+        "pokemons": [
+            {
+                "cur_hp": 3169,
+                "ev": 0.6043209814823072,
+                "name": "Lillipup",
+                "required_xp": 28160,
+                "level": 10,
+                "base_atk": 60,
+                "special_atk": 1755,
+                "special_def": 3169,
+                "accumulated_xp": 0,
+                "atk": 4208,
+                "base_experience": 55,
+                "base_special_def": 45,
+                "base_speed": 55,
+                "defense": 3169,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ghost"
+                    }
+                ],
+                "max_hp": 3169,
+                "base_special_atk": 25,
+                "base_def": 45,
+                "type": [
+                    "normal"
+                ],
+                "id": 506,
+                "base_hp": 45
+            },
+            {
+                "cur_hp": 95,
+                "ev": 0.728522782165358,
+                "name": "Eevee",
+                "required_xp": 130,
+                "level": 2,
+                "base_atk": 55,
+                "special_atk": 78,
+                "special_def": 112,
+                "accumulated_xp": 0,
+                "atk": 95,
+                "base_experience": 65,
+                "base_special_def": 65,
+                "base_speed": 55,
+                "defense": 86,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ghost"
+                    }
+                ],
+                "max_hp": 95,
+                "base_special_atk": 45,
+                "base_def": 50,
+                "type": [
+                    "normal"
+                ],
+                "id": 133,
+                "base_hp": 55
+            },
+            {
+                "cur_hp": 661,
+                "ev": 0.8218438602434661,
+                "name": "Swellow",
+                "required_xp": 2544,
+                "level": 5,
+                "base_atk": 85,
+                "special_atk": 550,
+                "special_def": 550,
+                "accumulated_xp": 0,
+                "atk": 936,
+                "base_experience": 159,
+                "base_special_def": 50,
+                "base_speed": 125,
+                "defense": 661,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ghost"
+                    }
+                ],
+                "max_hp": 661,
+                "base_special_atk": 50,
+                "base_def": 60,
+                "type": [
+                    "flying",
+                    "normal"
+                ],
+                "id": 277,
+                "base_hp": 60
+            },
+            {
+                "cur_hp": 5573,
+                "ev": 0.6532914076854102,
+                "name": "Suicune",
+                "required_xp": 66816,
+                "level": 9,
+                "base_atk": 75,
+                "special_atk": 5029,
+                "special_def": 6413,
+                "accumulated_xp": 0,
+                "atk": 4184,
+                "base_experience": 261,
+                "base_special_def": 115,
+                "base_speed": 85,
+                "defense": 6413,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    }
+                ],
+                "max_hp": 5573,
+                "base_special_atk": 90,
+                "base_def": 115,
+                "type": [
+                    "water"
+                ],
+                "id": 245,
+                "base_hp": 100
+            },
+            {
+                "cur_hp": 1572,
+                "ev": 0.7239430388032397,
+                "name": "Probopass",
+                "required_xp": 11776,
+                "level": 7,
+                "base_atk": 55,
+                "special_atk": 1962,
+                "special_def": 3950,
+                "accumulated_xp": 0,
+                "atk": 1450,
+                "base_experience": 184,
+                "base_special_def": 150,
+                "base_speed": 40,
+                "defense": 3806,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 4.0,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 4.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "dragon"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "normal"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "poison"
+                    }
+                ],
+                "max_hp": 1572,
+                "base_special_atk": 75,
+                "base_def": 145,
+                "type": [
+                    "steel",
+                    "rock"
+                ],
+                "id": 476,
+                "base_hp": 60
+            },
+            {
+                "cur_hp": 14806,
+                "ev": 0.8128844662470406,
+                "name": "Cherrim",
+                "required_xp": 80896,
+                "level": 10,
+                "base_atk": 60,
+                "special_atk": 18388,
+                "special_def": 16475,
+                "accumulated_xp": 0,
+                "atk": 12745,
+                "base_experience": 158,
+                "base_special_def": 78,
+                "base_speed": 85,
+                "defense": 14806,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    }
+                ],
+                "max_hp": 14806,
+                "base_special_atk": 87,
+                "base_def": 70,
+                "type": [
+                    "grass"
+                ],
+                "id": 421,
+                "base_hp": 70
+            },
+            {
+                "cur_hp": 209,
+                "ev": 0.8992876210886754,
+                "name": "Walrein",
+                "required_xp": 478,
+                "level": 2,
+                "base_atk": 80,
+                "special_atk": 180,
+                "special_def": 171,
+                "accumulated_xp": 0,
+                "atk": 152,
+                "base_experience": 239,
+                "base_special_def": 90,
+                "base_speed": 65,
+                "defense": 171,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "ice"
+                    }
+                ],
+                "max_hp": 209,
+                "base_special_atk": 95,
+                "base_def": 90,
+                "type": [
+                    "ice",
+                    "water"
+                ],
+                "id": 365,
+                "base_hp": 110
+            },
+            {
+                "cur_hp": 1854,
+                "ev": 0.6884675152397153,
+                "name": "Victreebel",
+                "required_xp": 14144,
+                "level": 7,
+                "base_atk": 105,
+                "special_atk": 2315,
+                "special_def": 1616,
+                "accumulated_xp": 0,
+                "atk": 2431,
+                "base_experience": 221,
+                "base_special_def": 70,
+                "base_speed": 70,
+                "defense": 1511,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "grass"
+                    }
+                ],
+                "max_hp": 1854,
+                "base_special_atk": 100,
+                "base_def": 65,
+                "type": [
+                    "grass",
+                    "poison"
+                ],
+                "id": 71,
+                "base_hp": 80
+            },
+            {
+                "cur_hp": 74,
+                "ev": 0.6476077127358388,
+                "name": "Elekid",
+                "required_xp": 144,
+                "level": 2,
+                "base_atk": 63,
+                "special_atk": 107,
+                "special_def": 91,
+                "accumulated_xp": 0,
+                "atk": 104,
+                "base_experience": 72,
+                "base_special_def": 55,
+                "base_speed": 95,
+                "defense": 61,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "flying"
+                    }
+                ],
+                "max_hp": 74,
+                "base_special_atk": 65,
+                "base_def": 37,
+                "type": [
+                    "electric"
+                ],
+                "id": 239,
+                "base_hp": 45
+            },
+            {
+                "cur_hp": 96,
+                "ev": 0.594084933004594,
+                "name": "Misdreavus",
+                "required_xp": 174,
+                "level": 2,
+                "base_atk": 60,
+                "special_atk": 135,
+                "special_def": 135,
+                "accumulated_xp": 0,
+                "atk": 96,
+                "base_experience": 87,
+                "base_special_def": 85,
+                "base_speed": 85,
+                "defense": 96,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "dark"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ghost"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "normal"
+                    }
+                ],
+                "max_hp": 96,
+                "base_special_atk": 85,
+                "base_def": 60,
+                "type": [
+                    "ghost"
+                ],
+                "id": 200,
+                "base_hp": 60
+            },
+            {
+                "cur_hp": 4609,
+                "ev": 0.9865029268555572,
+                "name": "Chinchou",
+                "required_xp": 4224,
+                "level": 7,
+                "base_atk": 38,
+                "special_atk": 3441,
+                "special_def": 3441,
+                "accumulated_xp": 0,
+                "atk": 2320,
+                "base_experience": 66,
+                "base_special_def": 56,
+                "base_speed": 67,
+                "defense": 2320,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "steel"
+                    }
+                ],
+                "max_hp": 4609,
+                "base_special_atk": 56,
+                "base_def": 38,
+                "type": [
+                    "electric",
+                    "water"
+                ],
+                "id": 170,
+                "base_hp": 75
+            },
+            {
+                "cur_hp": 642,
+                "ev": 0.5358986914285518,
+                "name": "Glameow",
+                "required_xp": 3968,
+                "level": 7,
+                "base_atk": 55,
+                "special_atk": 559,
+                "special_def": 488,
+                "accumulated_xp": 0,
+                "atk": 717,
+                "base_experience": 62,
+                "base_special_def": 37,
+                "base_speed": 85,
+                "defense": 559,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ghost"
+                    }
+                ],
+                "max_hp": 642,
+                "base_special_atk": 42,
+                "base_def": 42,
+                "type": [
+                    "normal"
+                ],
+                "id": 431,
+                "base_hp": 49
+            },
+            {
+                "cur_hp": 11575,
+                "ev": 0.9300708437824745,
+                "name": "Scolipede",
+                "required_xp": 55808,
+                "level": 9,
+                "base_atk": 100,
+                "special_atk": 10606,
+                "special_def": 13281,
+                "accumulated_xp": 0,
+                "atk": 19289,
+                "base_experience": 218,
+                "base_special_def": 69,
+                "base_speed": 112,
+                "defense": 17162,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "fighting"
+                    }
+                ],
+                "max_hp": 11575,
+                "base_special_atk": 55,
+                "base_def": 89,
+                "type": [
+                    "bug",
+                    "poison"
+                ],
+                "id": 545,
+                "base_hp": 60
+            },
+            {
+                "cur_hp": 276,
+                "ev": 0.9139411615463907,
+                "name": "Golbat",
+                "required_xp": 636,
+                "level": 3,
+                "base_atk": 80,
+                "special_atk": 237,
+                "special_def": 276,
+                "accumulated_xp": 0,
+                "atk": 293,
+                "base_experience": 159,
+                "base_special_def": 75,
+                "base_speed": 90,
+                "defense": 256,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "fighting"
+                    }
+                ],
+                "max_hp": 276,
+                "base_special_atk": 65,
+                "base_def": 70,
+                "type": [
+                    "poison",
+                    "flying"
+                ],
+                "id": 42,
+                "base_hp": 75
+            },
+            {
+                "cur_hp": 16290,
+                "ev": 0.8289437976362724,
+                "name": "Vanilluxe",
+                "required_xp": 123392,
+                "level": 10,
+                "base_atk": 95,
+                "special_atk": 25188,
+                "special_def": 21774,
+                "accumulated_xp": 0,
+                "atk": 21774,
+                "base_experience": 241,
+                "base_special_def": 95,
+                "base_speed": 79,
+                "defense": 19381,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    }
+                ],
+                "max_hp": 16290,
+                "base_special_atk": 110,
+                "base_def": 85,
+                "type": [
+                    "ice"
+                ],
+                "id": 584,
+                "base_hp": 71
+            },
+            {
+                "cur_hp": 1222,
+                "ev": 0.7042460079267892,
+                "name": "Magcargo",
+                "required_xp": 9664,
+                "level": 7,
+                "base_atk": 50,
+                "special_atk": 1955,
+                "special_def": 1955,
+                "accumulated_xp": 0,
+                "atk": 1222,
+                "base_experience": 151,
+                "base_special_def": 80,
+                "base_speed": 30,
+                "defense": 2945,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 4.0,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 4.0,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "normal"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "fire"
+                    }
+                ],
+                "max_hp": 1222,
+                "base_special_atk": 80,
+                "base_def": 120,
+                "type": [
+                    "fire",
+                    "rock"
+                ],
+                "id": 219,
+                "base_hp": 50
+            },
+            {
+                "cur_hp": 3916,
+                "ev": 0.7144460610452361,
+                "name": "Slowpoke",
+                "required_xp": 8064,
+                "level": 8,
+                "base_atk": 65,
+                "special_atk": 1744,
+                "special_def": 1744,
+                "accumulated_xp": 0,
+                "atk": 2815,
+                "base_experience": 63,
+                "base_special_def": 40,
+                "base_speed": 15,
+                "defense": 2815,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ghost"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "dragon"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    }
+                ],
+                "max_hp": 3916,
+                "base_special_atk": 40,
+                "base_def": 65,
+                "type": [
+                    "psychic",
+                    "water"
+                ],
+                "id": 79,
+                "base_hp": 90
+            },
+            {
+                "cur_hp": 142,
+                "ev": 0.5259345628105037,
+                "name": "Meowth",
+                "required_xp": 464,
+                "level": 4,
+                "base_atk": 45,
+                "special_atk": 142,
+                "special_def": 142,
+                "accumulated_xp": 0,
+                "atk": 160,
+                "base_experience": 58,
+                "base_special_def": 40,
+                "base_speed": 90,
+                "defense": 124,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ghost"
+                    }
+                ],
+                "max_hp": 142,
+                "base_special_atk": 40,
+                "base_def": 35,
+                "type": [
+                    "normal"
+                ],
+                "id": 52,
+                "base_hp": 40
+            },
+            {
+                "cur_hp": 1528,
+                "ev": 0.9763193476518668,
+                "name": "Swampert",
+                "required_xp": 3856,
+                "level": 5,
+                "base_atk": 110,
+                "special_atk": 1296,
+                "special_def": 1376,
+                "accumulated_xp": 0,
+                "atk": 1676,
+                "base_experience": 241,
+                "base_special_def": 90,
+                "base_speed": 60,
+                "defense": 1376,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 4.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "poison"
+                    }
+                ],
+                "max_hp": 1528,
+                "base_special_atk": 85,
+                "base_def": 90,
+                "type": [
+                    "water",
+                    "ground"
+                ],
+                "id": 260,
+                "base_hp": 100
+            },
+            {
+                "cur_hp": 2131,
+                "ev": 0.8088902858373768,
+                "name": "Whiscash",
+                "required_xp": 5248,
+                "level": 6,
+                "base_atk": 78,
+                "special_atk": 1469,
+                "special_def": 1375,
+                "accumulated_xp": 0,
+                "atk": 1509,
+                "base_experience": 164,
+                "base_special_def": 71,
+                "base_speed": 60,
+                "defense": 1413,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 4.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "poison"
+                    }
+                ],
+                "max_hp": 2131,
+                "base_special_atk": 76,
+                "base_def": 73,
+                "type": [
+                    "water",
+                    "ground"
+                ],
+                "id": 340,
+                "base_hp": 110
+            },
+            {
+                "cur_hp": 617,
+                "ev": 0.6230182827665833,
+                "name": "Skiploom",
+                "required_xp": 3808,
+                "level": 6,
+                "base_atk": 45,
+                "special_atk": 506,
+                "special_def": 727,
+                "accumulated_xp": 0,
+                "atk": 506,
+                "base_experience": 119,
+                "base_special_def": 65,
+                "base_speed": 80,
+                "defense": 562,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 4.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ground"
+                    }
+                ],
+                "max_hp": 617,
+                "base_special_atk": 45,
+                "base_def": 50,
+                "type": [
+                    "grass",
+                    "flying"
+                ],
+                "id": 188,
+                "base_hp": 55
+            },
+            {
+                "cur_hp": 1383,
+                "ev": 0.8438795508585776,
+                "name": "Togepi",
+                "required_xp": 3136,
+                "level": 7,
+                "base_atk": 20,
+                "special_atk": 1575,
+                "special_def": 2550,
+                "accumulated_xp": 0,
+                "atk": 782,
+                "base_experience": 49,
+                "base_special_def": 65,
+                "base_speed": 20,
+                "defense": 2550,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "dark"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "dragon"
+                    }
+                ],
+                "max_hp": 1383,
+                "base_special_atk": 40,
+                "base_def": 65,
+                "type": [
+                    "fairy"
+                ],
+                "id": 175,
+                "base_hp": 35
+            },
+            {
+                "cur_hp": 573,
+                "ev": 0.6363855774894693,
+                "name": "Rattata",
+                "required_xp": 3264,
+                "level": 7,
+                "base_atk": 56,
+                "special_atk": 483,
+                "special_def": 666,
+                "accumulated_xp": 0,
+                "atk": 1082,
+                "base_experience": 51,
+                "base_special_def": 35,
+                "base_speed": 72,
+                "defense": 666,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ghost"
+                    }
+                ],
+                "max_hp": 573,
+                "base_special_atk": 25,
+                "base_def": 35,
+                "type": [
+                    "normal"
+                ],
+                "id": 19,
+                "base_hp": 30
+            },
+            {
+                "cur_hp": 24428,
+                "ev": 0.8993586670902312,
+                "name": "Hariyama",
+                "required_xp": 42496,
+                "level": 9,
+                "base_atk": 120,
+                "special_atk": 6771,
+                "special_def": 10188,
+                "accumulated_xp": 0,
+                "atk": 20317,
+                "base_experience": 166,
+                "base_special_def": 60,
+                "base_speed": 50,
+                "defense": 10188,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "dark"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "rock"
+                    }
+                ],
+                "max_hp": 24428,
+                "base_special_atk": 40,
+                "base_def": 60,
+                "type": [
+                    "fighting"
+                ],
+                "id": 297,
+                "base_hp": 144
+            },
+            {
+                "cur_hp": 3736,
+                "ev": 0.9644318150790436,
+                "name": "Lopunny",
+                "required_xp": 10752,
+                "level": 7,
+                "base_atk": 76,
+                "special_atk": 3098,
+                "special_def": 5526,
+                "accumulated_xp": 0,
+                "atk": 4369,
+                "base_experience": 168,
+                "base_special_def": 96,
+                "base_speed": 105,
+                "defense": 4821,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ghost"
+                    }
+                ],
+                "max_hp": 3736,
+                "base_special_atk": 54,
+                "base_def": 84,
+                "type": [
+                    "normal"
+                ],
+                "id": 428,
+                "base_hp": 65
+            },
+            {
+                "cur_hp": 40308,
+                "ev": 0.9961330359066297,
+                "name": "Accelgor",
+                "required_xp": 88576,
+                "level": 10,
+                "base_atk": 70,
+                "special_atk": 50364,
+                "special_def": 30295,
+                "accumulated_xp": 0,
+                "atk": 35244,
+                "base_experience": 173,
+                "base_special_def": 60,
+                "base_speed": 145,
+                "defense": 20193,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    }
+                ],
+                "max_hp": 40308,
+                "base_special_atk": 100,
+                "base_def": 40,
+                "type": [
+                    "bug"
+                ],
+                "id": 617,
+                "base_hp": 80
+            },
+            {
+                "cur_hp": 857,
+                "ev": 0.942586072341961,
+                "name": "Numel",
+                "required_xp": 976,
+                "level": 5,
+                "base_atk": 60,
+                "special_atk": 925,
+                "special_def": 637,
+                "accumulated_xp": 0,
+                "atk": 857,
+                "base_experience": 61,
+                "base_special_def": 45,
+                "base_speed": 35,
+                "defense": 573,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 4.0,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "electric"
+                    }
+                ],
+                "max_hp": 857,
+                "base_special_atk": 65,
+                "base_def": 40,
+                "type": [
+                    "fire",
+                    "ground"
+                ],
+                "id": 322,
+                "base_hp": 60
+            },
+            {
+                "cur_hp": 448,
+                "ev": 0.5383380853956535,
+                "name": "Blaziken",
+                "required_xp": 3824,
+                "level": 5,
+                "base_atk": 120,
+                "special_atk": 615,
+                "special_def": 392,
+                "accumulated_xp": 0,
+                "atk": 674,
+                "base_experience": 239,
+                "base_special_def": 70,
+                "base_speed": 80,
+                "defense": 392,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "dark"
+                    }
+                ],
+                "max_hp": 448,
+                "base_special_atk": 110,
+                "base_def": 70,
+                "type": [
+                    "fire",
+                    "fighting"
+                ],
+                "id": 257,
+                "base_hp": 80
+            },
+            {
+                "cur_hp": 869,
+                "ev": 0.7166518303424672,
+                "name": "Meloetta",
+                "required_xp": 4320,
+                "level": 5,
+                "base_atk": 77,
+                "special_atk": 1114,
+                "special_def": 1114,
+                "accumulated_xp": 0,
+                "atk": 669,
+                "base_experience": 270,
+                "base_special_def": 128,
+                "base_speed": 90,
+                "defense": 669,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "dragon"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ghost"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "psychic"
+                    }
+                ],
+                "max_hp": 869,
+                "base_special_atk": 128,
+                "base_def": 77,
+                "type": [
+                    "psychic",
+                    "normal"
+                ],
+                "id": 648,
+                "base_hp": 100
+            },
+            {
+                "cur_hp": 117,
+                "ev": 0.5591044798375533,
+                "name": "Bellossom",
+                "required_xp": 442,
+                "level": 2,
+                "base_atk": 80,
+                "special_atk": 140,
+                "special_def": 156,
+                "accumulated_xp": 0,
+                "atk": 125,
+                "base_experience": 221,
+                "base_special_def": 100,
+                "base_speed": 50,
+                "defense": 148,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    }
+                ],
+                "max_hp": 117,
+                "base_special_atk": 90,
+                "base_def": 95,
+                "type": [
+                    "grass"
+                ],
+                "id": 182,
+                "base_hp": 75
+            },
+            {
+                "cur_hp": 6153,
+                "ev": 0.938090899803149,
+                "name": "Plusle",
+                "required_xp": 18176,
+                "level": 8,
+                "base_atk": 50,
+                "special_atk": 8752,
+                "special_def": 7688,
+                "accumulated_xp": 0,
+                "atk": 5130,
+                "base_experience": 142,
+                "base_special_def": 75,
+                "base_speed": 95,
+                "defense": 4136,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "flying"
+                    }
+                ],
+                "max_hp": 6153,
+                "base_special_atk": 85,
+                "base_def": 40,
+                "type": [
+                    "electric"
+                ],
+                "id": 311,
+                "base_hp": 60
+            },
+            {
+                "cur_hp": 2843,
+                "ev": 0.5205526140338378,
+                "name": "Leafeon",
+                "required_xp": 94208,
+                "level": 10,
+                "base_atk": 110,
+                "special_atk": 2593,
+                "special_def": 2843,
+                "accumulated_xp": 0,
+                "atk": 4775,
+                "base_experience": 184,
+                "base_special_def": 65,
+                "base_speed": 95,
+                "defense": 5658,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    }
+                ],
+                "max_hp": 2843,
+                "base_special_atk": 60,
+                "base_def": 130,
+                "type": [
+                    "grass"
+                ],
+                "id": 470,
+                "base_hp": 65
+            },
+            {
+                "cur_hp": 14322,
+                "ev": 0.821433405926421,
+                "name": "Duosion",
+                "required_xp": 66560,
+                "level": 10,
+                "base_atk": 40,
+                "special_atk": 27602,
+                "special_def": 13211,
+                "accumulated_xp": 0,
+                "atk": 8841,
+                "base_experience": 130,
+                "base_special_def": 60,
+                "base_speed": 30,
+                "defense": 11027,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "dragon"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ghost"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    }
+                ],
+                "max_hp": 14322,
+                "base_special_atk": 125,
+                "base_def": 50,
+                "type": [
+                    "psychic"
+                ],
+                "id": 578,
+                "base_hp": 65
+            },
+            {
+                "cur_hp": 1201,
+                "ev": 0.6983628428352064,
+                "name": "Scraggy",
+                "required_xp": 4480,
+                "level": 7,
+                "base_atk": 75,
+                "special_atk": 834,
+                "special_def": 1681,
+                "accumulated_xp": 0,
+                "atk": 1797,
+                "base_experience": 70,
+                "base_special_def": 70,
+                "base_speed": 48,
+                "defense": 1681,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 4.0,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ghost"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "dark"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "psychic"
+                    }
+                ],
+                "max_hp": 1201,
+                "base_special_atk": 35,
+                "base_def": 70,
+                "type": [
+                    "dark",
+                    "fighting"
+                ],
+                "id": 559,
+                "base_hp": 50
+            },
+            {
+                "cur_hp": 2996,
+                "ev": 0.5832653026275941,
+                "name": "Munna",
+                "required_xp": 14848,
+                "level": 9,
+                "base_atk": 25,
+                "special_atk": 2647,
+                "special_def": 2166,
+                "accumulated_xp": 0,
+                "atk": 993,
+                "base_experience": 58,
+                "base_special_def": 55,
+                "base_speed": 24,
+                "defense": 1757,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "dragon"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ghost"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    }
+                ],
+                "max_hp": 2996,
+                "base_special_atk": 67,
+                "base_def": 45,
+                "type": [
+                    "psychic"
+                ],
+                "id": 517,
+                "base_hp": 76
+            },
+            {
+                "cur_hp": 12293,
+                "ev": 0.8435905670848745,
+                "name": "Vibrava",
+                "required_xp": 60928,
+                "level": 10,
+                "base_atk": 70,
+                "special_atk": 12293,
+                "special_def": 12293,
+                "accumulated_xp": 0,
+                "atk": 17225,
+                "base_experience": 119,
+                "base_special_def": 50,
+                "base_speed": 70,
+                "defense": 12293,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 4.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "dragon"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "poison"
+                    }
+                ],
+                "max_hp": 12293,
+                "base_special_atk": 50,
+                "base_def": 50,
+                "type": [
+                    "dragon",
+                    "ground"
+                ],
+                "id": 329,
+                "base_hp": 50
+            },
+            {
+                "cur_hp": 76,
+                "ev": 0.5119519145514292,
+                "name": "Metapod",
+                "required_xp": 144,
+                "level": 2,
+                "base_atk": 20,
+                "special_atk": 38,
+                "special_def": 38,
+                "accumulated_xp": 0,
+                "atk": 30,
+                "base_experience": 72,
+                "base_special_def": 25,
+                "base_speed": 30,
+                "defense": 83,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    }
+                ],
+                "max_hp": 76,
+                "base_special_atk": 25,
+                "base_def": 55,
+                "type": [
+                    "bug"
+                ],
+                "id": 11,
+                "base_hp": 50
+            },
+            {
+                "cur_hp": 722,
+                "ev": 0.9003873458808758,
+                "name": "Turtwig",
+                "required_xp": 1024,
+                "level": 5,
+                "base_atk": 68,
+                "special_atk": 589,
+                "special_def": 722,
+                "accumulated_xp": 0,
+                "atk": 886,
+                "base_experience": 64,
+                "base_special_def": 55,
+                "base_speed": 31,
+                "defense": 838,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    }
+                ],
+                "max_hp": 722,
+                "base_special_atk": 45,
+                "base_def": 64,
+                "type": [
+                    "grass"
+                ],
+                "id": 387,
+                "base_hp": 55
+            },
+            {
+                "cur_hp": 9323,
+                "ev": 0.736713907835888,
+                "name": "Glaceon",
+                "required_xp": 94208,
+                "level": 10,
+                "base_atk": 60,
+                "special_atk": 18694,
+                "special_def": 13666,
+                "accumulated_xp": 0,
+                "atk": 8618,
+                "base_experience": 184,
+                "base_special_def": 95,
+                "base_speed": 65,
+                "defense": 15828,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    }
+                ],
+                "max_hp": 9323,
+                "base_special_atk": 130,
+                "base_def": 110,
+                "type": [
+                    "ice"
+                ],
+                "id": 471,
+                "base_hp": 65
+            },
+            {
+                "cur_hp": 339,
+                "ev": 0.7654095634952005,
+                "name": "Duskull",
+                "required_xp": 1888,
+                "level": 6,
+                "base_atk": 40,
+                "special_atk": 517,
+                "special_def": 1546,
+                "accumulated_xp": 0,
+                "atk": 689,
+                "base_experience": 59,
+                "base_special_def": 90,
+                "base_speed": 25,
+                "defense": 1546,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "dark"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ghost"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "normal"
+                    }
+                ],
+                "max_hp": 339,
+                "base_special_atk": 30,
+                "base_def": 90,
+                "type": [
+                    "ghost"
+                ],
+                "id": 355,
+                "base_hp": 20
+            },
+            {
+                "cur_hp": 3495,
+                "ev": 0.5492344455008311,
+                "name": "Muk",
+                "required_xp": 44800,
+                "level": 9,
+                "base_atk": 105,
+                "special_atk": 2160,
+                "special_def": 3317,
+                "accumulated_xp": 0,
+                "atk": 3495,
+                "base_experience": 175,
+                "base_special_def": 100,
+                "base_speed": 50,
+                "defense": 2487,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    }
+                ],
+                "max_hp": 3495,
+                "base_special_atk": 65,
+                "base_def": 75,
+                "type": [
+                    "poison"
+                ],
+                "id": 89,
+                "base_hp": 105
+            },
+            {
+                "cur_hp": 97,
+                "ev": 0.6230418214795801,
+                "name": "Deerling",
+                "required_xp": 134,
+                "level": 2,
+                "base_atk": 60,
+                "special_atk": 65,
+                "special_def": 81,
+                "accumulated_xp": 0,
+                "atk": 97,
+                "base_experience": 67,
+                "base_special_def": 50,
+                "base_speed": 75,
+                "defense": 81,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ghost"
+                    }
+                ],
+                "max_hp": 97,
+                "base_special_atk": 40,
+                "base_def": 50,
+                "type": [
+                    "grass",
+                    "normal"
+                ],
+                "id": 585,
+                "base_hp": 60
+            },
+            {
+                "cur_hp": 541,
+                "ev": 0.7280722090807452,
+                "name": "Conkeldurr",
+                "required_xp": 1816,
+                "level": 4,
+                "base_atk": 140,
+                "special_atk": 283,
+                "special_def": 335,
+                "accumulated_xp": 0,
+                "atk": 722,
+                "base_experience": 227,
+                "base_special_def": 65,
+                "base_speed": 45,
+                "defense": 489,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "dark"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "rock"
+                    }
+                ],
+                "max_hp": 541,
+                "base_special_atk": 55,
+                "base_def": 95,
+                "type": [
+                    "fighting"
+                ],
+                "id": 534,
+                "base_hp": 105
+            },
+            {
+                "cur_hp": 963,
+                "ev": 0.5729272551522644,
+                "name": "Dunsparce",
+                "required_xp": 4640,
+                "level": 6,
+                "base_atk": 70,
+                "special_atk": 623,
+                "special_def": 623,
+                "accumulated_xp": 0,
+                "atk": 673,
+                "base_experience": 145,
+                "base_special_def": 65,
+                "base_speed": 45,
+                "defense": 673,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ghost"
+                    }
+                ],
+                "max_hp": 963,
+                "base_special_atk": 65,
+                "base_def": 70,
+                "type": [
+                    "normal"
+                ],
+                "id": 206,
+                "base_hp": 100
+            },
+            {
+                "cur_hp": 2187,
+                "ev": 0.6069915816178642,
+                "name": "Tornadus",
+                "required_xp": 33408,
+                "level": 8,
+                "base_atk": 115,
+                "special_atk": 3460,
+                "special_def": 2221,
+                "accumulated_xp": 0,
+                "atk": 3183,
+                "base_experience": 261,
+                "base_special_def": 80,
+                "base_speed": 111,
+                "defense": 1927,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ground"
+                    }
+                ],
+                "max_hp": 2187,
+                "base_special_atk": 125,
+                "base_def": 70,
+                "type": [
+                    "flying"
+                ],
+                "id": 641,
+                "base_hp": 79
+            },
+            {
+                "cur_hp": 1898,
+                "ev": 0.776801868916321,
+                "name": "Breloom",
+                "required_xp": 10304,
+                "level": 7,
+                "base_atk": 130,
+                "special_atk": 1898,
+                "special_def": 1898,
+                "accumulated_xp": 0,
+                "atk": 4085,
+                "base_experience": 161,
+                "base_special_def": 60,
+                "base_speed": 70,
+                "defense": 2512,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 4.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "dark"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "grass"
+                    }
+                ],
+                "max_hp": 1898,
+                "base_special_atk": 60,
+                "base_def": 80,
+                "type": [
+                    "grass",
+                    "fighting"
+                ],
+                "id": 286,
+                "base_hp": 60
+            },
+            {
+                "cur_hp": 276,
+                "ev": 0.5407138972995276,
+                "name": "Dewott",
+                "required_xp": 1160,
+                "level": 4,
+                "base_atk": 75,
+                "special_atk": 304,
+                "special_def": 219,
+                "accumulated_xp": 0,
+                "atk": 276,
+                "base_experience": 145,
+                "base_special_def": 60,
+                "base_speed": 60,
+                "defense": 219,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    }
+                ],
+                "max_hp": 276,
+                "base_special_atk": 83,
+                "base_def": 60,
+                "type": [
+                    "water"
+                ],
+                "id": 502,
+                "base_hp": 75
+            },
+            {
+                "cur_hp": 118,
+                "ev": 0.968240242963502,
+                "name": "Drowzee",
+                "required_xp": 132,
+                "level": 2,
+                "base_atk": 48,
+                "special_atk": 85,
+                "special_def": 177,
+                "accumulated_xp": 0,
+                "atk": 94,
+                "base_experience": 66,
+                "base_special_def": 90,
+                "base_speed": 42,
+                "defense": 89,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "dragon"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ghost"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    }
+                ],
+                "max_hp": 118,
+                "base_special_atk": 43,
+                "base_def": 45,
+                "type": [
+                    "psychic"
+                ],
+                "id": 96,
+                "base_hp": 60
+            },
+            {
+                "cur_hp": 3850,
+                "ev": 0.9269054239303852,
+                "name": "Duskull",
+                "required_xp": 15104,
+                "level": 9,
+                "base_atk": 40,
+                "special_atk": 5736,
+                "special_def": 17057,
+                "accumulated_xp": 0,
+                "atk": 7571,
+                "base_experience": 59,
+                "base_special_def": 90,
+                "base_speed": 25,
+                "defense": 17057,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "dark"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ghost"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "normal"
+                    }
+                ],
+                "max_hp": 3850,
+                "base_special_atk": 30,
+                "base_def": 90,
+                "type": [
+                    "ghost"
+                ],
+                "id": 355,
+                "base_hp": 20
+            },
+            {
+                "cur_hp": 108,
+                "ev": 0.7991597662603878,
+                "name": "Roserade",
+                "required_xp": 464,
+                "level": 2,
+                "base_atk": 70,
+                "special_atk": 225,
+                "special_def": 189,
+                "accumulated_xp": 0,
+                "atk": 126,
+                "base_experience": 232,
+                "base_special_def": 105,
+                "base_speed": 90,
+                "defense": 117,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "grass"
+                    }
+                ],
+                "max_hp": 108,
+                "base_special_atk": 125,
+                "base_def": 65,
+                "type": [
+                    "grass",
+                    "poison"
+                ],
+                "id": 407,
+                "base_hp": 60
+            },
+            {
+                "cur_hp": 61,
+                "ev": 0.5136894469925268,
+                "name": "Spinarak",
+                "required_xp": 100,
+                "level": 2,
+                "base_atk": 60,
+                "special_atk": 61,
+                "special_def": 61,
+                "accumulated_xp": 0,
+                "atk": 91,
+                "base_experience": 50,
+                "base_special_def": 40,
+                "base_speed": 30,
+                "defense": 61,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "fighting"
+                    }
+                ],
+                "max_hp": 61,
+                "base_special_atk": 40,
+                "base_def": 40,
+                "type": [
+                    "bug",
+                    "poison"
+                ],
+                "id": 167,
+                "base_hp": 40
+            },
+            {
+                "cur_hp": 2577,
+                "ev": 0.691141512690072,
+                "name": "Mienshao",
+                "required_xp": 22912,
+                "level": 8,
+                "base_atk": 125,
+                "special_atk": 3764,
+                "special_def": 2366,
+                "accumulated_xp": 0,
+                "atk": 4940,
+                "base_experience": 179,
+                "base_special_def": 60,
+                "base_speed": 105,
+                "defense": 2366,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "dark"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "rock"
+                    }
+                ],
+                "max_hp": 2577,
+                "base_special_atk": 95,
+                "base_def": 60,
+                "type": [
+                    "fighting"
+                ],
+                "id": 620,
+                "base_hp": 65
+            },
+            {
+                "cur_hp": 11030,
+                "ev": 0.851328285095885,
+                "name": "Ludicolo",
+                "required_xp": 55296,
+                "level": 9,
+                "base_atk": 70,
+                "special_atk": 12441,
+                "special_def": 13768,
+                "accumulated_xp": 0,
+                "atk": 9703,
+                "base_experience": 216,
+                "base_special_def": 100,
+                "base_speed": 70,
+                "defense": 9703,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "water"
+                    }
+                ],
+                "max_hp": 11030,
+                "base_special_atk": 90,
+                "base_def": 70,
+                "type": [
+                    "grass",
+                    "water"
+                ],
+                "id": 272,
+                "base_hp": 80
+            },
+            {
+                "cur_hp": 926,
+                "ev": 0.8523454382433816,
+                "name": "Tornadus",
+                "required_xp": 4176,
+                "level": 5,
+                "base_atk": 115,
+                "special_atk": 1476,
+                "special_def": 941,
+                "accumulated_xp": 0,
+                "atk": 1356,
+                "base_experience": 261,
+                "base_special_def": 80,
+                "base_speed": 111,
+                "defense": 826,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "ground"
+                    }
+                ],
+                "max_hp": 926,
+                "base_special_atk": 125,
+                "base_def": 70,
+                "type": [
+                    "flying"
+                ],
+                "id": 641,
+                "base_hp": 79
+            },
+            {
+                "cur_hp": 18666,
+                "ev": 0.9777896879366592,
+                "name": "Golem",
+                "required_xp": 57088,
+                "level": 9,
+                "base_atk": 120,
+                "special_atk": 12929,
+                "special_def": 15255,
+                "accumulated_xp": 0,
+                "atk": 28075,
+                "base_experience": 223,
+                "base_special_def": 65,
+                "base_speed": 45,
+                "defense": 30420,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 4.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 4.0,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "normal"
+                    },
+                    {
+                        "multiply": 0.25,
+                        "type": "poison"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "electric"
+                    }
+                ],
+                "max_hp": 18666,
+                "base_special_atk": 55,
+                "base_def": 130,
+                "type": [
+                    "rock",
+                    "ground"
+                ],
+                "id": 76,
+                "base_hp": 80
+            },
+            {
+                "cur_hp": 107,
+                "ev": 0.7841641230383409,
+                "name": "Klinklang",
+                "required_xp": 468,
+                "level": 2,
+                "base_atk": 100,
+                "special_atk": 125,
+                "special_def": 152,
+                "accumulated_xp": 0,
+                "atk": 178,
+                "base_experience": 234,
+                "base_special_def": 85,
+                "base_speed": 90,
+                "defense": 205,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "ground"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fighting"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fairy"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "normal"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "dragon"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "psychic"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "flying"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "bug"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "rock"
+                    },
+                    {
+                        "multiply": 0.0,
+                        "type": "poison"
+                    }
+                ],
+                "max_hp": 107,
+                "base_special_atk": 70,
+                "base_def": 115,
+                "type": [
+                    "steel"
+                ],
+                "id": 601,
+                "base_hp": 60
+            },
+            {
+                "cur_hp": 8590,
+                "ev": 0.5927237837650475,
+                "name": "Wailmer",
+                "required_xp": 40960,
+                "level": 10,
+                "base_atk": 70,
+                "special_atk": 4601,
+                "special_def": 2316,
+                "accumulated_xp": 0,
+                "atk": 4601,
+                "base_experience": 80,
+                "base_special_def": 35,
+                "base_speed": 60,
+                "defense": 2316,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    }
+                ],
+                "max_hp": 8590,
+                "base_special_atk": 70,
+                "base_def": 35,
+                "type": [
+                    "water"
+                ],
+                "id": 320,
+                "base_hp": 130
+            },
+            {
+                "cur_hp": 6636,
+                "ev": 0.5483757838668875,
+                "name": "Wailmer",
+                "required_xp": 40960,
+                "level": 10,
+                "base_atk": 70,
+                "special_atk": 3572,
+                "special_def": 1788,
+                "accumulated_xp": 0,
+                "atk": 3572,
+                "base_experience": 80,
+                "base_special_def": 35,
+                "base_speed": 60,
+                "defense": 1788,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    }
+                ],
+                "max_hp": 6636,
+                "base_special_atk": 70,
+                "base_def": 35,
+                "type": [
+                    "water"
+                ],
+                "id": 320,
+                "base_hp": 130
+            },
+            {
+                "cur_hp": 410,
+                "ev": 0.7735344236791336,
+                "name": "Wailmer",
+                "required_xp": 320,
+                "level": 3,
+                "base_atk": 70,
+                "special_atk": 220,
+                "special_def": 110,
+                "accumulated_xp": 0,
+                "atk": 220,
+                "base_experience": 80,
+                "base_special_def": 35,
+                "base_speed": 60,
+                "defense": 110,
+                "dmg_when_atked": [
+                    {
+                        "multiply": 2.0,
+                        "type": "electric"
+                    },
+                    {
+                        "multiply": 2.0,
+                        "type": "grass"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "ice"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "water"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "fire"
+                    },
+                    {
+                        "multiply": 0.5,
+                        "type": "steel"
+                    }
+                ],
+                "max_hp": 410,
+                "base_special_atk": 70,
+                "base_def": 35,
+                "type": [
+                    "water"
+                ],
+                "id": 320,
+                "base_hp": 130
+            }
+        ],
+        "password": "123",
+        "pos": [
+            935,
+            527
+        ]
+    }
+]
