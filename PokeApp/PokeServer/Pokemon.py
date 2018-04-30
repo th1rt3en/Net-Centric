@@ -1,4 +1,4 @@
-from random import uniform
+from random import uniform, randint
 
 
 class Pokemon:
@@ -30,6 +30,10 @@ class Pokemon:
         self.level = info.get("level") or 1
         self.required_xp = info.get("required_xp") or self.base_experience
 
+        if self.required_xp:
+            for _ in range(randint(0, 9)):
+                self.gain_xp(self.required_xp)
+
     def total_xp(self):
         return (2**~-self.level-1)*self.base_experience + self.accumulated_xp
 
@@ -39,6 +43,7 @@ class Pokemon:
     def level_up(self):
         self.accumulated_xp -= self.required_xp
         self.required_xp *= 2
+        self.level += 1
         self.max_hp = int(round(self.max_hp*(1+self.ev)))
         self.cur_hp = self.max_hp
         self.atk = int(round(self.atk*(1+self.ev)))
